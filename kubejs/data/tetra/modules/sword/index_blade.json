@@ -1,0 +1,38 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:sword/heavy_blade/",
+        "tetra:sword/shared_blade/",
+        "tetra:sword/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "materials": ["tetra:misc/eye"],
+            "key": "index_blade",
+            "integrity": -3,
+            "attributes": {
+                "generic.attack_speed": -2,
+                "generic.attack_damage": 11
+            },
+            "aspects": {
+                "edgedWeapon": 2,
+                "breakable": 2
+            },
+            "durability": 900,
+            "effects": {
+                "sweeping": 2.5,
+                "crushing": 10,
+                "abilityDefensive": 10,
+                "blocking": [5,1.7]
+            },
+            "magicCapacity": 850,
+    	    "glyph": {
+        	"textureX": 48
+   	 },
+            "models": [{ "location": "tetra:items/module/sword/blade/index_blade/index_blade" }]
+          }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "key": "eldritch_hammer",
+        "integrity": -2,
+        "attributes": {
+            "forge:reach_distance":2
+        },
+        "effects": {
+            "extraction": 4
+        }
+    }
+]

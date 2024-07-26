@@ -1,0 +1,13 @@
+[
+    {
+        "key": "iron_upgrade_eldritch",
+        "level": 0,
+        "integrity": -2,
+        "attributes": {
+		"irons_spellbooks:max_mana":150,
+		"additional_attributes:spell_school_eldritch":2,
+    		"irons_spellbooks:eldritch_spell_power": 0.3,
+		"**irons_spellbooks:cooldown_reduction": 0.5
+        }
+    }
+]

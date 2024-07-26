@@ -1,0 +1,32 @@
+{
+    "replace": true,
+    "slots": [ "sword/fuller" ],
+    "type": "tetra:basic_major_module",
+    "variants": [
+        {
+            "key": "void_hole",
+            "attributes": {
+	    	"**generic.attack_speed": 0.2,
+        	"generic.movement_speed": 0.03,
+        	"forge:reach_distance":3,
+        	"forge:attack_range":3
+            },
+	     "effects":{
+		"art_of_forging:devouring":2
+	    },
+            "durability": -20,
+            "integrity": 8,
+            "magicCapacity": -40,
+            "glyph": {
+                "tint": "00BFFF",
+                "textureX": 72,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/fuller/void_hole/void_hole"
+                }
+            ]
+        }
+    ]
+}

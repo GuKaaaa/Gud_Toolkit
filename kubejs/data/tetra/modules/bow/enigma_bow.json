@@ -1,0 +1,36 @@
+{
+    "replace": false,
+    "slots": ["bow/riser"],
+    "type": "tetra:basic_module",
+    "renderLayer": "higher",
+    "tweakKey": "tetra:bow/enigma_bow",
+    "variants": [
+        {
+            "key": "enigma_bow",
+            "integrity": -3,
+            "durability": 35,
+            "effects": {
+                "multishot": 4,
+                "zoom": 25,
+                "focus": [0, 1],
+                "focusEcho": 1,
+            	"velocity": 20
+            },
+            "attributes": {
+                "**tetra:draw_speed": -0.85
+            },
+            "glyph": {
+                "textureLocation": "tetra:textures/gui/aof_glyph.png",
+                "textureX": 37,
+                "textureY": 36,
+                "tint": "a31f68"
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/bow/riser/enigma_bow",
+                    "type": "static"
+                }
+            ]
+        }
+    ]
+}

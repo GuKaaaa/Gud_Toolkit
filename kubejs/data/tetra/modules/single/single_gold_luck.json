@@ -1,0 +1,30 @@
+{
+    "replace": true,
+    "slots": [ "single/binding" ],
+    "type": "tetra:basic_major_module",
+    "repair":false,
+    "improvements": [
+        "tetra:gold_luckier/"
+    ],
+    "variants": [
+        {
+            "key": "single_gold_luck",
+    "attributes":{
+	"generic.luck":3
+    },
+            "durability": 77,
+            "integrity": 3,
+            "magicCapacity": 777,
+            "glyph": {
+                "tint": "FFD700",
+        	"textureX": 160,
+        	"textureY": 240
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/gold_luck"
+                }
+            ]
+        }
+    ]
+}

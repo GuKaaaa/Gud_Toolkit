@@ -1,0 +1,27 @@
+{
+    "replace": false,
+    "type": "tetra:basic_module",
+    "slots": [ "toolbelt/belt" ],
+    "variants": [
+        {
+            "key": "belt/canister",
+            "integrity": 12,
+            "glyph": {
+                "tint": "FF0000",
+                "textureX": 0,
+                "textureY": 16
+            },
+            "aspects": {
+                "strap": 2
+            },
+            "effects": {
+                "art_of_forging:third_sight": 3
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/toolbelt/belt/canister"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "replace": false,
+    "slots": [ "crossbow/attachment_0", "crossbow/attachment_1" ],
+    "type": "tetra:basic_module",
+    "renderLayer": "lower",
+    "variants": [
+        {
+            "materials": [ "tetra:metal/forged_steel_ingot" ],
+            "key": "bowblade/",
+            "integrity": -3,
+            "durability": 12,
+            "attributes": {
+                "generic.attack_damage": 7
+            },
+            "extract": {
+                "durability": 0.05,
+                "glyph": {
+                    "tint": "BEBEBE",
+                    "textureX": 136,
+                    "textureY": 16
+		}
+                },
+                "models": [
+                    {
+                        "location": "tetra:items/module/crossbow/attachment/bowblade",
+                        "type": "static"
+                    }
+                ]
+        }
+    ]
+}

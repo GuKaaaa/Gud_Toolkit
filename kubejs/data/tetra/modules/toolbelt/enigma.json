@@ -1,0 +1,24 @@
+{
+    "replace": false,
+    "type": "tetra:toolbelt_module",
+    "slots": [ "toolbelt/slot1", "toolbelt/slot2", "toolbelt/slot3" ],
+    "slotSuffixes": [ "_slot1", "_slot2", "_slot3" ],
+    "tweakKey": "tetra:toolbelt/enigma",
+    "variants": [
+        {
+            "key": "enigma/enigma",
+            "integrity": -8,
+    "glyph": {
+            "tint": "a31f68",
+            "textureLocation": "tetra:textures/gui/aof_glyph.png",
+            "textureX": 32,
+            "textureY": 32
+    },
+            "effects": {
+		"art_of_forging:strength_infused":[5,5],
+                "suspendSelf": 1,
+                "booster": 4
+            }
+        }
+    ]
+}

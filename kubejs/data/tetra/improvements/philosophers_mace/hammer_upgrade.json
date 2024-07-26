@@ -1,0 +1,27 @@
+[
+    {
+        "key": "hammer_upgrade",
+        "level": 0,
+	"tools":{
+	    	"hammer_dig":[6,20]
+	},
+	"effects":{
+                "stun": [40,2]
+	},
+        "attributes": {
+                "generic.attack_damage": 5
+        }
+    },
+    {
+        "key": "hammer_upgrade",
+        "level": 1,
+        "integrity": -1,
+	"tools":{
+	    	"hammer_dig":[6,40]
+	},
+        "attributes": {
+		"additional_attributes:spell_school_lightning":1,
+                "generic.attack_damage": 5.5
+        }
+    }
+]
