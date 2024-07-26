@@ -1,0 +1,14 @@
+[
+    {
+        "moduleVariants":["sword_socket/socket_amethyst","unbound_stonecutter/iceandfire_ice_dragonsteel"],
+        "name": "hollow_moon"
+    },
+    {
+        "moduleVariants":["sword_socket/socket_amethyst","unbound_stonecutter/iceandfire_fire_dragonsteel"],
+        "name": "mantle_shell"
+    },
+    {
+      "moduleVariants":["sword_socket/socket_amethyst","unbound_stonecutter/iceandfire_lightning_dragonsteel"],
+        "name": "amethyst_slit"
+    }
+]

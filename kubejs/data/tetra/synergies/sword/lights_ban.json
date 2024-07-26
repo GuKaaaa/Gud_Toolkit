@@ -1,0 +1,21 @@
+[
+    {
+        "moduleVariants": ["lights_bane","lights_bane_guard"],
+        "name":"lights_ban",
+        "attributes": {
+            "irons_spellbooks:ender_spell_power": 0.3,
+            "generic.attack_damage": 4,
+            "**generic.attack_damage": 0.15,
+	        "generic.attack_speed": 0.5,
+            "generic.armor": -2,
+            "generic.armor_toughness": -3
+        },
+          "effects": {
+            "sweeping": 4,
+            "severing":[15,0],
+            "criticalStrike": [ 5, 1 ],
+            "armorPenetration": 15,
+            "art_of_forging:slaughtering": [ -30, 10 ]
+	}
+    }
+]

@@ -1,0 +1,31 @@
+{
+    "key": "irradiant_stardust",
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 10,
+    "integrityCost": 9,
+    "integrityGain": 0,
+    "magicCapacity": 3400,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "attributes":{
+	"additional_attributes:spell_general":1,
+	"irons_spellbooks:max_mana":450,
+        "irons_spellbooks:mana_regen":0.5,
+        "irons_spellbooks:spell_power":0.2,
+	"irons_spellbooks:cast_time_reduction":0.3,
+	"irons_spellbooks:cooldown_reduction": 1.6
+    },
+    "effects": {
+        "irons_spellbooks:mana_siphon": 150,
+       "manaRepair": 8
+    },
+    "tints": {
+        "glyph": "C6B5FF"
+    },
+    "textures": [ "shiny" ],
+    "experienceCost": 40,
+    "material":{"items":["luna_flesh_reforged:irradiant_stardust_fragment"]}
+}

@@ -1,0 +1,30 @@
+{
+    "key": "mystic_core",
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 22,
+    "integrityCost": 3,
+    "integrityGain": 1,
+    "magicCapacity": 570,
+    "toolLevel": 0,
+    "toolEfficiency": 4,
+    "tints": {
+      "glyph": "7A2897",
+      "texture": "7A2897"
+    },
+    "textures": [
+      "default"
+    ],
+    "improvements":{
+      	"manaRepair": 3
+     },
+  "attributes": {
+    "**irons_spellbooks:spell_power": 0.4,
+    "irons_spellbooks:spell_power": 0.45,
+    "irons_spellbooks:max_mana":200
+  },
+    "experienceCost": 20,
+    "material":{"items":["goety:mystic_core"]}
+  }

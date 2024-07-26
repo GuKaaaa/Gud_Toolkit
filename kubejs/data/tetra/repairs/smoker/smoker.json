@@ -1,0 +1,8 @@
+{
+    "material": {
+        "items": [ "minecraft:lava_bucket" ],
+        "count": 1
+    },
+    "moduleKey": "sword/smoker",
+    "moduleVariant": "smoker"
+}

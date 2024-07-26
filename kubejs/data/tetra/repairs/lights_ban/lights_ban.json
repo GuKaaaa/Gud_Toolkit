@@ -1,0 +1,8 @@
+{
+    "material": {
+        "items": ["create:shadow_steel"],
+        "count": 2
+    },
+    "moduleKey": "sword/light_bane",
+    "moduleVariant": "light_bane"
+}

@@ -1,0 +1,41 @@
+[
+       {
+	"name": "druid",
+        "moduleVariants": ["cane_head/witch_planks", "basic_handle/witch_planks", "single_socket/irons_nature_upgrade_orb"],
+        "attributes": {
+        "irons_spellbooks:nature_spell_power":0.3,
+	"additional_attributes:spell_school_nature":2,
+        "**irons_spellbooks:summon_damage":3,
+	"irons_spellbooks:max_mana":200,
+        "irons_spellbooks:mana_regen":0.15,
+	"**irons_spellbooks:cooldown_reduction": 0.45,
+	"generic.max_health":6
+	}
+    },
+       {
+	"name": "druid",
+        "moduleVariants": ["cane_head/witch_planks", "light_handle/witch_planks", "single_socket/irons_nature_upgrade_orb"],
+        "attributes": {
+        "irons_spellbooks:nature_spell_power":0.3,
+	"additional_attributes:spell_school_nature":2,
+        "**irons_spellbooks:summon_damage":3,
+	"irons_spellbooks:max_mana":200,
+        "irons_spellbooks:mana_regen":0.15,
+	"**irons_spellbooks:cooldown_reduction": 0.45,
+	"generic.max_health":6
+	}
+    },
+       {
+	"name": "druid",
+        "moduleVariants": ["cane_head/witch_planks", "long_handle/witch_planks", "single_socket/irons_nature_upgrade_orb"],
+        "attributes": {
+        "irons_spellbooks:nature_spell_power":0.3,
+	"additional_attributes:spell_school_nature":2,
+        "**irons_spellbooks:summon_damage":3,
+	"irons_spellbooks:max_mana":200,
+        "irons_spellbooks:mana_regen":0.15,
+	"**irons_spellbooks:cooldown_reduction": 0.45,
+	"generic.max_health":6
+	}
+    }
+]

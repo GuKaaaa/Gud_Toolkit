@@ -1,0 +1,8 @@
+{
+    "material": {
+        "items": ["create:refined_radiance"],
+        "count": 2
+    },
+    "moduleKey": "double/radia_reaper_left",
+    "moduleVariant": "radia_reaper_left"
+}
