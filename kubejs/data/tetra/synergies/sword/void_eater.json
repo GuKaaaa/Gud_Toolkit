@@ -1,0 +1,22 @@
+[
+    {
+        "moduleVariants":["void_hole", "void_worm_cleaver/void_worm_cleaver"],
+	"name": "sword/void_eater",
+        "effects": {
+	    "art_of_forging:feasting":[38, 5],
+            "armorPenetration": 20,
+	    "art_of_forging:life_fiber_loss":8,
+	    "art_of_forging:life_steal":[20, 5],
+	    "lunge": 202,
+	    "crushing": 12,
+	    "severing":[30,5],
+            "criticalStrike": [ 64, 1 ],
+	    "art_of_forging:devouring":-2
+	},
+        "attributes": {
+            "*generic.attack_damage": 0.3,
+            "**generic.attack_damage": 0.1,
+	    "**generic.attack_speed": 0.2
+	}
+    }
+]

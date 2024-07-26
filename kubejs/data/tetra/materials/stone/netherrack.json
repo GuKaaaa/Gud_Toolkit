@@ -1,0 +1,27 @@
+{
+    "key": "netherrack",
+    "category": "stone",
+    "primary": 2.7,
+    "secondary": 1.5,
+    "tertiary": 0,
+    "durability": 67,
+    "integrityCost": 1,
+    "integrityGain": 2,
+    "magicCapacity": 31,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 3,
+    "tints": {
+        "glyph": "834141",
+        "texture": "834141"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [ "minecraft:netherrack" ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "moduleVariants": ["index_bladeeye","lock","basic_hilt/dark_ingot", "counterweight/electrum"],
+        "name":"rnfmabj",
+        "attributes": {
+            "*generic.attack_damage": 1,
+            "**generic.attack_damage": 0.1,
+	    "**generic.attack_speed": -0.1,
+            "generic.armor": 18,
+            "generic.armor_toughness": 15
+        },
+          "effects": {
+            "sweeping": 0.5,
+            "slam":80,
+	    "art_of_forging:decaying":[2,12],
+            "abilityCombo": 15,
+            "blocking": [-5,-1.7]
+	}
+    }
+]

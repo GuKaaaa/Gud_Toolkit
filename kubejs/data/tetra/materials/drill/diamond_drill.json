@@ -1,0 +1,27 @@
+{
+    "key": "diamond_drill",
+    "hidden":true,
+    "category": "drill",
+    "primary": 6,
+    "secondary": 2,
+    "tertiary": 2,
+    "durability": 2774,
+    "integrityCost": 3,
+    "integrityGain": 2,
+    "magicCapacity": 35,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 9,
+    "tints": {
+        "glyph": "diamond_glyph",
+        "texture": "diamond"
+    },
+    "textures": [
+        "diamond"
+    ],
+    "material": {
+        "items": [ "createoreexcavation:diamond_drill" ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    }
+}

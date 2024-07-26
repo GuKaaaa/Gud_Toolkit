@@ -1,0 +1,10 @@
+
+{
+    "material": {
+        "items": [ "minecraft:echo_shard" ],
+        "count": 1
+    },
+    "experienceCost": 5,
+    "moduleKey": "single/single_socket",
+    "moduleVariant": "single_socket/warden_core"
+}

@@ -1,0 +1,13 @@
+[
+    {
+        "moduleVariants": ["gun_stockforged_steel_ingot","gun_ribforged_steel_ingot","gun_triggerforged_steel_ingot"],
+        "name":"black_shotgun",
+        "attributes": {
+                "**tetra:draw_speed": -0.5,
+                "tetra:draw_strength": 4
+        },
+          "effects": {
+     		 "multishot": [1,-9]
+	}
+    }
+]

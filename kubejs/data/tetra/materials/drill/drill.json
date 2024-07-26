@@ -1,0 +1,27 @@
+{
+    "key": "drill",
+    "hidden":true,
+    "category": "drill",
+    "primary": 5.8,
+    "secondary": 3.5,
+    "tertiary": 2.7,
+    "durability": 870,
+    "integrityCost": 3,
+    "integrityGain": 5,
+    "magicCapacity": 40,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 6.5,
+    "tints": {
+      "glyph": "iron_glyph",
+      "texture": "iron"
+    },
+    "textures": [
+        "iron"
+    ],
+    "material": {
+        "items": [ "createoreexcavation:drill" ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    }
+}

@@ -1,0 +1,39 @@
+[
+   {
+        "modules": ["single/drill"],
+        "moduleVariants": ["single_socket/red_stone"],
+	"name":"powered_drill",
+        "durability": -600,
+        "attributes": {
+	    "**generic.attack_speed": 0.5
+        },
+        "tools": {
+	    "pickaxe_dig": [1,8],
+	    "shovel_dig": [1,12]
+        }
+    },
+   {
+        "modules": ["single/drill"],
+        "moduleVariants": ["single_socket/reinforced_red_stone"],
+        "durability": -1500,
+        "attributes": {
+	    "**generic.attack_speed": 0.8
+        },
+        "tools": {
+	    "pickaxe_dig": [1.2,13],
+	    "shovel_dig": [1.2,15]
+        }
+    },
+   {
+        "moduleVariants": ["single_socket/reinforced_red_stone","drill/drill"],
+	"name":"gurren_lagann_w"
+    },
+   {
+        "moduleVariants": ["single_socket/reinforced_red_stone","drill/diamond_drill"],
+	"name":"gurren_lagann_b"
+    },
+   {
+        "moduleVariants": ["single_socket/reinforced_red_stone","drill/netherite_drill"],
+	"name":"gurren_lagann_d"
+    }
+]

@@ -1,0 +1,39 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+	    "dad",
+        "bcb",
+        "dbd"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:trident"
+		},
+		"b": {
+			"item": "minecraft:prismarine_crystals"
+		},
+		"c": {
+			"item": "minecraft:book"
+		},
+		"d": {
+			"item": "minecraft:prismarine_shard"
+		}
+	},
+	"result": {
+		"item": "tetra:scroll_rolled",
+		"count": 1,
+		"nbt": {
+			"BlockEntityTag": {
+				"data": [{
+					"key": "tetra/trident",
+					"schematics": ["tetra:single/trident"],
+					"intricate": false,
+					"details": "relic",
+					"material": 2,
+					"ribbon": "0000FF",
+					"glyphs": [6, 15, 4, 8]
+				}]
+			}
+		}
+	}
+}

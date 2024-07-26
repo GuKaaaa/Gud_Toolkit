@@ -1,0 +1,29 @@
+{
+    "key": "unholy_blood",
+    "category": "misc",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 40,
+    "integrityCost": 4,
+    "integrityGain": 2,
+    "magicCapacity":2000,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+      "glyph": "8B0000",
+      "texture": "8B0000"
+    },
+    "material": {
+        "items": [ "goety:unholy_blood" ]
+    },
+    "effects" : {
+	"art_of_forging:decaying":[1,10],
+	"art_of_forging:devouring":1,
+	"fierySelf":[1,0.05]
+    },
+    "attributes": {
+        "**generic.attack_damage": 0.15
+            },
+    "experienceCost": 50
+}

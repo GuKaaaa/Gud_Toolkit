@@ -1,0 +1,27 @@
+{
+    "key": "netherite_drill",
+    "hidden":true,
+    "category": "drill",
+    "primary": 10.2,
+    "secondary": 2.7,
+    "tertiary": 3.8,
+    "durability": 3152,
+    "integrityCost": 4,
+    "integrityGain": 9,
+    "magicCapacity": 73,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 11.3,
+    "tints": {
+        "glyph": "806164",
+        "texture": "695e5f"
+    },
+    "textures": [
+        "netherite"
+    ],
+    "material": {
+        "items": [ "createoreexcavation:netherite_drill" ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    }
+}

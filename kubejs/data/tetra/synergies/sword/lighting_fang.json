@@ -1,0 +1,18 @@
+[
+       {
+	"name": "lightning_fang",
+        "moduleVariants": ["sword_socket/lightning_dragon_bead", "short_blade/iceandfire_lightning_dragonsteel"],
+        "attributes": {
+        "**irons_spellbooks:lightning_spell_power":1.25,
+        "**irons_spellbooks:lightning_magic_resist":0.5,
+        "**generic.attack_damage": 0.05,
+	"**generic.attack_speed": 0.7
+        },
+        "effects": {
+      	"art_of_forging:stormcaller": [6,0],
+	"backstab":10,
+	"quickStrike":8,
+	"stun":20
+	}
+    }
+]
