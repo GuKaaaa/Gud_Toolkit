@@ -1,0 +1,29 @@
+{
+    "key": "fire_dragon_bead",
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 500,
+    "integrityCost": 2,
+    "integrityGain": 0,
+    "magicCapacity": 700,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "attributes":{
+        "irons_spellbooks:fire_spell_power":1.2,
+        "**irons_spellbooks:fire_magic_resist":0.5
+    },
+    "tints": {
+      "glyph": "FF3030",
+      "texture": "FF3030"
+    },
+    "textures": [
+      "shiny"
+    ],
+    "effects" : {
+      "art_of_forging:infernal_rebuke":[15, 7]
+    },
+    "experienceCost": 25,
+    "material":{"items":["kubejs:fire_dragon_bead"]}
+  }
