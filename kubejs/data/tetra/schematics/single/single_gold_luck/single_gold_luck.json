@@ -1,0 +1,22 @@
+{
+	"replace": false,
+	"slots": [ "single/binding" ],
+        "materialSlotCount": 1,
+        "materialRevealSlot": 0,
+        "rarity": "temporary",
+	"displayType": "minor",
+	"glyph": {
+        "tint": "FFD700",
+        "textureX": 85,
+        "textureY": 244
+	},
+	"outcomes": [
+		{
+           	 "material": {
+                	"items": [ "kubejs:golden_lucky_cookie_organ" ]
+           	 },
+			"moduleKey": "single/single_gold_luck",
+			"moduleVariant": "single_gold_luck"
+		}
+	]
+}

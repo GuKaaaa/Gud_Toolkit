@@ -1,0 +1,21 @@
+{
+    "replace": true,
+    "slots": [ "sword/fuller" ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "minor",
+    "glyph": {
+        "tint": "8B0000",
+        "textureX": 72,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "experienceCost":40,
+            "materials": [ "tetra:misc/unholy_blood" ],
+            "moduleKey": "sword/unholy_blood_fuller",
+            "moduleVariant": "unholy_blood_fuller/unholy_blood"
+        }
+    ]
+}

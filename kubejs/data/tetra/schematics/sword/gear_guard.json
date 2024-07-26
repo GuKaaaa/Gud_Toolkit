@@ -1,0 +1,25 @@
+{
+	"replace": true,
+	"slots": [ "sword/guard" ],
+	"materialSlotCount": 1,
+    	"materialRevealSlot": 0,
+	"rarity": "temporary",
+	"displayType": "minor",
+	"glyph": {
+		"textureLocation": "tetra:textures/gui/aof_glyph.png",
+		"textureX": 7,
+		"textureY": 16
+	},
+	"outcomes": [
+		{
+            	"material": {
+                	"items": [ "kubejs:revolution_gear" ]
+            	},
+            	"requiredTools": {
+                	"hammer_dig": "minecraft:iron"
+            	},
+			"moduleKey": "sword/gear_guard",
+			"moduleVariant": "gear_guard"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+    "replace": true,
+    "slots": ["holo/scanner"],
+    "repair": false,
+    "materialSlotCount": 1,
+    "displayType": "improvement",
+    "glyph": {
+        "textureX": 112,
+        "textureY": 48
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:improvement",
+                "improvement": "scanner/sweeper"
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "scanner/sweeper_adjustable",
+                    "improvement": "scanner/tech_scanner"
+                }
+            }
+        ]
+    },
+    "integrity": -1,
+    "moduleKey": "scanner/tech_scanner",
+    "moduleVariant": "tech_scanner",
+    "outcomes": [
+        {
+            "material": {
+                "items": ["create:electron_tube"],
+                "count": 4
+            },
+            "improvements": {
+                "scanner/tech_scanner": 0
+            }
+        }
+    ]
+}

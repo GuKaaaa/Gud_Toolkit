@@ -1,0 +1,40 @@
+{
+    "replace": true,
+    "slots": ["double/binding"],
+    "rarity": "temporary",
+    "materialSlotCount": 1,
+    "displayType": "improvement",
+    "glyph": {
+        "textureX": 128,
+        "textureY": 240
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "gold_luckier"
+                }
+            },
+            {
+        	"type": "tetra:module",
+        	"variant": "double_gold_luck"
+            }
+        ]
+    },
+    "moduleKey": "double/gold_luckier",
+    "moduleVariant": "gold_luckier",
+    "outcomes": [
+        {
+            "material": {
+                "items": ["kubejs:golden_lucky_cookie_organ"],
+                "count": 1
+            },
+            "improvements": {
+                "gold_luckier": 0
+            }
+        }
+    ]
+}

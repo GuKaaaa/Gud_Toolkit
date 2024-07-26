@@ -1,0 +1,29 @@
+{
+    "replace": true,
+    "slots": ["sword/guard"],
+    "rarity": "temporary",
+    "materialSlotCount": 1,
+    "displayType": "improvement",
+    "glyph": {
+        "textureX": 128,
+        "textureY": 240
+    },
+    "requirement": {
+        "type": "tetra:improvement",
+        "improvement": "gold_luckier",
+        "level": 3
+    },
+    "moduleKey": "sword/gold_luckier",
+    "moduleVariant": "gold_luckier",
+    "outcomes": [
+        {
+            "material": {
+                "items": ["kubejs:golden_lucky_cookie_organ"],
+                "count": 1
+            },
+            "improvements": {
+                "gold_luckier": 4
+            }
+        }
+    ]
+}

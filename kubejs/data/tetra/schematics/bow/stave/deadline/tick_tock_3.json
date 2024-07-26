@@ -1,0 +1,25 @@
+{
+    "replace": true,
+    "slots": [ "bow/stave" ],
+    "materialSlotCount": 0,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "major",
+    "glyph": {
+        "textureX": 192,
+        "textureY": 48
+    },
+    "requirement": {
+        "type": "tetra:improvement",
+        "improvement": "tick_tock",
+        "level": 2
+    },
+    "outcomes": [
+        {
+            "experienceCost":10,
+            "improvements": {
+                "tick_tock": 3
+            }
+        }
+    ]
+}

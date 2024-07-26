@@ -1,0 +1,29 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "materialSlotCount": 1,
+    "requirement": {
+        "type": "tetra:locked",
+        "key": "tetra:sword/hanguang"
+    },
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "textureX":64,
+        "textureY":64
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "irons_spellbooks:invisibility_ring" ]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond",
+                "pickaxe_dig":"minecraft:diamond",
+                "axe_dig":"minecraft:diamond"
+            },
+            "moduleKey": "sword/hanguang",
+            "moduleVariant": "hanguang"
+        }
+    ]
+}

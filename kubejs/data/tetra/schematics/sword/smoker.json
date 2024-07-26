@@ -1,0 +1,24 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "textureX": 224,
+        "textureY": 48
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "kubejs:revolution_steam_engine" ]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond"
+            },
+            "moduleKey": "sword/smoker",
+            "moduleVariant": "smoker"
+        }
+    ]
+}

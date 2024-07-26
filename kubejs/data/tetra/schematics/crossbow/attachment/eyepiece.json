@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "slots": [ "crossbow/attachment_0"],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "glyph": {
+        "textureX": 136,
+        "textureY": 16
+    },
+    "displayType": "minor",
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "minecraft:tinted_glass" ]
+            },
+            "moduleKey": "crossbow/eyepiece",
+            "moduleVariant": "eyepiece/"
+        }
+    ]
+}

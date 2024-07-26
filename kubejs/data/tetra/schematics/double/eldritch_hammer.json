@@ -1,0 +1,39 @@
+{
+    "replace": true,
+    "slots": ["double/head_left"],
+    "slotSuffixes": ["_left"],
+    "repair": false,
+    "materialSlotCount": 1,
+    "displayType": "improvement",
+    "rarity": "temporary",
+    "glyph": {
+        "textureX": 64
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:improvement",
+                "improvement": "double/utilized"
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "eldritch_hammer"
+                }
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": ["luna_flesh_reforged:eldritch_hammer"],
+                "count": 1
+            },
+            "improvements": {
+                "eldritch_hammer": 0
+            }
+        }
+    ]
+}

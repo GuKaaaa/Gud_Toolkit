@@ -1,0 +1,41 @@
+{
+    "replace": true,
+    "slots": ["single/head"],
+    "rarity": "hone",
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "displayType": "improvement",
+    "glyph": {
+        "textureX": 64,
+        "textureY": 223,
+	    "tint":"BA55D3"
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "iron_upgrade_ender"
+                }
+            },
+            {
+        	"type": "tetra:module",
+        	"variant": "philosophers_mace"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": ["goety:heart_of_the_night"],
+                "count": 1
+            },
+   	    "experienceCost": 20,
+            "improvements": {
+                "iron_upgrade_ender": 0
+            }
+        }
+    ]
+}

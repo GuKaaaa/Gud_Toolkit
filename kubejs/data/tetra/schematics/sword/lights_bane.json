@@ -1,0 +1,26 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/aof_glyph.png",
+        "textureX": 192,
+        "textureY": 16,
+	"tint":"9A5CC6"
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "luna_flesh_reforged:lights_bane" ]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond"
+            },
+            "moduleKey": "sword/lights_bane",
+            "moduleVariant": "lights_bane"
+        }
+    ]
+}

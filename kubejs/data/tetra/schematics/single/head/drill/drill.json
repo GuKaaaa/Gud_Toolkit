@@ -1,0 +1,32 @@
+{
+    "replace": true,
+    "slots": ["single/head"],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 224,
+        "textureY": 32
+    },
+    "translation": {
+        "primaryAttributes": {
+            "generic.attack_damage": 2
+        },
+        "secondaryAttributes": {
+            "generic.attack_speed": -1
+        },
+        "tools": {
+            "shovel_dig": [0.8, 0.4],
+            "pickaxe_dig": [0.8, 0.4]
+        },
+        "durability": 3,
+        "integrity": -3,
+        "magicCapacity": 3
+    },
+    "outcomes": [
+        {
+            "materials": ["tetra:drill/"],
+            "moduleKey": "single/drill",
+            "moduleVariant": "drill/"
+        }
+    ]
+}

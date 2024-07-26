@@ -1,0 +1,40 @@
+{
+    "replace": true,
+    "slots": ["sword/guard"],
+    "rarity": "temporary",
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "displayType": "improvement",
+    "glyph": {
+	"textureLocation": "tetra:textures/gui/aof_glyph.png",
+	"textureX": 2,
+	"textureY": 12
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "speed_gear"
+                }
+            },
+            {
+        	"type": "tetra:module",
+        	"variant": "gear_guard"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": ["luna_flesh_reforged:variable_speed_gear"],
+                "count": 1
+            },
+            "improvements": {
+                "speed_gear": 0
+            }
+        }
+    ]
+}
