@@ -1,7 +1,9 @@
 # Gud Toolkit
-MINECRAFT整合包No Flesh Within Chest的以tetra内容补充为主的扩展包。
+MINECRAFT整合包No Flesh Within Chest的以tetra内容补充为主的扩充包。
 
 包含近30种全新可用材料，30+全新部件，2种新的原理图以及大量的改进项目和协同效应。
+
+现支持No Flesh Within Chest0.3.2版本，并与该版本下[No Flesh Within Chest Luna's Expansion pack](https://github.com/LunaGlaze/NoFleshWithinChest-Luna-s-Expansion-pack)扩充包有联动部件
 
 ## 安装方法
 要安装羖的补充包（Gud Toolkit），只需将kubejs文件夹拖入versions文件夹下游戏文件夹与同名文件夹合并，并安装[additional attributes](https://www.curseforge.com/minecraft/mc-mods/additional-attributes)模组
