@@ -1,9 +1,0 @@
-{
-    "material": {
-        "items": [ "minecraft:echo_shard" ],
-        "count": 1
-    },
-    "experienceCost": 5,
-    "moduleKey": "sword/sword_socket",
-    "moduleVariant": "sword_socket/warden_core"
-}
