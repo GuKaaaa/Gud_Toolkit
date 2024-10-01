@@ -1,0 +1,56 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 240,
+        "textureY": 16
+},
+"requirement": {
+    "type": "tetra:and",
+    "requirements": [
+        {
+                "type": "tetra:improvement",
+                "improvement": "inf_sloth"
+        },
+        {
+                "type": "tetra:improvement",
+                "improvement": "inf_wrath"
+        },
+        {
+                "type": "tetra:improvement",
+                "improvement": "inf_envy"
+        },
+        {
+                "type": "tetra:improvement",
+                "improvement": "inf_gluttony"
+        },
+        {
+                "type": "tetra:improvement",
+                "improvement": "inf_greed"
+        },
+        {
+                "type": "tetra:improvement",
+                "improvement": "inf_lust"
+        },
+        {
+                "type": "tetra:improvement",
+                "improvement": "inf_pride"
+        },
+        {
+        "type": "tetra:module",
+        "variant": "inf_hate"
+        }
+    ]
+},
+    "outcomes": [
+        {
+            "experienceCost": 50,
+            "improvements": {
+                "inf_grace": 0
+            }
+        }
+    ]
+}

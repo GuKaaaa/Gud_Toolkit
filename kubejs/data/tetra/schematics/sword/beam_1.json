@@ -1,0 +1,60 @@
+{
+    "replace": true,
+    "slots": [
+        "sword/blade"
+    ],
+    "materialSlotCount": 0,
+    "rarity": "hone",
+    "displayType": "improvement",
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetra:artistry"
+            },
+            {
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:module",
+                        "module": "sword/katana_blade"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "mortal_blade"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "sword/saber_blade"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "sword/shifting_blade"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "sword/basic_blade"
+                    }
+                ]
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "sword/beam"
+                }
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "sword/beam": 1
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:iron"
+            }
+        }
+    ]
+}

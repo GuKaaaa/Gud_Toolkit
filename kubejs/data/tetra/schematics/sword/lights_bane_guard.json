@@ -1,0 +1,23 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "materialSlotCount": 1,
+    "rarity": "temporary",
+    "displayType": "minor",
+    "requirement": {
+        "type": "tetra:module",
+        "variant": "lights_bane"
+    },
+    "glyph": {
+        "tint": "591a89",
+        "textureX": 40,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "material": {"items":["create:shadow_steel"]},
+            "moduleKey": "sword/lights_bane_guard",
+            "moduleVariant": "lights_bane_guard"
+        }
+    ]
+}

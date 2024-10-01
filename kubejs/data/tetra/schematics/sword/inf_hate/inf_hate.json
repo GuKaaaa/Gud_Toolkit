@@ -1,0 +1,22 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 224
+},
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "gud_toolkit:hateful_soul" ]
+            },
+            "experienceCost": 50,
+            "moduleKey": "sword/inf_hate",
+            "moduleVariant": "inf_hate"
+        }
+    ]
+}

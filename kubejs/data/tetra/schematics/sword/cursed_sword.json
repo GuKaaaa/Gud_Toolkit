@@ -1,0 +1,27 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "materialSlotCount": 1,
+    "requirement": {
+        "type": "tetra:locked",
+        "key": "tetra:dead_cells"
+    },
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 160
+},
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "gud_toolkit:cursed_blade" ]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond"
+            },
+            "moduleKey": "sword/cursed_sword",
+            "moduleVariant": "cursed_sword"
+        }
+    ]
+}

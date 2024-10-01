@@ -1,0 +1,39 @@
+{
+    "replace": true,
+    "slots": [
+        "bow/stave"
+    ],
+    "materialSlotCount": 0,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "improvement",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 160,
+        "textureY": 16
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetra:artistry"
+            },
+            {
+                "type": "tetra:improvement",
+                "improvement": "bow/burst",
+                "level": 1
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "bow/burst": 2
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:iron"
+            }
+        }
+    ]
+}

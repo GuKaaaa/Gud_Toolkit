@@ -1,0 +1,32 @@
+{
+    "replace": true,
+    "slots": ["sword/blade"],
+    "rarity": "hone",
+    "displayType": "improvement",
+    "hone":true,
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 80,
+        "textureY": 32
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:improvement",
+                "improvement": "chainsaw_adeptus",
+                "level":1
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "requiredTools": {
+                "hammer_dig": "minecraft:iron"
+            },
+            "improvements": {
+                "chainsaw_adeptus": 2
+            }
+        }
+    ]
+}

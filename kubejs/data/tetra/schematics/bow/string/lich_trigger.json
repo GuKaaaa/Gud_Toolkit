@@ -1,0 +1,40 @@
+{
+    "replace": true,
+    "slots": [
+        "bow/string"
+    ],
+    "materialSlotCount": 1,
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:improvement",
+                "improvement": "bowstring/release_latch"
+                },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "lich_trigger"
+                }
+            }
+        ]
+    },
+    "rarity": "temporary",
+    "glyph": {
+        "textureX": 80,
+        "textureY": 32
+    },
+    "displayType": "improvement",
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "kubejs:dreadsteel_ingot" ],
+                "count": 3
+            },
+            "improvements": {
+                "lich_trigger": 0
+            }
+        }
+    ]
+}

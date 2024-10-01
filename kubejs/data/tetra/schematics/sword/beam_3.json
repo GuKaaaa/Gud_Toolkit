@@ -1,0 +1,34 @@
+{
+    "replace": true,
+    "slots": [
+        "sword/blade"
+    ],
+    "materialSlotCount": 0,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "improvement",
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetra:artistry"
+            },
+            {
+                "type": "tetra:improvement",
+                "improvement": "sword/beam",
+                "level":2
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "sword/beam": 3
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:iron"
+            }
+        }
+    ]
+}

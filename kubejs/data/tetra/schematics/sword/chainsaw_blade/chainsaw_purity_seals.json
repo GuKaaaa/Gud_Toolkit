@@ -1,0 +1,44 @@
+{
+    "replace": true,
+    "slots": ["sword/blade"],
+    "rarity": "hone",
+    "displayType": "improvement",
+    "hone":true,
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 48,
+        "textureY": 32
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "chainsaw_purity_seals"
+                }
+            },
+            {
+                "type": "tetra:aspect",
+                "aspect": "honed",
+                "level": {
+                    "min": 5
+                }
+            },
+            {
+                "type": "tetra:improvement",
+                "improvement": "chainsaw_emperor"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "chainsaw_purity_seals": 0
+            },
+            "moduleKey": "sword/chainsaw_purity_seals",
+            "moduleVariant": "chainsaw_purity_seals"
+        }
+    ]
+}

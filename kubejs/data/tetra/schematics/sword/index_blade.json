@@ -1,0 +1,20 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+     "textureX": 48
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "gud_toolkit:index_blade" ]
+            },
+            "moduleKey": "sword/index_blade",
+            "moduleVariant": "index_blade"
+        }
+    ]
+}

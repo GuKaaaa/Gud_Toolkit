@@ -1,0 +1,23 @@
+{
+    "replace": true,
+    "slots": [ "sword/guard" ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "minor",
+    "glyph": {
+        "tint": "FFD700",
+		"textureLocation": "tetra:textures/gui/gut_glyphs.png",
+		"textureX": 8,
+		"textureY":248
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "kubejs:golden_lucky_cookie_organ" ]
+            },
+            "moduleKey": "sword/sword_gold_luck",
+            "moduleVariant": "sword_gold_luck"
+        }
+    ]
+}

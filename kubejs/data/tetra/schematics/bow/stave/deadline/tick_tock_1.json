@@ -1,0 +1,41 @@
+{
+    "replace": true,
+    "slots": [ "bow/stave" ],
+    "materialSlotCount": 0,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 112
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:and",
+                "requirements": [
+                    {
+                        "type": "tetra:module",
+                        "module": "bow/deadline"
+                    }
+                ]
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "tick_tock"
+                }
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "experienceCost":10,
+            "improvements": {
+                "tick_tock": 1
+            }
+        }
+    ]
+}

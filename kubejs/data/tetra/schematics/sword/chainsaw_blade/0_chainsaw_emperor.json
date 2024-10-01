@@ -1,0 +1,45 @@
+{
+    "replace": true,
+    "slots": ["sword/blade"],
+    "materialSlotCount": 1,
+    "displayType": "improvement",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 16,
+        "textureY": 32
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "chainsaw_khorne"
+                }
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "chainsaw_emperor"
+                }
+            },
+            {
+        	"type": "tetra:module",
+        	"variant": "chainsaw_blade"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": ["irons_spellbooks:divine_pearl"],
+                "count": 13
+            },
+            "improvements": {
+                "chainsaw_emperor": 0
+            }
+        }
+    ]
+}

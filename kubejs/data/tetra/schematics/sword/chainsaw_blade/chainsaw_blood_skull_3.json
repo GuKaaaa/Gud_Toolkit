@@ -1,0 +1,30 @@
+{
+    "replace": true,
+    "slots": ["sword/blade"],
+    "rarity": "hone",
+    "displayType": "improvement",
+    "hone":true,
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 64,
+        "textureY": 32
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:improvement",
+                "improvement": "chainsaw_blood_skull",
+                "level":2
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "experienceCost": 8,
+            "improvements": {
+                "chainsaw_blood_skull": 3
+            }
+        }
+    ]
+}

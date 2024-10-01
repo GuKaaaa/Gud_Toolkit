@@ -1,0 +1,28 @@
+{
+    "replace": true,
+    "slots": [
+        "bow/riser"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "rarity": "temporary",
+    "requirement": {
+        "type": "tetra:module",
+        "variant": "adjustable_strength/bolt"
+    },
+    "glyph": {
+        "tint": "bolt_glyph",
+        "textureX": 80,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "create:precision_mechanism" ],
+                "count": 1
+            },
+            "moduleKey": "bow/tech_adjustable_strength",
+            "moduleVariant": "tech_adjustable_strength"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "replace": true,
+    "slots": [ "sword/hilt" ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "improvement",
+    "glyph": {
+        "tint": "00bfff",
+        "textureX": 144,
+        "textureY": 240
+    },
+    "outcomes": [
+        {
+            "experienceCost":40,
+            "material": {
+                "items": ["kubejs:void_worm_stomach"]
+            },
+            "requiredTools": {
+                "cut": 5
+            },
+            "improvements": {
+                "void_hole": 0
+            }
+        }
+    ]
+}

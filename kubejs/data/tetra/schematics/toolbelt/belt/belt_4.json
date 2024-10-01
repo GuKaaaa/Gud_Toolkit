@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "slots": [
+        "toolbelt/belt"
+    ],
+    "materialSlotCount": 1,
+    "requirement": {
+        "type": "tetra:module",
+        "variant": "belt/inlaid"
+    },
+    "displayType": "minor",
+    "glyph": {
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "art_of_forging:encoded_canister" ],
+                "count": 1
+            },
+            "moduleKey": "toolbelt/belt_4",
+            "moduleVariant": "belt/canister"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "slots": [ "crossbow/stock"],
+    "materialSlotCount": 1,
+    "requirement": {
+        "type": "tetra:module",
+        "variant": "gun_stockforged_steel_ingot"
+    },
+    "rarity": "temporary",
+    "glyph": {
+        "textureX": 136,
+        "textureY": 16
+    },
+    "displayType": "minor",
+    "outcomes": [
+        {
+            "materials": [ "tetra:metal/forged_steel_ingot" ],
+            "moduleKey": "crossbow/blunderbuss",
+            "moduleVariant": "blunderbuss/"
+        }
+    ]
+}

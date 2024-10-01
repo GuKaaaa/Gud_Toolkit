@@ -1,0 +1,23 @@
+{
+    "replace": true,
+    "slots": [ "sword/guard" ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "minor",
+    "glyph": {
+        "tint": "FFD700",
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 16,
+        "textureY":249
+},
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "meetyourfight:wilted_ideals" ]
+            },
+            "moduleKey": "sword/lock",
+            "moduleVariant": "lock"
+        }
+    ]
+}

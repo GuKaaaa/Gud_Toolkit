@@ -1,0 +1,54 @@
+{
+    "replace": true,
+    "slots": [
+        "double/handle",
+        "double/head_left",
+        "double/head_right",
+        "single/handle",
+        "single/head",
+        "sword/blade",
+        "sword/hilt",
+        "shield/plate",
+        "shield/grip"
+    ],
+    "keySuffixes": [
+        "_double_handle",
+        "_double_head_left",
+        "_double_head_right",
+        "_single_handle",
+        "_single_head",
+        "_sword_blade",
+        "_sword_hilt",
+        "_shield_plate",
+        "_shield_grip"
+    ],
+    "materialSlotCount": 0,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "improvement",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 112,
+        "textureY": 32
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:improvement",
+                "improvement": "throwable_ricochet",
+                "level":1
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "requiredTools": {
+                "hammer_dig": "minecraft:iron"
+            },
+            "improvements": {
+                "throwable_ricochet": 2
+            }
+        }
+    ]
+}

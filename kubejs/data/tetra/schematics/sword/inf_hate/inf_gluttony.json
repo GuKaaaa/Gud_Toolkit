@@ -1,0 +1,59 @@
+{
+    "replace": true,
+    "slots": ["sword/blade"],
+    "materialSlotCount": 1,
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 48,
+        "textureY": 16
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "inf_gluttony"
+                }
+            },            
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "inf_inferno"
+                }
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "inf_grace"
+                }
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "inf_sunset"
+                }
+            },
+            {
+        	"type": "tetra:module",
+        	"variant": "inf_hate"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": ["kubejs:gluttony_shard"],
+                "count": 1
+            },
+   	        "experienceCost": 20,
+            "improvements": {
+                "inf_gluttony": 0
+            }
+        }
+    ]
+}

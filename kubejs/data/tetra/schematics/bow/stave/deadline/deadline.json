@@ -1,0 +1,24 @@
+{
+    "replace": true,
+    "slots": [ "bow/stave" ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 96
+},
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "luna_flesh_reforged:dark_archotech_shard" ]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond"
+            },
+            "moduleKey": "bow/deadline",
+            "moduleVariant": "deadline"
+        }
+    ]
+}

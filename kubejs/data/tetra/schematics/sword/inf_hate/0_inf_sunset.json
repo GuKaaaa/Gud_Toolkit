@@ -1,0 +1,91 @@
+{
+    "replace": true,
+    "slots": ["sword/blade"],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 224,
+        "textureY": 16
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "inf_sloth"
+                }
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "inf_wrath"
+                }
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "inf_envy"
+                }
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "inf_gluttony"
+                }
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "inf_greed"
+                }
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "inf_lust"
+                }
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "inf_pride"
+                }
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "inf_sunset"
+                }
+            },
+            {
+        	"type": "tetra:module",
+        	"variant": "inf_hate"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": ["kubejs:origin_knight_core"],
+                "count": 1
+            },
+            "requiredTools": {
+                "hammer_dig": "iron"
+            },
+   	        "experienceCost": 30,
+            "improvements": {
+                "inf_sunset": 0
+            }
+        }
+    ]
+}

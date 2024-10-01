@@ -1,0 +1,35 @@
+{
+    "replace": false,
+    "slots": [
+        "toolbelt/slot1",
+        "toolbelt/slot2",
+        "toolbelt/slot3"
+    ],
+    "keySuffixes": [
+        "_slot1",
+        "_slot2",
+        "_slot3"
+    ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "glyph": {
+            "tint": "a31f68",
+            "textureLocation": "tetra:textures/gui/aof_glyph.png",
+            "textureX": 32,
+            "textureY": 32
+    },
+    "displayType": "major",
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "art_of_forging:enigmatic_construct" ]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond"
+            },
+            "moduleKey": "toolbelt/enigma",
+            "moduleVariant": "enigma/enigma"
+        }
+    ]
+}

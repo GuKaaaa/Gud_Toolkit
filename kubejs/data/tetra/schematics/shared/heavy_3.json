@@ -1,0 +1,49 @@
+{
+    "replace": true,
+    "slots": [
+        "double/head_left",
+        "double/head_right",
+        "single/head",
+        "sword/blade"
+    ],
+    "keySuffixes": [
+        "_double_handle",
+        "_double_head_left",
+        "_double_head_right",
+        "_single_head",
+        "_sword_blade"
+    ],
+    "materialSlotCount": 0,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "improvement",
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetra:artistry"
+            },
+            {
+                "type": "tetra:improvement",
+                "improvement": "heavy",
+                "level":2
+            }
+        ]
+    },
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 144,
+        "textureY": 32
+            },
+    "outcomes": [
+        {
+            "improvements": {
+                "heavy": 3
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:iron"
+            }
+        }
+    ]
+}

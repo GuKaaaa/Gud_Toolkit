@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "slots": [
+        "sword/fuller"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "glyph": {
+        "textureX": 72,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "materials": ["tetra:misc/cinder_essence"],
+            "moduleKey": "sword/reinforced_fuller",
+            "moduleVariant": "reinforced_fuller/"
+        }
+    ]
+}

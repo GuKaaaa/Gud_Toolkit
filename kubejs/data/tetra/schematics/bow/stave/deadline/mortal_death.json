@@ -1,0 +1,39 @@
+{
+    "replace": true,
+    "slots": [ "bow/stave" ],
+    "materialSlotCount": 1,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 112
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "mortal_death"
+                }
+            },
+            {
+        	"type": "tetra:improvement",
+        	"improvement": "tick_tock",
+            "level":3
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "material": {
+                "tag": "luna_flesh_reforged:greatone_charm"
+            },
+            "improvements": {
+                "mortal_death": 0
+            }
+        }
+    ]
+}

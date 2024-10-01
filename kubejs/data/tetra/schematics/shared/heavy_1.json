@@ -1,0 +1,107 @@
+{
+    "replace": true,
+    "slots": [
+        "double/head_left",
+        "double/head_right",
+        "single/head",
+        "sword/blade"
+    ],
+    "keySuffixes": [
+        "_double_handle",
+        "_double_head_left",
+        "_double_head_right",
+        "_single_head",
+        "_sword_blade"
+    ],
+    "materialSlotCount": 0,
+    "rarity": "hone",
+    "displayType": "improvement",
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetra:artistry"
+            },
+            {
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:module",
+                        "module": "sword/flamberge_blade"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "heavy_blade"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "sword/crucible_blade"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "sword/mortal_blade"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "sword/basic_blade"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "shifting_blade/shifting_blade"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "double/basic_hammer_left"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "double/annihilator_axe_left"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "double/shockwave_hammer_left"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "double/blaze_cake_hammer_creative_left"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "double/blaze_cake_hammer_left"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "single/mourning_star"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "single/flawless"
+                    }
+                ]
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "heavy"
+                }
+            }
+        ]
+    },
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 144,
+        "textureY": 32
+            },
+    "outcomes": [
+        {
+            "improvements": {
+                "heavy": 1
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:iron"
+            }
+        }
+    ]
+}

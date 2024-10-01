@@ -1,0 +1,25 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 208,
+        "textureY": 16
+},
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "gud_toolkit:chainsaw_blade" ]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:iron"
+            },
+            "moduleKey": "sword/chainsaw_blade",
+            "moduleVariant": "chainsaw_blade"
+        }
+    ]
+}

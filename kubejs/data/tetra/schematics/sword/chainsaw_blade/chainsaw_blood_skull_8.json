@@ -1,0 +1,34 @@
+{
+    "replace": true,
+    "slots": ["sword/blade"],
+    "materialSlotCount": 1,
+    "rarity": "hone",
+    "displayType": "improvement",
+    "hone":true,
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 64,
+        "textureY": 32
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:improvement",
+                "improvement": "chainsaw_blood_skull",
+                "level":7
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "iceandfire:hydra_skull" ]
+            },
+            "experienceCost": 8,
+            "improvements": {
+                "chainsaw_blood_skull": 8
+            }
+        }
+    ]
+}
