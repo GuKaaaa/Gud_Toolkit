@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "gud_toolkit:item/outer_chat_model"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "gud_toolkit:item/outer_chat_gui"
+    }
+  }
+}

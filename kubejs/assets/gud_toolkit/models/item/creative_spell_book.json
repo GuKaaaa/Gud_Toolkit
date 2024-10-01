@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "gud_toolkit:item/creative_spell_book_model"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "gud_toolkit:item/creative_spell_book_gui"
+    }
+  }
+}

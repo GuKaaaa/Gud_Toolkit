@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gud_toolkit:item/outer_chat"
+  }
+}

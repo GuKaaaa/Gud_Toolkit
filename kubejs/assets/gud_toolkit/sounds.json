@@ -1,0 +1,11 @@
+{
+  "father_of_all_glitches": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "gud_toolkit:records/father_of_all_glitches",
+        "stream": true
+      }
+    ]
+  }
+}
