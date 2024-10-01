@@ -1,0 +1,42 @@
+{
+  "armorSetName": "sharp_shadow",
+  "performanceMode": true,
+  "additionalSetPieces": [{
+    "itemKey": "gud_toolkit:sharp_shadow"
+  }],
+  "hideGeneratedTooltip": true,
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:parry",
+      "modifierUUID": "ab0f4b7c-dd75-4cca-b4f0-69fdaf143aff",
+      "value": 0.45
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:parry",
+      "modifierUUID": "ed201173-160c-4e35-b028-80710aeae098",
+      "value": 0.45,
+      "conditions": [
+        {
+          "type": "moonPhase",
+          "extra": "full"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "goety:shadow_walk",
+      "value": 1.0,
+      "isVisible":false,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "conditions": [
+        {
+          "type": "moonPhase",
+          "extra": "full"
+        }
+      ]
+    }
+  ]
+}

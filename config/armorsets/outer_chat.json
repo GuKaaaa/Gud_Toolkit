@@ -1,0 +1,30 @@
+{
+  "armorSetName": "outer_chat",
+  "performanceMode": true,
+  "additionalSetPieces": [{
+    "itemKey": "gud_toolkit:outer_chat"
+  }],
+  "hideGeneratedTooltip": true,
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "irons_spellbooks:planar_sight",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 600
+    },
+    {
+      "type": "effect",
+      "name": "goety:cursed",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 600
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:darkness",
+      "value": 0.0,
+      "interactionType": "immunity"
+    }
+  ]
+}

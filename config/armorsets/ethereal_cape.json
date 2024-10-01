@@ -1,0 +1,16 @@
+{
+  "armorSetName": "ethereal_cape",
+  "performanceMode": true,
+  "additionalSetPieces": [{
+    "itemKey": "gud_toolkit:ethereal_cape"
+  }],
+  "hideGeneratedTooltip": true,
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:dodge",
+      "modifierUUID": "0365b5cc-c782-46b0-8158-b281b8eb8df2",
+      "value": 0.4
+    }
+  ]
+}

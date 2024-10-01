@@ -1,0 +1,32 @@
+{
+  "armorSetName": "ravenous_murder",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "biomancy:ravenous_claws"
+  },
+  "additionalSetPieces": [{
+    "itemKey": "gud_toolkit:etched_charm"
+  }],
+  "hideGeneratedTooltip": true,
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "generic.attack_speed",
+      "modifierUUID": "feeaf9b7-458f-4827-bec0-2d553a089bdf",
+      "value": 4
+    },
+    {
+      "type": "attribute",
+      "name": "generic.attack_damage",
+      "modifierUUID": "753ac838-d6af-4b1c-96c4-4631e6f03aff",
+      "value": 1
+    },
+    {
+      "type": "effect",
+      "name": "biomancy:despoil",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 200
+    }
+  ]
+}

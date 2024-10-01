@@ -1,0 +1,23 @@
+{
+  "armorSetName": "etched_charm",
+  "performanceMode": true,
+  "additionalSetPieces": [{
+    "itemKey": "gud_toolkit:etched_charm"
+  }],
+  "hideGeneratedTooltip": true,
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "biomancy:corrosive",
+      "value": 2.0,
+      "interactionType": "attack",
+      "interactionDuration": 40
+    },
+    {
+      "type": "effect",
+      "name": "biomancy:corrosive",
+      "value": 0.0,
+      "interactionType": "immunity"
+    }
+  ]
+}

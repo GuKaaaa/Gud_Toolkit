@@ -1,0 +1,28 @@
+{
+  "armorSetName": "vanity_crown",
+  "performanceMode": true,
+  "additionalSetPieces": [{
+    "itemKey": "gud_toolkit:vanity_crown"
+  }],
+  "hideGeneratedTooltip": true,
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "modifierUUID": "4c85463f-71b1-4035-bc11-55908cb20696",
+      "value": 300
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:mana_regen",
+      "modifierUUID": "84d0d6c2-b63c-4fca-94d5-cebc10e35f5a",
+      "value": 0.5
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "modifierUUID": "fc36b6f9-1508-453a-8253-432056663418",
+      "value": 0.3
+    }
+  ]
+}

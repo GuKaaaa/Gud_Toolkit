@@ -1,0 +1,35 @@
+{
+  "armorSetName": "bone_erosion",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+    "itemKey": "gud_toolkit:etched_charm"
+    },
+    {
+      "itemKey": "nameless_trinkets:puffer_fish_liver"
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "goety:acid_venom",
+      "value": 3.0,
+      "interactionType": "attack",
+      "interactionDuration": 100
+    },
+    {
+      "type": "effect",
+      "name": "irons_spellbooks:spider_aspect",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 100
+    },
+    {
+      "type": "effect",
+      "name": "goety:acid_venom",
+      "value": 0.0,
+      "interactionType": "immunity"
+    }
+  ]
+}

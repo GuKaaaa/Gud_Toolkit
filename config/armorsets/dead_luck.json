@@ -1,0 +1,59 @@
+{
+  "armorSetName": "dead_luck",
+  "performanceMode": false,
+  "head": {
+    "itemKey": "gud_toolkit:dead_luck"
+  },
+  "mainHand": {
+    "itemKey": "gud_toolkit:dead_luck"
+  },
+  "additionalSetPieces": [{
+    "itemKey": "gud_toolkit:dead_luck"
+  }],
+  "hideGeneratedTooltip": true,
+  "partialBonusRequiredAmount": 1,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "irons_spellbooks:oakskin",
+      "value": 18.0,
+      "interactionType": "self",
+      "interactionDuration": 200
+    },
+    {
+      "type": "effect",
+      "name": "goety:stunned",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 200
+    },
+    {
+      "type": "attribute",
+      "name": "generic.knockback_resistance",
+      "modifierUUID": "0c5c09e1-f2bb-4ef2-98a9-2f84bbe424fa",
+      "value": 10
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "irons_spellbooks:oakskin",
+      "value": 18.0,
+      "interactionType": "self",
+      "interactionDuration": 200
+    },
+    {
+      "type": "effect",
+      "name": "goety:stunned",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 200
+    },
+    {
+      "type": "attribute",
+      "name": "generic.knockback_resistance",
+      "modifierUUID": "482993d7-16a5-49ec-ad62-d7ce87771830",
+      "value": 10
+    }
+  ]
+}

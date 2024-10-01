@@ -1,0 +1,26 @@
+{
+  "armorSetName": "evasion",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "irons_spellbooks:hither_thither_wand"
+  },
+  "additionalSetPieces": [
+    {
+    "itemKey": "gud_toolkit:ethereal_cape"
+    },
+    {
+      "itemKey": "irons_spellbooks:dragonskin_spell_book"
+    }
+  ],
+  
+  "hideGeneratedTooltip": true,
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "irons_spellbooks:evasion",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 300
+    }
+  ]
+}

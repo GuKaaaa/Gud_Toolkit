@@ -1,0 +1,29 @@
+{
+  "armorSetName": "creative_spell_book",
+  "performanceMode": true,
+  "additionalSetPieces": [{
+    "itemKey": "gud_toolkit:creative_spell_book"
+  }],
+  "hideGeneratedTooltip": true,
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "irons_spellbooks:instant_mana",
+      "value": 9.0,
+      "interactionType": "self",
+      "interactionDuration": 60000
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:magic_forbiden",
+      "value": 0.0,
+      "interactionType": "immunity"
+    },    
+    {
+      "type": "effect",
+      "name": "goety:soul_hunger",
+      "value": 0.0,
+      "interactionType": "immunity"
+    }
+  ]
+}

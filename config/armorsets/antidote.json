@@ -1,0 +1,19 @@
+{
+  "armorSetName": "antidote",
+  "performanceMode": true,
+  "additionalSetPieces": [{
+    "itemKey": "nameless_trinkets:sleeping_pills"
+  }],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "\u514d\u75ab\u707e\u5384\u761f\u75ab"
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "goety:illague",
+      "value": 0.0,
+      "interactionType": "immunity"
+    }
+  ]
+}

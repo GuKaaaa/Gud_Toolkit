@@ -1,0 +1,45 @@
+{
+  "armorSetName": "scarab",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+    "itemKey": "nameless_trinkets:scarab_amulet"
+    },
+    {
+    "itemKey": "cataclysm:sandstorm_in_a_bottle"
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:step_height_addition",
+      "modifierUUID": "e7e48047-a9a5-48a2-aee5-0c361210661e",
+      "value": 1,
+      "conditions": [
+        {
+          "type": "inBiome",
+          "extra": "minecraft:desert"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.knockback_resistance",
+      "modifierUUID": "ad1d039f-44a8-4b8e-b9a9-f6fc23a1258c",
+      "value": 1,
+      "conditions": [
+        {
+          "type": "inBiome",
+          "extra": "minecraft:desert"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:curse_of_desert",
+      "value": 0.0,
+      "interactionType": "immunity"
+    }
+  ]
+}

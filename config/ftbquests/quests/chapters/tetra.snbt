@@ -1,0 +1,4250 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "tetra"
+	group: "0241B51B931E1ED2"
+	icon: {
+		Count: 1b
+		id: "tetra:modular_double"
+		tag: {
+			Damage: 0
+			"double/basic_hammer_left_material": "basic_hammer/oak"
+			"double/basic_hammer_right_material": "basic_hammer/oak"
+			"double/basic_handle_material": "basic_handle/stick"
+			"double/handle": "double/basic_handle"
+			"double/head_left": "double/basic_hammer_left"
+			"double/head_right": "double/basic_hammer_right"
+			id: "d28113b6-1cb8-4adc-b03b-0260820f3327"
+		}
+	}
+	id: "69A9CF68FED068D9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["538FC6DDC204DBFA"]
+			description: [
+				"欢迎来到Tetra系列教程！如果该任务无法正常提交，大概率是因为你已经选择了&d快捷模式&r。选择快捷模式后，本任务并不会隐藏。"
+				""
+				"你可能已经注意到——本整合包中并没有使用连锁挖矿等便于玩家使用的各种Mod。其主要原因类似于TPA跟传送石碑的关系——可以使用Mod增强沉浸感的地方，就不要通过更直白的方式来实现。"
+				""
+				"Tetra允许你对工具进行&e随心所欲&r（一定程度上）的更改，使得你可以获得类如&d匠魂&r一样的工具组装体验。同时其包含的各种&6古代图纸&r，也赋予你制作古代部件，来获得类如3X3挖掘之类的强力效果。"
+				""
+				"可以说，能够良好的使用Tetra，可以极大地增强你的工作效率和战斗效率，并且Tetra本身的流程并不复杂，因此强烈推荐在开局就进行Tetra内容的探索。"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "939840db-7443-43fc-a98c-3ef255263d48"
+				}
+			}
+			id: "674E912F6FFC7F67"
+			rewards: [{
+				count: 5
+				id: "34A91804EA15901C"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "为什么要使用Tetra工具"
+			tasks: [{
+				id: "25AD86CC24B524AA"
+				title: "我已了解"
+				type: "checkmark"
+			}]
+			title: "引言：Tetra的存在意义"
+			x: -5.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["72DE02C58750DFA9"]
+			description: [
+				"手持&6锤子&r右键&6工作台&r，以获取本模组的核心道具——&6加工台&r。"
+				""
+				"原版工具只要经过&6加工台&r改造一次，就能变成Tetra装备，使其附带上Tetra模组的属性。"
+				""
+				"{@pagebreak}"
+				"{image:kubejs:textures/task/tetra_1.png width:180 height:100 align:1}"
+				""
+				"以上图为例，Tetra的加工台面板分为："
+				""
+				"&a绿色区域：&r工具的各项属性值，这些属性的详细介绍可以按住shift查看。"
+				""
+				"&4红色区域：&r显示工具的各个部件，点击选中某一部件后会弹出蓝色区域，以进一步操作。"
+				""
+				"&b蓝色区域：&r对红色区域选中的部件进行附魔、打磨、改进、替换等操作。"
+				""
+				"&5紫色区域：&r切换蓝色区域显示内容。"
+			]
+			hide_dependency_lines: false
+			id: "312A09022249980F"
+			rewards: [{
+				id: "524D750A2FB330D2"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "了解加工台，理解加工台."
+			tasks: [{
+				advancement: "tetra:upgrades/workbench"
+				criterion: ""
+				id: "115950E130CCDA28"
+				type: "advancement"
+			}]
+			title: "了解加工台"
+			x: -1.25d
+			y: 19.5d
+		}
+		{
+			dependencies: ["72DE02C58750DFA9"]
+			description: [
+				"在&e第一次制作锤子&r时会获得系统&e赠送的全息球&r。"
+				""
+				"&6全息球&r是一个全面性、不是很便于理解的&e说明书&r。"
+				""
+				"手持全息球&e右键&r可以投射专用界面查看&e工具种类、部件以及材料的属性&r。"
+				""
+				"&3如果你之前在别的存档中获取过全息球，可能会因为进度检测的BUG无法获得系统自动给予的全息球。&r&c请前往下方的任务中获取新的全息球。&r"
+				"{@pagebreak}"
+				"全息球也拥有着两个&e升级槽位&r，在后续可以对其进行&e加装末影之眼&r的改造升级用于在&d地下寻找远古锻造遗迹&r。"
+				""
+				"也可以&e用于寻找远古残骸&r，副手携带时，当你附近存在这些东西且指针方向指向他们时，HUD会显示橙色波纹。"
+			]
+			hide_dependency_lines: false
+			id: "4632D20D50741511"
+			rewards: [{
+				count: 5
+				id: "037566F6FB6F211C"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "全息球的大用途"
+			tasks: [{
+				consume_items: false
+				id: "48AC0E74C64294E0"
+				item: {
+					Count: 1b
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "core/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "frame/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner_material": "scanner/default"
+						id: "9503de92-046c-4d61-8afe-8c0d71c6afae"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: 26.0d
+		}
+		{
+			dependencies: ["312A09022249980F"]
+			description: [
+				"工具的分类大致可以分为&e腰带，双头工具，单头工具&r。"
+				""
+				"有时对工具改造可以获得方便游戏生活的作用不仅仅体现在采掘资源上。"
+				""
+				"将对一些工具可以改装的方向进行简要描述，来为玩家的改装提供思路。"
+			]
+			hide_dependency_lines: false
+			icon: "witherstormmod:command_block_pickaxe"
+			id: "6DCBC9E0C68FCAB4"
+			rewards: [{
+				id: "6BDFC618DC2F0E48"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "定制属于你自己的工具"
+			tasks: [{
+				id: "59AA9027D31D388F"
+				title: "我知道了"
+				type: "checkmark"
+			}]
+			title: "改造工具"
+			x: 1.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["6DCBC9E0C68FCAB4"]
+			description: [
+				"双头工具以其两个头部区著名，双头的特点是可以实现很多功能。"
+				""
+				"锤子作为基础改造工具，对锤子进行升级贯穿Tetra的始终。"
+				""
+				"对一把镐类工具来说，大规模的采掘将是一个重要选择，将在&c遗迹&r中获得的&6地底提取器&r安装在右端头部区上可以获得&e3x3的采掘范围&r。（任何双头工具都可以安装这个部件以获得该项能力）"
+				""
+				"斧镐，将头部区的其中之一换成&e斧头或扁斧&r，你将得到一把&e多功能采掘工具&r。"
+				""
+				"打开遗迹中的板条箱或锻造容器需要具有羊角锤功能的工具，其能提供&e撬开物体&r的功能。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "5b2ed0ce-8106-41d6-b4f1-afea3fbcd46b"
+				}
+			}
+			id: "17089D979EC38CDC"
+			subtitle: "开采资源的一种选择"
+			tasks: [{
+				id: "2141DDBF689CFC72"
+				title: "我知道了"
+				type: "checkmark"
+			}]
+			title: "双头工具"
+			x: 2.25d
+			y: 22.0d
+		}
+		{
+			dependencies: ["6DCBC9E0C68FCAB4"]
+			description: [
+				"将单头工具的头部改成&6拐杖&r，可以获得其辅助人们行走的效果——手持加快行走速度。"
+				""
+				"将手柄改成&6轻手柄&r可以获得投掷属性，配合&a忠诚附魔&r可以充当三叉戟，"
+				""
+				"如果此时将头部改造成&6凿地器&r可以实现程破坏方块的功能。"
+				""
+				"将手柄改成&6长手柄&r可以获得长臂的效果，获得更远的触及距离。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "40963D22AEB8D200"
+			subtitle: "便捷生活，高于开采资源"
+			tasks: [{
+				id: "5FAEF4B3E0904DD4"
+				title: "我知道了"
+				type: "checkmark"
+			}]
+			title: "单头工具"
+			x: 3.25d
+			y: 22.0d
+		}
+		{
+			dependencies: ["312A09022249980F"]
+			description: [
+				"对传统武器进行改装可以让他们获得新的攻击特性或工具特性。"
+				""
+				"或许某些新的攻击特性能让人重拾对一些武器的热爱和开拓新思路。"
+				""
+				"本部分将对一些武器&e可以改装的方向&r进行简要描述，来为玩家的改装提供思路。"
+			]
+			hide_dependency_lines: false
+			icon: "witherstormmod:command_block_sword"
+			id: "7E7580FC10C7CB80"
+			rewards: [{
+				id: "0C159F9217B99977"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "定制属于你自己的武器"
+			tasks: [{
+				id: "6420FB47095E5FBE"
+				title: "我知道了"
+				type: "checkmark"
+			}]
+			title: "改造武器"
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7E7580FC10C7CB80"]
+			description: [
+				"为弓加上&6快卸销&r，让弓变为&e全自动&r模式。"
+				""
+				"对&6瞄具&r进行改造，按住shift放大视野，配合&e高伤害的改造&r，实现&a狙击&r。"
+				""
+				"用不同材料的改造&6扩展箭台&r使弓获得&a散射&r能力，而选用&6螺丝&r作为材料则可以调节发射&e箭矢的数量与散射度&r。"
+				""
+				"&6平面稳定器&r可以&e消除大部分弹道轨迹&r的影响，让你的箭矢&e更加精准&r。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "205DAFF285CC8BD6"
+			subtitle: "战斗的一种选择"
+			tasks: [{
+				id: "6AEEE4B353A7500C"
+				title: "我知道了"
+				type: "checkmark"
+			}]
+			title: "弓"
+			x: 5.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7E7580FC10C7CB80"]
+			description: [
+				"对盾牌的&6盾心&r进行改造可以获得&e盾击眩晕&r的功能。"
+				""
+				"&6气动力镶边&r改造可以让盾牌具有&a投掷属性&r。按住shift同时右键格挡并释放，扔出盾牌痛击敌人。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2FD26BBB879361AB"
+			subtitle: "战斗的一种选择"
+			tasks: [{
+				id: "47355B4FB029895B"
+				title: "我知道了"
+				type: "checkmark"
+			}]
+			title: "盾牌"
+			x: 3.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7E7580FC10C7CB80"]
+			description: [
+				"武器但也可以是工具，对&e剑刃头部&r进行&6军刀剑刃&r或&6短剑刃&r的改造，可以提高&e切削等级&r。"
+				""
+				"对护手的改造在找到&6原理图:坚固守卫&r的卷轴后可以解锁&e剑类的格挡&r，重现旧版本的格挡方式。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "54717A16315DF06A"
+			subtitle: "战斗的一种选择"
+			tasks: [{
+				id: "15B6190B3665B463"
+				title: "我知道了"
+				type: "checkmark"
+			}]
+			title: "刀剑"
+			x: 2.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7E7580FC10C7CB80"]
+			description: ["&7对弩的改装趋于平淡，作者并未着重改变弩的特性&r。"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "04049DFDF6E42D72"
+			subtitle: "战斗的一种选择"
+			tasks: [{
+				id: "6CAFE370EEF1BD3A"
+				title: "我知道了"
+				type: "checkmark"
+			}]
+			title: "弩"
+			x: 4.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["6DCBC9E0C68FCAB4"]
+			description: [
+				"腰带可以加以改造来存储物品，或改造成运动工具。"
+				""
+				"&c随身存储器&r：使用多种储存改装使腰带可以&e存储药水、箭矢和各种物品！"
+				""
+				"&c漂浮&r：使用平面稳定器改造，在激活后的信标范围内，在空中按跳跃键将允许你无限时间的漂浮。"
+				""
+				"&c冲刺&r：安装助推器来获得穿着了火箭靴的能力和突进冲刺的能力。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tetra:modular_toolbelt"
+				tag: {
+					id: "1000ee52-eb9c-413d-841a-efbf39550eb5"
+					"toolbelt/belt": "toolbelt/belt"
+					"toolbelt/belt_material": "belt/rope"
+					"toolbelt/slot1": "toolbelt/strap_slot1"
+					"toolbelt/strap_slot1_material": "strap1/leather"
+				}
+			}
+			id: "3B9FE77A184BAFBC"
+			rewards: [{
+				count: 2
+				id: "4B8401F626DE850F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "方便生活的一种选择"
+			tasks: [{
+				consume_items: false
+				id: "300F9A94892FAEFD"
+				item: {
+					Count: 1b
+					id: "tetra:modular_toolbelt"
+					tag: {
+						id: "27441eea-8dd4-4b95-a6d5-5a7c35cbd58d"
+						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/belt_material": "belt/rope"
+						"toolbelt/slot1": "toolbelt/strap_slot1"
+						"toolbelt/strap_slot1_material": "strap1/leather"
+					}
+				}
+				type: "item"
+			}]
+			title: "腰带"
+			x: 4.25d
+			y: 22.0d
+		}
+		{
+			dependencies: ["312A09022249980F"]
+			description: [
+				"Tetra化的工具只能将其放在&6加工台&r上修理。"
+				""
+				"修理的本质是&e对各个部件的修复&r，因此修复会用到&e多种材料&r，请在&d修理界面左下角的修复轮次&r中查看。"
+			]
+			id: "5BA7E809A7B3037B"
+			rewards: [{
+				id: "3922CD1D0436EEED"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "再使用"
+			tasks: [{
+				id: "6870823584208C2D"
+				title: "我知道了"
+				type: "checkmark"
+			}]
+			title: "如何修理工具"
+			x: -1.25d
+			y: 22.75d
+		}
+		{
+			dependencies: ["312A09022249980F"]
+			description: [
+				"将原版工具放入加工台中，根据工具种类显现出&e可改造的部件&r种类，点击不同部件，可以&e定制该项部件&r的材料。"
+				""
+				"你可以将从初期就使用的工具，对其关键部件不断做出部件种类、材料的改造，使其属性和功能发生改变。"
+				""
+				"想要用高级材料制作工具的部件，需要&c更高等级的锤子&r。"
+				""
+				"无脑使用高级材料并不能让你的工具变得更加强大，&e合理的搭配更为重要&r。"
+			]
+			id: "47A7AEEFD24F1D7A"
+			rewards: [{
+				id: "4E5A51FF9BB20304"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "定制部件"
+			tasks: [{
+				id: "72B2A6B7FD5FFB12"
+				title: "我知道了"
+				type: "checkmark"
+			}]
+			title: "如何改造工具"
+			x: -1.25d
+			y: 21.75d
+		}
+		{
+			dependencies: ["312A09022249980F"]
+			description: [
+				"工具的强化可以分为 "
+				"1 . 使用过程中积累&6打磨值&r强化"
+				"2 . 额外&6改装&r强化              "
+				""
+				"在使用过程中，会增加工具的整体打磨值，当打磨值进度条满时屏幕右上角将弹出提示，此时可以在加工台选择一个部件对其属性选择&6打磨升级&r。"
+				""
+				"每个部件可以被视为独立的个体，对不同部件可以分别进行&e附魔&r或者对该项部件进行&e再改造&r。"
+			]
+			id: "6F6EA56EB887392B"
+			rewards: [{
+				id: "07DD8167FBB671A0"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "让其变得更强"
+			tasks: [{
+				id: "1370A7D6D3F44CCC"
+				title: "我知道了"
+				type: "checkmark"
+			}]
+			title: "如何强化工具"
+			x: -1.25d
+			y: 20.75d
+		}
+		{
+			dependencies: ["6F6EA56EB887392B"]
+			description: [
+				"              &d以\"双头工具\"区块为例&r"
+				""
+				"&e双头工具&r在头部区的&e部件不同&r时，挖掘等级取&e最高等级的上一级&r。"
+				""
+				"&d举例：&r"
+				"当头部区&e仅有一个钻石镐头部件&r，该工具等同于&e原版铁镐的挖掘等级（钻石镐的上一级）&r。"
+				""
+				"当头部区两个部件&e均为钻石镐头部件&r，该工具才会等同于&e原版钻石镐的挖掘等级&r。"
+			]
+			id: "56C75C9FAD3CEC66"
+			rewards: [{
+				id: "54C886646E87D6C8"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "多效但未必专精"
+			tasks: [{
+				id: "0B6873F9FA299058"
+				title: "我知道了"
+				type: "checkmark"
+			}]
+			title: "双头工具的等级"
+			x: -2.25d
+			y: 21.75d
+		}
+		{
+			dependencies: ["4632D20D50741511"]
+			description: [
+				"&d锻造遗迹&r是Tetra唯一添加的自然生成结构。其中会包含tetra的&6锻造锤&r以及各种特殊物品。"
+				""
+				"锻造遗迹分为两种，一种是&6普通的锻造遗迹&r，另一种则是&c包含地核提取器的锻造遗迹&r。"
+				""
+				"你可能需要带走遗迹内的一些装置和方块，但请留意，只有附魔&b精准采集&r的&6锤子&r才能完整带走他们。"
+				""
+				"{@pagebreak}"
+				"这些遗迹在&e所有群系&r都能生成，大多数生成在&e深板岩层&r。经过测试大部分遗迹会在&e繁茂洞穴&r附近生成，而繁茂洞穴多数生成在&e云杉林、丛林&r地下，所以推荐在这两种地形寻找遗迹。"
+			]
+			hide_dependency_lines: false
+			icon: "tetra:forged_workbench"
+			id: "35E219B64C68FB53"
+			rewards: [
+				{
+					count: 2
+					id: "13423AA2EA03D680"
+					item: "tetra:forged_bolt"
+					type: "item"
+				}
+				{
+					id: "330924A495EDD1CD"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			subtitle: "更高超的改造技巧"
+			tasks: [{
+				advancement: "tetra:spelunking/ancient_ruins"
+				criterion: ""
+				id: "6966D5E9CC42536C"
+				title: "踏入锻造遗迹"
+				type: "advancement"
+			}]
+			title: "寻找远古锻造遗迹"
+			x: -1.25d
+			y: 26.0d
+		}
+		{
+			dependencies: ["6F6EA56EB887392B"]
+			description: [
+				"工具具有很多项&e参数&r，这一点毋庸置疑。"
+				""
+				"抛开一些能够直观理解的参数属性，例如&a挖掘速度&r、&a挖掘等级&r这些原版就设计到的名词。"
+				""
+				"下面将着重介绍&eTetra模组&r附加给工具的使其变得&e特殊的参数属性&r和一些&e独特的性质&r。"
+				""
+				"{@pagebreak}"
+				"原版工具在&6加工台&r上被&e改造&r一次后就会被附加&e打磨值&r这个属性，"
+				""
+				"对工具进行对应功能的&e使用&r可以&e增加工具整体的打磨值&r，"
+				""
+				"当打磨值&e进度条满&r时，工具可以在加工台上对其中部件选择一条&e升级属性&r，"
+				""
+				"升级属性本身&e具有上限&r，在选择属性升级时，有时会占据&a完整度&r。"
+				""
+				"各个部件在被使用的时候会逐渐被&a固定&r，获得“&e稳固&r”这一属性。"
+				""
+				"{@pagebreak}"
+				"抛开升级属性本身&e具有等级上限&r这一点，在选择&a打磨属性&r升级时，会占据&a完整度&r。"
+				""
+				"&a完整度&r可以看做&e一个工具&r可以被附加的&e部件上限&r。"
+				""
+				"部件的&e材料和种类&r会对工具&e整体的完整度&r造成影响。"
+				""
+				"可以&e对修饰部件区进行改造&r来拓展工具的完整度，也可以通过&e改变部件的材料&r改变工具的完整度。"
+				""
+				"同时，&e各个部件&r在被使用时候会逐渐被&e固定&r下来，获得“&a稳固&r”属性。"
+				""
+				"每一级&a稳固&r可以为工具&e提供额外的完整度&r。"
+			]
+			id: "48BD60FBFEC2896A"
+			rewards: [{
+				id: "714D7A94A0CA67CB"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "解除对名词的疑惑"
+			tasks: [{
+				id: "5B07B4A7545C89A9"
+				title: "我已了解"
+				type: "checkmark"
+			}]
+			title: "工具的参数"
+			x: -2.25d
+			y: 22.75d
+		}
+		{
+			dependencies: ["6F6EA56EB887392B"]
+			description: [
+				"Tetra化的工具不能在铁砧上附魔和修复，但是&e仍然可以在附魔台上附魔&r。"
+				""
+				"将工具放入附魔台中，在最理想的状态下，工具的各个部件都可以被附魔上&a附魔属性&r。"
+				""
+				"&a祛魔&r的方式也很简单，将被附魔过的部件材料用其他材料更替，即可祛魔。"
+				""
+				""
+				"{@pagebreak}"
+				"同样，工具可以被附魔书附魔。"
+				""
+				"工具被附魔书附魔会消耗工具的&a魔法容量&r数值。"
+				""
+				"魔法容量被消耗的越多、数值越低甚至为负数时容易出现诅咒。"
+				""
+				"诅咒可以使用青金石和经验来驱散"
+			]
+			id: "0326579D60162FF6"
+			rewards: [{
+				id: "58260BA7D19BD428"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "工具的魔法"
+			tasks: [{
+				id: "16A60EFC0B93E493"
+				title: "我知道了"
+				type: "checkmark"
+			}]
+			title: "工具的附魔"
+			x: -2.25d
+			y: 20.75d
+		}
+		{
+			dependencies: ["4632D20D50741511"]
+			description: [
+				"在开采矿物过程中，有时会遇到一些&e在材质上与其他岩石并无二致&r的&e岩石方块&r，"
+				""
+				"开采可以获得&6晶洞玉石&r，而非原本的岩石方块。"
+				""
+				"将&e晶洞玉石&r放入&6加工台&r中，用&e锤子&r将他们砸开，有几率获得&6无瑕的宝石&r。"
+				""
+				"他们可以在工具的&e镶嵌&r时提供&e比基础宝石更好的效果&r。"
+			]
+			hide_dependency_lines: false
+			icon: "minecraft:diamond"
+			id: "409F00833C4425EB"
+			rewards: [{
+				count: 10
+				id: "594C9F04E316D33A"
+				item: "tetra:geode"
+				type: "item"
+			}]
+			subtitle: "无暇的宝石"
+			tasks: [{
+				consume_items: false
+				id: "0AF57ACDD8AB15C9"
+				item: "tetra:geode"
+				type: "item"
+			}]
+			title: "新的宝石"
+			x: -4.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["312A09022249980F"]
+			description: [
+				"&6加工台&r加工的零件和属性受到&6卷轴&r影响。"
+				""
+				"将卷轴&e放置在加工台周围3×3的区域，便可以使其作用于加工台。"
+				""
+				"卷轴的获得方式："
+				""
+				"&6黄色专论卷轴&r：村庄&e村民交易&r"
+				""
+				"&6蓝色刀剑工艺卷轴&r：主世界各种&e地牢遗迹&r中获得"
+				""
+				"&6战争利器卷轴&r：与&e猪灵交易&r获得"
+				""
+				"&6镀金卷轴&r：&e下界遗迹&r中搜索获得"
+				""
+				"&6部分卷轴&r可以合成获得"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "tetra:scroll_rolled"
+				tag: {
+					BlockEntityTag: {
+						data: [{
+							effects: ["tetra:gem_expertise"]
+							glyphs: [
+								14
+								13
+								14
+								15
+							]
+							intricate: 0b
+							key: "gem_expertise"
+							material: 0
+							ribbon: "2bffee"
+						}]
+					}
+				}
+			}
+			id: "615C6A1DA6AEA1A4"
+			rewards: [{
+				id: "6D704884866EEBA8"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "将他们展开"
+			tasks: [{
+				id: "6489B4B2522076B5"
+				title: "我已了解"
+				type: "checkmark"
+			}]
+			title: "卷轴计划"
+			x: -1.25d
+			y: 18.0d
+		}
+		{
+			dependencies: ["674E912F6FFC7F67"]
+			dependency_requirement: "one_completed"
+			description: [
+				"锤子是Tetra中用于改造其他工具的&e最基本工具&r，它的作用有："
+				""
+				"1 . 需要利用锤子来获得&6加工台&r。"
+				""
+				"2 . 为加工台中进行&e部件改造&r提供工具支持。"
+				""
+				"锤子具有&e等级&r属性，高级材料的替换需要高级锤子。"
+				""
+				"当发现无法使用某项材料制作部件时，不妨看看你的锤子等级是否满足要求。"
+				""
+				"{@pagebreak}"
+				"使用&e原版工作台&r可以制作&61级－木锤&r和&62级－圆石锤&r。"
+				""
+				"更高级的锤子需要在&6加工台&r中完成制作。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/stone"
+					"double/basic_hammer_right_material": "basic_hammer/stone"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "b0e824bf-fc0f-48eb-b7d6-6c6a4d664a1c"
+				}
+			}
+			id: "72DE02C58750DFA9"
+			rewards: [{
+				id: "32397277F9C616CE"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "辅助改造的工具"
+			tasks: [
+				{
+					id: "01464A7037DB229A"
+					item: {
+						Count: 1b
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "98727dcb-b07f-430c-a178-c10ed89bed6a"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5707B4238BE55E0D"
+					item: {
+						Count: 1b
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/stone"
+							"double/basic_hammer_right_material": "basic_hammer/stone"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "b0e824bf-fc0f-48eb-b7d6-6c6a4d664a1c"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "改造的起点：锤"
+			x: -3.25d
+			y: 19.5d
+		}
+		{
+			dependencies: ["0D7F6FF46D41943E"]
+			dependency_requirement: "all_started"
+			description: [
+				"在看完&6加工台&r的介绍后，我们来进行一次&e简单的尝试&r吧！"
+				""
+				"在&d确认你拥有两把锤子之后&r，将其中一把放入加工台，通过点击&e头部[左]&r—选择&e锤头&r—将&e铁锭&r放上去替换材料。"
+				""
+				"&d在Tetra中，双头工具的等级取决于最低的那一头的等级&r，所以你还需要再重复一次，替换掉&e头部[右]&r的材料。"
+				""
+				"&e就像下图这样&r，如此操作你就获得一把属于三级的铁锤了！"
+				""
+				"{image:kubejs:textures/task/tetra_2.png width:160 height:101 align:1}"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/iron"
+					"double/basic_hammer_right_material": "basic_hammer/iron"
+					"double/basic_handle_material": "basic_handle/spruce"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "eb24bf4f-8a57-47f4-a509-875638f87caa"
+				}
+			}
+			id: "31A758E7762FE591"
+			rewards: [{
+				id: "6E30F60A47236F78"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "获取三级锤子：铁锤"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+				id: "031F42071CB722A3"
+				type: "advancement"
+			}]
+			title: "一次轻松的练习"
+			x: 3.25d
+			y: 19.5d
+		}
+		{
+			dependencies: ["31A758E7762FE591"]
+			description: [
+				"以同样的方式来取得&e四级锤子&r吧！"
+				""
+				"当然，在将一把锤子放在&6加工台&r上的时候，确保你的背包/工具架里仍然有一把&e三级锤&r。"
+				""
+				"为了进一步提高你的锻造等级，接下来，你需要寻找远古锻造遗迹，获取&6锻造锤&r。"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/blackstone"
+					"double/basic_hammer_right_material": "basic_hammer/blackstone"
+					"double/basic_handle_material": "basic_handle/spruce"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "1f057e79-e56a-4d7a-8804-c458d2d0860c"
+				}
+			}
+			id: "79B3E0CB8757E049"
+			rewards: [{
+				count: 5
+				id: "00C84C90189ADDCD"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "获得四级锤子：黑石锤"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+				id: "1CE84AC48BACA215"
+				type: "advancement"
+			}]
+			title: "再进一步"
+			x: 5.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["26164F1BD1D98A74"]
+			description: [
+				"一个5级锤子竟然需要6级的制作要求？不过现在我们有办法解决了！"
+				""
+				"在拥有&e至少装配了一个燃烧室&r的&6锻造锤&r上，制作你的五级锤吧！"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/obsidian"
+					"double/basic_hammer_right_material": "basic_hammer/obsidian"
+					"double/basic_handle_material": "basic_handle/iron"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "a3ce4dea-6cfe-445a-9c79-95eecf0c528f"
+				}
+			}
+			id: "0324A0217FD048DF"
+			rewards: [{
+				id: "358FB8AD3453FDD5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "获得五级锤子：黑曜石锤"
+			tasks: [{
+				id: "006D8ACFE88298D8"
+				title: "我已了解"
+				type: "checkmark"
+			}]
+			title: "复杂的等级要求"
+			x: 5.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["0324A0217FD048DF"]
+			description: [
+				"当你拥有&e两个燃烧室插件&r的时候，就能将&6锻造锤&r升级为7级，来制作这把&e六级锤&r了。"
+				""
+				"（将&6下界合金锤&r&e打磨&r多次后会获得一次锻造等级提升1级的机会。为其&e绑定-镶嵌&r一枚&6下界之星&r也可以令其锻造等级提升1级。这时你便拥有了&e8级锤&r。）"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/netherite"
+					"double/basic_hammer_right_material": "basic_hammer/netherite"
+					"double/basic_handle_material": "basic_handle/forged_beam"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "0f816875-a6fb-4adf-9368-a0543d945e0c"
+				}
+			}
+			id: "218618254BAD5391"
+			rewards: [{
+				id: "0AC600BAF6710E35"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "获得六级锤子：下界合金锤"
+			tasks: [{
+				id: "1B0EED37B836B0B6"
+				title: "我已了解"
+				type: "checkmark"
+			}]
+			title: "最终的锻造锤"
+			x: 8.0d
+			y: 26.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["72DE02C58750DFA9"]
+			description: ["如果你不小心丢失了全息球，在探索Tetra的遗迹之前，只能付出一点点代价获取一个新的了。"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tetra:holo"
+				tag: {
+					"holo/core": "holo/core"
+					"holo/core_material": "frame/dim"
+					"holo/frame": "holo/frame"
+					"holo/frame_material": "core/ancient"
+					"holo/repo": "holo/repo"
+					"holo/repo_material": "repo/default"
+					"holo/scanner": "holo/scanner"
+					"holo/scanner_material": "scanner/default"
+				}
+			}
+			id: "6B5199EEFAC47D47"
+			rewards: [{
+				id: "49ED0D9173702CEE"
+				item: {
+					Count: 1b
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "core/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner_material": "scanner/default"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "这回要小心保存哦"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				disable_toast: true
+				id: "2B8813A2F4F6043C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			title: "失物招领"
+			x: -3.25d
+			y: 27.5d
+		}
+		{
+			dependencies: ["312A09022249980F"]
+			description: [
+				"必须声明的是，在使用加工台的时候，你需要预备很多工具。"
+				""
+				"如更换木制材料需要一把等级足够的&e斧头&r。"
+				""
+				"为你的锤子改造升级的时候，你&e不可能用正在升级的锤子自己敲自己&r，所以你的背包里通常需要有&d一把额外的锤子&r。&d(是的，这意味着你至少需要两把锤子！)"
+				"&r"
+				""
+				"当然你也可以制作一个&6工具架&r，将它放在&6加工台&r的旁边，并挂上不同的工具，&e使用加工台时会直接使用工具架上的工具&r。"
+			]
+			hide_dependency_lines: false
+			id: "0D7F6FF46D41943E"
+			rewards: [{
+				id: "7286A91F53B6A97D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "加工台的好伙伴"
+			tasks: [{
+				id: "3F42B208CF2CFCB7"
+				item: "tetra:rack"
+				type: "item"
+			}]
+			title: "触手可及"
+			x: 1.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["35E219B64C68FB53"]
+			dependency_requirement: "one_completed"
+			description: [
+				"在遗迹中你会发现&6锻造板条箱&r和&6锻造容器&r。"
+				""
+				"你可以利用&6羊角锤&r或&6锤子&r右击指定的位置来打开&6锻造板条箱&r。"
+				""
+				"锻造容器需要用&6锤子&r敲掉&e所有的棕色锁&r以后用&6羊角锤&r撬开，打开后左侧有&e翻页键&r，共计三页箱子。"
+				""
+				"如果你想带走锻造容器，必须用带有&e精准采集的六级锤&r采集，用六级以下锤破坏没有任何掉落物，用六级以上锤破坏掉落一定数量的&6金属碎片&r。"
+			]
+			hide_dependency_lines: true
+			id: "4162CE0B91DD7618"
+			rewards: [{
+				id: "7496D64C70145CB1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "tetra:spelunking/containers"
+				criterion: ""
+				icon: "tetra:forged_crate"
+				id: "6E5E17943DC0339E"
+				type: "advancement"
+			}]
+			title: "遗迹中的百宝箱"
+			x: 0.25d
+			y: 24.5d
+		}
+		{
+			dependencies: ["4162CE0B91DD7618"]
+			description: [
+				"无法合成，仅能在&d锻造遗迹&r里通过打开&6锻造容器/板条箱&r获得。"
+				""
+				"作用是为&6锻造锤&r进行供能，驱动一台锻造锤需要安装&e两块热力单元&r。"
+			]
+			hide_dependency_lines: false
+			id: "32832120541D04F5"
+			rewards: [{
+				count: 3
+				id: "2F2C1B1ED6E0AD2C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "热力单元"
+			tasks: [{
+				advancement: "tetra:spelunking/find_cell"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "33C4431F0FE86F94"
+				type: "advancement"
+			}]
+			title: "锻造锤的动力源"
+			x: 1.75d
+			y: 24.5d
+		}
+		{
+			dependencies: ["4162CE0B91DD7618"]
+			description: [
+				"无法合成，可在&d锻造遗迹&r中通过开启锻&6造容器/板条箱&r获得。"
+				""
+				"可以安装至&6锻造锤&r上，提升&e1级锻造等级&r，副作用是锻造锤工作时会随机点燃3格内的方块。"
+			]
+			hide_dependency_lines: true
+			id: "4ABB90F2D8E0635E"
+			rewards: [{
+				count: 3
+				id: "332322D44DFE293E"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "不安全的燃烧室"
+			tasks: [{
+				id: "0782A8779A7BE325"
+				item: "tetra:combustion_chamber"
+				type: "item"
+			}]
+			title: "更多的锻造等级"
+			x: 2.75d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"35E219B64C68FB53"
+				"79B3E0CB8757E049"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"一个&e完整的锻造锤&r由&6锻造锤&r和&6锻造加工台&r构成，他们都会生成在&d锻造遗迹&r中，你需要找到并带回他们。"
+				""
+				"注意，只有附魔&b精准采集&r的&6锤子&r才能完整带走他们。"
+				"{image:kubejs:textures/task/tetra_3.png width:192 height:108 align:1}"
+			]
+			hide_dependency_lines: true
+			icon: "tetra:forged_workbench"
+			id: "18C215BF94AC8C3F"
+			rewards: [{
+				id: "309E4D043AF5AADF"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "一个更高级的“锤子”"
+			tasks: [
+				{
+					id: "41E76D90E0EF61B4"
+					item: "tetra:hammer_base"
+					type: "item"
+				}
+				{
+					id: "40C088743A6D0F57"
+					item: "tetra:forged_workbench"
+					type: "item"
+				}
+			]
+			title: "寻找锻造锤"
+			x: 1.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["18C215BF94AC8C3F"]
+			description: [
+				"&d初始的锻造锤相当于5级锤子。"
+				"&r"
+				"锻造锤正常工作需要在侧面安装2个&6热力单元&r（正方形口）及2个&e插件&r（长方形口），并在下方空一格处放置一个&6锻造加工台&r。"
+				""
+				"{image:kubejs:textures/task/tetra_4.png width:192 height:102 align:1}"
+				""
+				"{@pagebreak}"
+				"锻造锤工作完毕后会有几率出现故障卡住，需要持有&e4级或以上的锤子&r，&e右击&r锻造锤头部下沿进行修复。"
+				""
+				"{image:kubejs:textures/task/tetra_5.png width:190 height:107 align:1}"
+			]
+			hide_dependency_lines: false
+			id: "26164F1BD1D98A74"
+			rewards: [{
+				id: "37E1E3B502FF4E5D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "锻造的艺术"
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_fix"
+				criterion: ""
+				id: "077275E4CA721619"
+				type: "advancement"
+			}]
+			title: "构筑锻造锤"
+			x: 3.25d
+			y: 26.0d
+		}
+		{
+			dependencies: ["4162CE0B91DD7618"]
+			description: [
+				"无法合成，可在&d锻造遗迹&r中通过开启锻&6造容器/板条箱&r获得。"
+				""
+				"可以安装至&6锻造锤&r上，每安装一个平面稳定器可以给新制作的部件添加一级“优质”。"
+				""
+				"也可以作为改造装备的部件。"
+			]
+			hide_dependency_lines: true
+			id: "07C45CBBE954D541"
+			rewards: [{
+				count: 3
+				id: "2437C300B9956886"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06A6B7C992106BED"
+				item: "tetra:planar_stabilizer"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 24.5d
+		}
+		{
+			dependencies: ["4162CE0B91DD7618"]
+			description: [
+				"无法合成，可在&d锻造遗迹&r中通过开启锻&6造容器/板条箱&r获得。"
+				""
+				"可以安装至&6锻造锤&r上，每安装一个润滑油发射器可以降低50%的故障率。"
+			]
+			hide_dependency_lines: true
+			id: "5325963A2FC77573"
+			rewards: [{
+				count: 3
+				id: "75D7229C7428DC6C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71AF4FF77A47A091"
+				item: "tetra:lubricant_dispenser"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 24.5d
+		}
+		{
+			dependencies: ["4162CE0B91DD7618"]
+			description: [
+				"无法合成，可在&d锻造遗迹&r中通过开启锻&6造容器/板条箱&r获得。"
+				""
+				"可以安装至&6锻造锤&r与&6传输单元&r上，提升机器的工作效率(装于锻造锤上时会降低能量消耗）。"
+				""
+				"也可以作为部件—盾面（仅限塔盾）使用。"
+			]
+			hide_dependency_lines: true
+			id: "084A541B2D70B595"
+			rewards: [{
+				count: 3
+				id: "543EA665ED4436B0"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E70CAFB548B3353"
+				item: "tetra:vent_plate"
+				type: "item"
+			}]
+			x: 4.75d
+			y: 24.5d
+		}
+		{
+			dependencies: ["35E219B64C68FB53"]
+			description: [
+				"装载于锻造锤的&e热力单元&r是会耗尽的，如果你不想让它变成一次性用品，就需要一个&e充能装置&r。"
+				""
+				"{image:kubejs:textures/task/tetra_6.png width:150 height:102 align:1}"
+				""
+				"如图所示，我们需要&6提取管道&r、&6地核提取器&r、&6传输单元&r组合成一个&e充能装置&r。"
+				""
+				"该装置的&6提取管道&r必须在&6渗流基岩&r的上方，不用担心，&d拥有地核提取装置配件的锻造遗迹&r中就能找到&6渗流基岩&r。（&6地核提取器&r与&6渗流基岩&r之间&e可以有多个提取管道相连延长&r）"
+				""
+				"需要注意的是&6传输单元&r必须放在&6地核提取器&r的&e突出面&r，以及在&6传输单元&r&e上方&r放置&6热力单元&r后，需要用&e锤子&r将&6传输单元&r的开关&e敲至中央以启动充能&r。"
+			]
+			hide_dependency_lines: true
+			id: "76BEE3F046554382"
+			rewards: [{
+				id: "2C21E23B468B23FD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "热力单元充能装置"
+			tasks: [{
+				advancement: "tetra:spelunking/refill_cell"
+				criterion: ""
+				id: "208B3E22C248F072"
+				type: "advancement"
+			}]
+			title: "地核提取、热力传输！"
+			x: 1.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["4632D20D50741511"]
+			description: [
+				"寻找各种生态群系的时候，你往往要根据各种生成规则来进行排查。但在Mod众多的情况下，自然生成变得极其复杂且难以捉摸，此时，你可能就需要使用&2自然指南针&r来辅助对于群系或结构的寻找。"
+				""
+				"通过右键指南针，你可以使用其搜索框来定向的搜索对应的群系。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+			id: "37897967041E6CBB"
+			rewards: [{
+				id: "1CA2BD719C14AF46"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "指向你所需要的"
+			tasks: [{
+				id: "7EF56E6086EA3533"
+				title: "我已了解"
+				type: "checkmark"
+			}]
+			title: "指南针"
+			x: -2.25d
+			y: 27.5d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			description: [
+				"Tetra的附属——&6《锻造之艺》&r中增加了&9《Alex生物》&r的联动。"
+				""
+				"因为涉及到的Alex&9虚空蠕虫&r没有翻译，这里简单提一下："
+				""
+				"虚空蠕虫生活在&e末地&r下方的虚空中，向虚空中投入&3神秘蠕虫&r可以将其引出。"
+				""
+				"&8对虚空蠕虫最有效的攻击方式，便是直接攻击它的头部。&r"
+			]
+			hide_dependency_lines: true
+			icon: "alexsmobs:void_worm_mandible"
+			id: "64B168E393C5948F"
+			rewards: [{
+				id: "68AADEF0BB899229"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52E29EA2B1D14BE4"
+				item: "alexsmobs:mysterious_worm"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 18.0d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			id: "067FBDC89CB52166"
+			rewards: [{
+				id: "78FA9D95ACB17CAD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "59DC30D2690715E4"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:gem_expertise"]
+									glyphs: [
+										14
+										13
+										14
+										15
+									]
+									intricate: 0b
+									key: "gem_expertise"
+									material: 0
+									ribbon: "2bffee"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "26D9F38B934B2264"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:metal_expertise"]
+									glyphs: [
+										4
+										6
+										6
+										5
+									]
+									intricate: 0b
+									key: "metal_expertise"
+									material: 0
+									ribbon: "ffffff"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0A3CF30AF0EF5098"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:wood_expertise"]
+									glyphs: [
+										2
+										1
+										2
+										1
+									]
+									intricate: 0b
+									key: "wood_expertise"
+									material: 0
+									ribbon: "bf934b"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5675D1661E06A3A0"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:stone_expertise"]
+									glyphs: [2]
+									intricate: 0b
+									key: "stone_expertise"
+									material: 0
+									ribbon: "9a9a9a"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1223CE0EDD884056"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:fibre_expertise"]
+									glyphs: [
+										5
+										10
+										11
+										4
+									]
+									intricate: 0b
+									key: "fibre_expertise"
+									material: 0
+									ribbon: "a88054"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5BC7C41CAD9C2188"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:skin_expertise"]
+									glyphs: [
+										0
+										1
+										1
+										1
+									]
+									intricate: 0b
+									key: "skin_expertise"
+									material: 0
+									ribbon: "bf6930"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5B28EB7C316879D8"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:bone_expertise"]
+									glyphs: [
+										12
+										14
+										12
+										14
+									]
+									intricate: 0b
+									key: "bone_expertise"
+									material: 0
+									ribbon: "fff193"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3B2620B2714FC51B"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:fabric_expertise"]
+									glyphs: [
+										5
+										3
+										6
+										4
+									]
+									intricate: 0b
+									key: "fabric_expertise"
+									material: 0
+									ribbon: "ff3333"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "27598F12E54043AE"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:scale_expertise"]
+									glyphs: [
+										6
+										7
+										6
+										8
+									]
+									intricate: 0b
+									key: "scale_expertise"
+									material: 0
+									ribbon: "75a03e"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "卷轴图鉴（一）"
+			x: -3.25d
+			y: 16.0d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			id: "09F6CD9B6C21C62A"
+			rewards: [{
+				id: "4EEA2FDA132792CF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0BD2125C8FF72D22"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:hammer_efficiency"]
+									glyphs: [
+										6
+										7
+										6
+										11
+									]
+									intricate: 0b
+									key: "hammer_efficiency"
+									material: 0
+									ribbon: "ff6666"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "13508A85F80EB628"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:axe_efficiency"]
+									glyphs: [
+										0
+										1
+										3
+										3
+									]
+									intricate: 0b
+									key: "axe_efficiency"
+									material: 0
+									ribbon: "66ff66"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0254615577339280"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:cut_efficiency"]
+									glyphs: [
+										4
+										0
+										3
+										5
+									]
+									intricate: 0b
+									key: "cut_efficiency"
+									material: 0
+									ribbon: "6666ff"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "卷轴图鉴（二）"
+			x: -2.25d
+			y: 16.0d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			id: "171DCA044736B211"
+			rewards: [{
+				id: "712843D5B56BB13B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1AB5456EEBF925C4"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										3
+										2
+										2
+										1
+									]
+									intricate: 0b
+									key: "sword/sturdy_guard"
+									material: 1
+									ribbon: "bcb8b5"
+									schematics: ["tetra:sword/sturdy_guard"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "08DD874650830868"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										4
+										1
+										0
+										5
+									]
+									intricate: 0b
+									key: "sword/throwing_knife"
+									material: 1
+									ribbon: "b8ced9"
+									schematics: ["tetra:sword/throwing_knife"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6D5B23248F25316B"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										8
+										9
+										10
+										5
+									]
+									intricate: 0b
+									key: "sword/howling"
+									material: 1
+									ribbon: "faf396"
+									schematics: ["tetra:sword/howling"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "卷轴图鉴（三）"
+			x: -1.25d
+			y: 16.0d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			id: "2E65173380E2A751"
+			rewards: [{
+				id: "57C4F8089BB6B867"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "160F3DF650A9EA8E"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										5
+										10
+										8
+										9
+									]
+									intricate: 0b
+									key: "warforge/axe"
+									material: 2
+									ribbon: "b35973"
+									schematics: ["tetra:warforge/axe"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "76F7B14892902448"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										9
+										8
+										11
+										10
+									]
+									intricate: 0b
+									key: "warforge/hammer"
+									material: 2
+									ribbon: "3d4299"
+									schematics: ["tetra:warforge/hammer"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "11BD588FB76271D6"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										6
+										11
+										8
+										7
+									]
+									intricate: 0b
+									key: "warforge/pickaxe"
+									material: 2
+									ribbon: "508cb3"
+									schematics: ["tetra:warforge/pickaxe"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "77C79F2EA7FB3093"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										11
+										5
+										8
+										9
+									]
+									intricate: 0b
+									key: "warforge/butt"
+									material: 2
+									ribbon: "b33636"
+									schematics: ["tetra:warforge/butt"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "20466B8C087AF591"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										8
+										10
+										5
+										11
+									]
+									intricate: 0b
+									key: "warforge/claw"
+									material: 2
+									ribbon: "1d262f"
+									schematics: ["tetra:warforge/claw"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7ED5F0F02D53AFE2"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										10
+										7
+										9
+										5
+									]
+									intricate: 0b
+									key: "warforge/hoe"
+									material: 2
+									ribbon: "93b350"
+									schematics: ["tetra:warforge/hoe"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "26B116DB09B70990"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										5
+										9
+										6
+										10
+									]
+									intricate: 0b
+									key: "warforge/sickle"
+									material: 2
+									ribbon: "d99e4c"
+									schematics: ["tetra:warforge/sickle"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5BB218480783ED74"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										6
+										7
+										11
+										7
+									]
+									intricate: 0b
+									key: "warforge/adze"
+									material: 2
+									ribbon: "8559b3"
+									schematics: ["tetra:warforge/adze"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "卷轴图鉴（四）"
+			x: -3.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			id: "5C4107D56B8FC9BD"
+			rewards: [{
+				id: "240A89795AE2AEDB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "35E2AC05C9CE0741"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										15
+										14
+										15
+										15
+									]
+									intricate: 1b
+									key: "hone/gild_1"
+									material: 2
+									ribbon: "c9ae69"
+									schematics: ["tetra:hone/gild_1"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6300D0CB68CF260B"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										15
+										14
+										13
+										15
+									]
+									intricate: 1b
+									key: "hone/gild_2"
+									material: 2
+									ribbon: "d4b057"
+									schematics: [
+										"tetra:hone/gild_1"
+										"tetra:hone/gild_2"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0FF4B172441D012D"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										13
+										14
+										14
+										15
+									]
+									intricate: 1b
+									key: "hone/gild_3"
+									material: 2
+									ribbon: "deb243"
+									schematics: [
+										"tetra:hone/gild_1"
+										"tetra:hone/gild_2"
+										"tetra:hone/gild_3"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "54EB7434C54CCDBD"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										12
+										13
+										14
+										13
+									]
+									intricate: 1b
+									key: "hone/gild_4"
+									material: 2
+									ribbon: "e8b32c"
+									schematics: [
+										"tetra:hone/gild_1"
+										"tetra:hone/gild_2"
+										"tetra:hone/gild_3"
+										"tetra:hone/gild_4"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "32D522EFA1267730"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										12
+										12
+										12
+										12
+									]
+									intricate: 1b
+									key: "hone/gild_5"
+									material: 2
+									ribbon: "f2b313"
+									schematics: [
+										"tetra:hone/gild_1"
+										"tetra:hone/gild_2"
+										"tetra:hone/gild_3"
+										"tetra:hone/gild_4"
+										"tetra:hone/gild_5"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "卷轴图鉴（五）"
+			x: -2.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			id: "5311D7868466906C"
+			rewards: [{
+				id: "23B6772AC3606753"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5080F70972F8E172"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										6
+										15
+										4
+										7
+									]
+									intricate: 0b
+									key: "tetra/flamberge_blade"
+									material: 2
+									ribbon: "ff9612"
+									schematics: ["tetra:sword/flamberge_blade"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "46748828DDDA3158"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										8
+										1
+										4
+										5
+									]
+									intricate: 0b
+									key: "single/head/halberd_head/halberd_head"
+									material: 1
+									ribbon: "444aff"
+									schematics: ["tetra:single/head/halberd_head/halberd_head"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "61FD528F7D82E6E9"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										0
+										1
+										9
+										4
+									]
+									intricate: 0b
+									key: "sword/key_guard"
+									material: 1
+									ribbon: "fae409"
+									schematics: ["tetra:sword/key_guard"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "59DE05F463089BE9"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										9
+										3
+										6
+										2
+									]
+									intricate: 0b
+									key: "single/head/mace_head/mace_head"
+									material: 1
+									ribbon: "560060"
+									schematics: ["tetra:single/head/mace_head/mace_head"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5BEC833033A08AAE"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										8
+										7
+										9
+										2
+									]
+									intricate: 0b
+									key: "tetra/crucible_blade"
+									material: 2
+									ribbon: "ff1e00"
+									schematics: ["tetra:sword/crucible_blade"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6D934466A88F7020"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										8
+										1
+										9
+										5
+									]
+									intricate: 0b
+									key: "bow/stave/dreadnought_stave"
+									material: 1
+									ribbon: "f3b31f"
+									schematics: [
+										"tetra:bow/stave/dreadnought_stave"
+										"tetra:bow/stave/dreadnought_cross_stave"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "011B5C7B382B04B0"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										5
+										10
+										13
+										2
+									]
+									intricate: 0b
+									key: "sword/katana/katana_blade"
+									material: 2
+									ribbon: "dbff10"
+									schematics: [
+										"tetra:sword/katana/katana_blade"
+										"tetra:sword/tsuba_guard"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7FB343A23E74AD96"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										15
+										13
+										12
+										14
+									]
+									intricate: 0b
+									key: "bow/string/compound_string"
+									material: 1
+									ribbon: "19e588"
+									schematics: [
+										"tetra:bow/string/compound_string"
+										"tetra:crossbow/string/compound_cross_string"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "68BEC7E7BDBCBD66"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										1
+										15
+										12
+										8
+									]
+									intricate: 0b
+									key: "utilize/hammer"
+									material: 2
+									ribbon: "fa97e9"
+									schematics: ["tetra:utilize/hammer"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "706894F9181E4523"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "otherworldly"
+									glyphs: [
+										6
+										7
+										13
+										15
+									]
+									intricate: 0b
+									key: "sword/katana/murasama_blade"
+									material: 2
+									ribbon: "c52323"
+									schematics: ["tetra:sword/katana/murasama_blade"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "卷轴图鉴（六）"
+			x: -1.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			id: "1B3243E248E0467C"
+			rewards: [{
+				id: "1437A5F7DF76A0B9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "574958639D451353"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "true_crucible"
+									glyphs: [
+										8
+										7
+										9
+										2
+									]
+									intricate: 1b
+									key: "sword/crucible/architects_crucible_blade"
+									material: 2
+									ribbon: "ff0042"
+									schematics: [
+										"tetra:sword/crucible_blade"
+										"tetra:sword/crucible/architects_crucible_blade"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4FD1CC2922312154"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										3
+										5
+										6
+										9
+									]
+									intricate: 0b
+									key: "sword/tonal_blade"
+									material: 1
+									ribbon: "daf7a6"
+									schematics: ["tetra:sword/tonal_blade"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7BA3D72D27922CF1"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "otherworldly"
+									glyphs: [
+										7
+										8
+										14
+										13
+									]
+									intricate: 1b
+									key: "sword/thousand_cold_nights"
+									material: 2
+									ribbon: "5c7c80"
+									schematics: [
+										"tetra:sword/katana/murasama_blade"
+										"tetra:sword/thousand_cold_nights"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "73A1585788F4CCB6"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "otherworldly"
+									glyphs: [
+										1
+										15
+										2
+										13
+									]
+									intricate: 0b
+									key: "tetra/rending_scissor_complete"
+									material: 2
+									ribbon: "e32182"
+									schematics: [
+										"tetra:sword/scissor_blade_left"
+										"tetra:sword/scissor_blade_right"
+										"tetra:sword/rending_scissor_complete"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "卷轴图鉴（七）"
+			x: -3.25d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"218618254BAD5391"
+				"41E672DBAB5A3F41"
+			]
+			description: [
+				"有时，如果你不希望需要重复打磨才能将锻造锤升到8级，亦或者足够财大气粗希望跳过Tetra锻造锤进度，你可以尝试为其镶嵌&d下界之星锭&r。"
+				""
+				"下界之星锭是Luna's扩展包由相同作者制作的前置模组&d[CRC]彩虹化合物&r中的终极金属锭，虽然在该模组内单独的作用较低，更偏向于为整合包制作的供以魔改的高级材料，但其可以作为Tetra材料亦或者镶嵌于Tetra原版的工具上，使其&6工具等级+2&r。"
+			]
+			hide: true
+			id: "4E1739B35C2A7BB2"
+			rewards: [{
+				id: "71E79A296F4A1598"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Luna's扩展包：+2等级"
+			tasks: [{
+				id: "41E7FB577325E73D"
+				item: "rainbowcompound:netherstar_ingot"
+				type: "item"
+			}]
+			title: "镶嵌：下界之星合金"
+			x: 9.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["674E912F6FFC7F67"]
+			description: [
+				"你已经成功安装了NFWC的Tetra内容补充包——羖的工具包"
+				""
+				"该补充包添加了不少新的可用材料和可制作部件等。"
+				"新的部件和协同作用多数相当超模，平衡性较为一般，还请见谅。"
+				""
+				"为了更好的了解本补充包的内容，接下来请跟随任务补充一些Tetra的知识吧。"
+				""
+				"下方仅选择一些代表性内容做出任务引导，更多内容还请自行探索。"
+			]
+			icon: "create:black_toolbox"
+			id: "63DF293C87F0F4A7"
+			rewards: [{
+				id: "2E1D2D03EBD87BA4"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "感谢您的下载"
+			tasks: [{
+				id: "0E36AEF293F12E78"
+				title: "我已了解"
+				type: "checkmark"
+			}]
+			title: "羖的工具包"
+			x: -7.75d
+			y: 19.5d
+		}
+		{
+			dependencies: ["674E912F6FFC7F67"]
+			dependency_requirement: "all_started"
+			description: [
+				"如果你能看到这个，说明你同时安装了No Flesh Within Chest Luna's Expansion pack"
+				""
+				"是的，羖的工具包与Luna's存在联动（虽然是单方面的）。"
+				"你可以用一些Luna's中的物品制作一些高级的部件。"
+			]
+			hide_details_until_startable: false
+			icon: "luna_flesh_reforged:archotech_adrenaline"
+			id: "41E672DBAB5A3F41"
+			rewards: [{
+				id: "02CCD11B1A1FC676"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			secret: true
+			shape: "rsquare"
+			subtitle: "看来你还安装了Luna's扩充包"
+			tasks: [{
+				consume_items: false
+				id: "19B4DF6A88F2647F"
+				item: "luna_flesh_reforged:zombie_brain"
+				type: "item"
+			}]
+			title: "Luna's weapon"
+			x: -10.75d
+			y: 19.5d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"Tetra的本质实际上就是工具的模块化，将一个工具细分为各个部件。"
+				""
+				"每个部件都有自己独特的属性，在此基础之上，随心所欲的更改工具的部件，使其达到自己想要的效果，就是Tetra的核心玩法。"
+				""
+				"部件的类型决定了初步其属性类型，可接受的材料，附魔，改进等。"
+				"而可用的部件又取决于该工具本身类型，可用的原理图等。"
+				"其实实际情况与这略有出入，但这样说会更容易理解。"
+			]
+			hide_dependency_lines: false
+			id: "64825A5AEE2ED62C"
+			rewards: [{
+				id: "5C5DFEA524E87544"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Tetra的本质"
+			tasks: [{
+				id: "28B0A66FB9A8E4B8"
+				title: "我已了解"
+				type: "checkmark"
+			}]
+			title: "模块化工具"
+			x: -8.75d
+			y: 20.75d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"加工台作为Tetra最重要的功能方块，其功能可能比你想象的还要多。另外，加工台除不防火外与锻造加工台功能完全相同。"
+				""
+				"&e上部&r：显示该工具的绝大多数属性及其描述，实时显示工具改造后会导致的属性变化。"
+				""
+				"&e中部&r：显示该工具的外观和各个部件的组成，以及完整度使用情况和打磨进度。"
+				""
+				"&e下部（选中某一部件后）&r：该部分为加工台的主要操作区，可通过左侧选项卡进行三大类不同的操作，具体说明如下："
+				"&l详情&r：可查看该部件的材料，描述，修复材料，魔法容量（如果有），稳固进度（如果有）以及在本补充包十分重要的协同增益情况。"
+				""
+				"&l合成&r：最常用的功能，用于选择对于该部件的更替，附魔，改进（打磨升级属于此类）。"
+				""
+				"&l调整&r：较为特殊的功能，少数部件如螺栓等可进行调整，调整操作可在一定范围内改变工具属性。"
+			]
+			hide_dependency_lines: false
+			id: "02DB118F23DB2284"
+			rewards: [{
+				id: "78B3D766E8AD0C72"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "学会使用它"
+			tasks: [{
+				id: "61731D056EC6A273"
+				title: "我已了解"
+				type: "checkmark"
+			}]
+			title: "加工台"
+			x: -7.75d
+			y: 20.75d
+		}
+		{
+			dependencies: ["02DB118F23DB2284"]
+			description: [
+				"关于&b协同增益&r：协同增益是Tetra自有的一个&o不起眼&r的设定，效果是该工具满足特定的部件组合时可触发属性增益Tetra本体如同类镐头+1挖掘等级、下界之星镶嵌+1工具等级，双斧头增加伤害等都属于此类。在加工台详情页面可查看该部件可用的协同增益所需的其他部件和增益效果（如果有）。"
+				""
+				"关于合成项目：合成项目基本可分为部件和改进两大类，其前置条件和操作方法基本相同，"
+				"合成项目又可按解锁条件分为常驻类（如裹柄）、&9打磨类&r（如打磨：耐久I）、&6材料类&r（如史莱姆锤）和&6原理图类&r（如无畏弓），这些解锁条件可以任意组合，因此如果你发现加工台上没有显示出预期的合成项目，可以检查一下是否有条件遗漏。"
+				""
+				"选中一个合成项目后可查看该项目的类型，描述等。&b将鼠标移至材料栏左侧ui上可查看该合成项目的可用材料&r，若该项目为常驻类，可在身上带有全息球的情况下点击该ui直接查看该项目可用的全部材料及其属性。"
+			]
+			hide_dependency_lines: false
+			id: "55C92E0A80107BE5"
+			rewards: [{
+				id: "49E0CAAD4D0F51DD"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "对于加工台的进阶说明"
+			tasks: [{
+				id: "744E9ACE2B1D17AD"
+				title: "我已了解"
+				type: "checkmark"
+			}]
+			title: "更进一步"
+			x: -6.75d
+			y: 20.75d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"为单头工具头部添加了新的常驻部件类型——&l钻头&r"
+				""
+				"该部件可使用机械动力矿石附属的三种钻头制作，同时提供镐和铲工具等级。"
+				"但是只是普通的装上钻头的话，其挖掘效率并不高。"
+				""
+				"若在工具插槽部位镶嵌红石块则可为钻头供能，成为&e动力手钻&r；"
+				"如果镶嵌的是强化红石块（需要阅读终结卷轴），还能使其成为&l&c超频动力手钻&r。"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_single"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 600
+					id: "9ce53f05-12a9-4ec9-aa52-15a4a11819b7"
+					"single/binding": "single/socket"
+					"single/drill_material": "drill/netherite_drill"
+					"single/handle": "single/long_handle"
+					"single/handle:settled": 2
+					"single/handle:single_handle/wrap/alex_tarantula_hawk_wing": 0
+					"single/head": "single/drill"
+					"single/long_handle_material": "long_handle/cata_koboleton_bone"
+					"single/socket_material": "single_socket/red_stone"
+				}
+			}
+			id: "7107285D64B32466"
+			rewards: [{
+				id: "65A9C86B051B4EEF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "相当不错的前中期挖掘工具"
+			tasks: [{
+				id: "3B2BA09B4DEED0F0"
+				item: "createoreexcavation:drill"
+				type: "item"
+			}]
+			title: "动力手钻"
+			x: -8.75d
+			y: 22.5d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"有些用于解锁部件合成的卷轴在EMI中是查不到的，因为它们的内容由其nbt决定，从id来看，它们都属于同一物品。"
+				""
+				"但好消息是，这也使得查询这些原理图的配方相当简单，查询任一可合成的卷轴配方即可显示所有可合成卷轴的配方，锻造之艺提供的卷轴合成多数都需要用到&e书与笔&r，查询它的用途试试吧。&8（如果不会使用EMI可以翻阅任务书第一章下方部分）&r"
+				""
+				"羖的工具包新增了三种原理图卷轴，多种&d附魔&r卷轴和极为独特的&l非凡技艺&r与&o&l悠久之卷&r，试着集齐它们吧！"
+			]
+			hide_dependency_lines: false
+			id: "11E868BEABE9175A"
+			rewards: [{
+				id: "2DD726A9B1E7FAC9"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "多多检查配方吧"
+			tasks: [{
+				id: "04D49520CE3C7284"
+				item: "minecraft:writable_book"
+				title: "关于合成原理图"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 19.5d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"在身上携带器官革命齿轮即可解锁剑类工具的独特护手——&l齿轮护手&r"
+				""
+				"该部件可提供一定防御属性，同时对其允许进行调节。"
+				"伤害还是攻速？横扫千军还是御敌千里？"
+				"&8好吧可能有些太夸张了&r"
+				""
+				"总之您说了算，乐意效劳。"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 565
+					id: "62854199-a3e3-4f8f-9a89-8cf0a5c87ac5"
+					"sword/basic_hilt_material": "basic_hilt/end_rod"
+					"sword/blade": "sword/smoker"
+					"sword/counterweight_material": "counterweight/electrum"
+					"sword/gear_guard_material": "gear_guard"
+					"sword/guard": "sword/gear_guard"
+					"sword/guard_tweak:sword_strength": 0
+					"sword/hilt": "sword/basic_hilt"
+					"sword/hilt/settle_progress": 306
+					"sword/hilt:hilt/wrap/leather": 0
+					"sword/pommel": "sword/counterweight"
+					"sword/smoker_material": "smoker"
+				}
+			}
+			id: "6239681498B11B90"
+			rewards: [{
+				id: "220819717BCE7E27"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "螺栓，但是更上一层"
+			tasks: [{
+				id: "16169C210B0249EB"
+				item: {
+					Count: 1b
+					id: "kubejs:revolution_gear"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "齿轮护手"
+			x: -8.75d
+			y: 24.5d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"当你使用三种特定的材料做出一把特定的单头工具，就能得到一个有趣的玩意。"
+				"这个东西在能略微加快你前期的游戏进度。"
+				""
+				"提示：这个工具会用到避雷针做手柄。"
+				"试着按照上方的任务教授的方法找出触发该&b协同增益&r需要的部件吧。"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_single"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 169
+					id: "bd987a9e-d497-4e20-8dbb-bdf84206fa94"
+					"single/basic_handle_material": "basic_handle/lightning_rod"
+					"single/binding": "single/socket"
+					"single/handle": "single/basic_handle"
+					"single/handle/settle_progress": 299
+					"single/head": "single/quarter_staff_head"
+					"single/head/settle_progress": 276
+					"single/quarter_staff_head_material": "quarter_staff_head/netherrack"
+					"single/socket_material": "single_socket/clock"
+				}
+			}
+			id: "22F19D337AFB2AF1"
+			rewards: [{
+				id: "1DE776B281F05DCD"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "大家好啊我是电棍"
+			tasks: [{
+				id: "3CEF58D8DEAA018F"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
+			title: "丐版雷霆之锤"
+			x: -6.75d
+			y: 22.5d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"或许你已经注意到持有&9虚空蠕虫大颚&r时，锻造之艺为你提供了独特的剑刃部件和镐头部件。"
+				"羖的工具包同样增加了一种使用虚空蠕虫大颚制作的单头工具头部（需三叉戟原理图）。"
+				""
+				"不仅如此，在你持有虚空蠕虫胃袋时，将解锁柄部件的独特升级——&o&9空虚孔洞&r"
+				"该升级能大幅提高工具完整度，并提供一系列增益效果，但同时也会导致你的工具变得&4无比饥饿&r。"
+				""
+				"此外，当你用&9虚空蠕虫大颚&r和&9虚空蠕虫之眼&r做出一整件&e独特工具&r时，将触发其协同增益，这能极大提高工具属性，并解除空虚孔洞带来的负面属性。"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_single"
+				tag: {
+					Damage: 0
+					EnchantmentMapping: { }
+					HideFlags: 1
+					honing_progress: 71
+					id: "1ce3b15f-da8d-410d-bce6-8a905d754ad4"
+					"single/binding": "single/socket"
+					"single/handle": "single/long_handle"
+					"single/handle/settle_progress": 134
+					"single/head": "single/void_worm_fang"
+					"single/head/settle_progress": 126
+					"single/head:void_hole": 0
+					"single/long_handle_material": "long_handle/alex_void_worm_mandible"
+					"single/socket_material": "single_socket/socket_void_worm_eye"
+					"single/void_worm_fang_material": "void_worm_fang/void_worm_fang"
+				}
+			}
+			id: "1726B8781DB38FF0"
+			rewards: [{
+				count: 3
+				id: "3DA69649B28A613E"
+				item: "alexsmobs:mysterious_worm"
+				type: "item"
+			}]
+			subtitle: "你以为这种东西也能杀死……我？！"
+			tasks: [{
+				id: "4539B479C2226804"
+				item: {
+					Count: 1b
+					id: "kubejs:void_worm_stomach"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "划破虚空蠕虫之腹"
+			x: -6.75d
+			y: 27.5d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"当你从溺尸或别的什么地方拿到第一把三叉戟后，就可以和一些其他的海洋材料合成出关于三叉戟的原理图了。"
+				""
+				"手动合成的三叉戟会根据材料属性提供一定的护甲穿透。"
+			]
+			id: "581757BC3F5CCF14"
+			rewards: [{
+				id: "36DE03B9446EE3AF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "制作你自己的三叉戟"
+			tasks: [{
+				id: "786BAB9BA6749597"
+				item: {
+					Count: 1b
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 23.5d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"现在你可以把龙的&e宝玉&r镶嵌到武器上，为其提供大量的&e法术强度&r加成。"
+				""
+				"并且三种宝玉都有自己独特的协同增益武器，去试着找出如何制造他们吧。"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/basic_handle_material": "basic_handle/iceandfire_ice_dragonsteel"
+					"double/binding": "double/socket"
+					"double/claw_right_material": "claw/iceandfire_ice_dragonsteel"
+					"double/handle": "double/basic_handle"
+					"double/handle/settle_progress": 508
+					"double/handle:basic_handle/wrap/chill_fabric": 0
+					"double/head_left": "double/reaping_scythe_left"
+					"double/head_left/settle_progress": 746
+					"double/head_right": "double/claw_right"
+					"double/head_right/settle_progress": 664
+					"double/reaping_scythe_left_material": "reaping_scythe/iceandfire_ice_dragonsteel"
+					"double/socket_material": "double_socket/ice_dragon_bead"
+					honing_progress: 653
+					id: "6f693263-5866-4fe0-8399-956ea901ccd6"
+				}
+			}
+			id: "24723A61B724CCBC"
+			rewards: [{
+				id: "14D4ABC4364038A7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "如果你是龙，也好"
+			tasks: [{
+				id: "4C54842BD426A929"
+				item: {
+					Count: 1b
+					id: "kubejs:ice_dragon_bead"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "龙玉武器"
+			x: -7.75d
+			y: 25.0d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: ["工具腰带是Tetra提供的唯一的一个饰品，尽管工具腰带在NFWC中似乎并没有什么存在感，羖的工具包仍为其增加了后续的升级路线以及一个新的独特部件。"]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_toolbelt"
+				tag: {
+					HideFlags: 1
+					honing_progress: 650
+					id: "0f66032d-668a-4285-9549-0f228c7c4486"
+					"toolbelt/belt": "toolbelt/belt_4"
+					"toolbelt/belt_4_material": "belt/canister"
+					"toolbelt/slot1": "toolbelt/strap_slot1"
+					"toolbelt/strap_slot1_material": "strap1/leather"
+				}
+			}
+			id: "17015A4EB8BD95D4"
+			rewards: [{
+				id: "6413343003DD073F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "它真的有必要精良至此么？"
+			tasks: [{
+				id: "3211EAD54DD8AEEE"
+				item: "art_of_forging:encoded_canister"
+				type: "item"
+			}]
+			title: "工具腰带"
+			x: -6.75d
+			y: 24.5d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"使用&7导电&r金属材料制作踏环，使用&c红石块&r镶嵌时，可得到拉弓更快，伤害更高的&e电动弩&r。对于&7导电性&r极强的高级金属时，则需要使用&c强化红石块&r镶嵌。"
+				""
+				"导电性排名如下："
+				"铁锭"
+				"铜锭"
+				"银锭"
+				"金锭"
+				"—以下属于&e强导电性&r金属—"
+				"电金锭"
+				"龙霆钢"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_crossbow"
+				tag: {
+					Charged: 0b
+					ChargedProjectiles: [ ]
+					Damage: 0
+					HideFlags: 1
+					"crossbow/attachment_0": "crossbow/stirrup"
+					"crossbow/attachment_1": "crossbow/socket"
+					"crossbow/basic_stave_material": "basic_stave/stick"
+					"crossbow/basic_stock_material": "basic_stock/stick"
+					"crossbow/basic_string_material": "basic_string/string"
+					"crossbow/socket_material": "crossbow_socket/red_stone"
+					"crossbow/stave": "crossbow/basic_stave"
+					"crossbow/stave/settle_progress": 310
+					"crossbow/stirrup_material": "stirrup/gold"
+					"crossbow/stock": "crossbow/basic_stock"
+					"crossbow/stock/settle_progress": 302
+					"crossbow/string": "crossbow/basic_string"
+					honing_progress: 188
+					id: "41ccb143-ae94-482f-967a-0239c2a3f168"
+				}
+			}
+			id: "77AA335B36A37F54"
+			rewards: [{
+				id: "0EA86931787A3178"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "更快，更强"
+			tasks: [{
+				id: "46825F3761AC8615"
+				item: "createaddition:electrum_ingot"
+				type: "item"
+			}]
+			title: "电动弩"
+			x: -8.75d
+			y: 23.5d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"使用末影之眼激活全息球的扫描功能后，可使用电子管进行现金扫描仪升级。"
+				""
+				"该升级在激活了全息球的敲击扫描功能的同时还大大提升了其扫描能力。"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:holo"
+				tag: {
+					HideFlags: 1
+					"holo/core": "holo/core"
+					"holo/core_material": "frame/dim"
+					"holo/frame": "holo/frame"
+					"holo/frame_material": "core/ancient"
+					"holo/repo": "holo/repo"
+					"holo/repo_material": "repo/default"
+					"holo/scanner": "holo/scanner"
+					"holo/scanner:scanner/sweeper": 0
+					"holo/scanner:scanner/tech_scanner": 0
+					"holo/scanner_material": "scanner/default"
+					honing_progress: 1050
+					id: "d9ada99a-7582-4ef6-b1e7-cfd97996fde6"
+				}
+			}
+			id: "5F42D454210CDFE0"
+			rewards: [{
+				id: "037D59918F7A3508"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "必要的成本"
+			tasks: [{
+				count: 4L
+				id: "5C46EF9AA8AFE99C"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "先进扫描器"
+			x: -7.75d
+			y: 22.0d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"击败NFWS的最强BOSS&4使徒&r后，你终于可以做出诡厄巫法的全能工具——贤者之杖"
+				""
+				"但为何止步于此呢？试试把它放在加工台上吧。"
+			]
+			id: "5B358B195D31CFA1"
+			rewards: [{
+				id: "70EF4B472A1C7478"
+				item: "goety:ominous_orb"
+				type: "item"
+			}]
+			subtitle: "打造至高之器"
+			tasks: [{
+				id: "56363C6938CD2CA5"
+				item: {
+					Count: 1b
+					id: "goety:philosophers_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&d&l贤者之杖&r"
+			x: -7.75d
+			y: 28.0d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"如果你制作过Tetra的三神器，你会注意到这些神器强大的破坏力与幽匿之力紧密相关。"
+				"&o&1震荡之音&r便是在此基础上诞生的。"
+				""
+				"试试把监守者核心镶嵌到你的工具上吧。"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/adze_left_material": "adze/forged_steel_ingot"
+					"double/basic_handle_material": "basic_handle/end_rod"
+					"double/basic_pickaxe_right_material": "basic_pickaxe/forged_steel_ingot"
+					"double/binding": "double/socket"
+					"double/handle": "double/basic_handle"
+					"double/handle:basic_handle/wrap/alex_farseer_arm": 0
+					"double/handle:settled": 1
+					"double/head_left": "double/adze_left"
+					"double/head_right": "double/basic_pickaxe_right"
+					"double/socket_material": "double_socket/warden_core"
+					honing_progress: 815
+					id: "fa23cb53-9aae-4d5f-ab35-3498fcb6249b"
+				}
+			}
+			id: "4DE7C2E93C1F244D"
+			rewards: [{
+				id: "5A2690A547973522"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "空谷传响，哀转久绝。"
+			tasks: [{
+				id: "0967DD7F29D9B664"
+				item: {
+					Count: 1b
+					id: "kubejs:warden_core"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "此为破坏之回响"
+			x: -8.75d
+			y: 25.5d
+		}
+		{
+			dependencies: ["41E672DBAB5A3F41"]
+			hide: true
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "tetra:modular_bow"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"bow/basic_string_material": "basic_string/luna_flesheating_infection_fiber"
+					"bow/deadline_material": "deadline"
+					"bow/stave": "bow/deadline"
+					"bow/stave/settle_progress": 490
+					"bow/string": "bow/basic_string"
+				}
+			}
+			id: "3E7CC61708ADDB38"
+			rewards: [{
+				id: "4E5EF50A96A3F0F9"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			subtitle: "死亡如影随形"
+			tasks: [{
+				id: "44BC423FB2F24E59"
+				item: "luna_flesh_reforged:dark_archotech_shard"
+				type: "item"
+			}]
+			title: "&4&l死线&r"
+			x: -11.5d
+			y: 20.75d
+		}
+		{
+			dependencies: ["41E672DBAB5A3F41"]
+			hide: true
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/basic_handle_material": "basic_handle/create_refined_radiance"
+					"double/handle": "double/basic_handle"
+					"double/handle/settle_progress": 398
+					"double/head_left": "double/radia_reaper_left"
+					"double/head_right": "double/radia_reaper_right"
+					"double/radia_reaper_left_material": "radia_reaper_left"
+					"double/radia_reaper_right_material": "radia_reaper_right"
+				}
+			}
+			id: "55BE72C81CEF1E40"
+			rewards: [{
+				count: 5
+				id: "44F1F57E03D5D8F5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "光之力"
+			tasks: [{
+				id: "729A54A6FF33EDEB"
+				item: {
+					Count: 1b
+					id: "luna_flesh_reforged:radiance_reaper"
+					tag: { }
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "&e启明&r"
+			x: -11.5d
+			y: 18.25d
+		}
+		{
+			dependencies: ["41E672DBAB5A3F41"]
+			hide: true
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 322
+					id: "4330b849-a931-4490-b6a5-83925dd4d67a"
+					"sword/basic_hilt_material": "basic_hilt/create_shadow_steel"
+					"sword/blade": "sword/lights_bane"
+					"sword/blade/settle_progress": 622
+					"sword/grip_loop_material": "grip_loop/create_shadow_steel"
+					"sword/guard": "sword/lights_bane_guard"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/hilt/settle_progress": 431
+					"sword/lights_bane_guard_material": "lights_bane_guard"
+					"sword/lights_bane_material": "lights_bane"
+					"sword/pommel": "sword/grip_loop"
+				}
+			}
+			id: "05A87EC35C38917A"
+			rewards: [{
+				count: 5
+				id: "7DC13231224AF154"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "暗之力"
+			tasks: [{
+				id: "253016F0F6B73551"
+				item: {
+					Count: 1b
+					id: "luna_flesh_reforged:lights_bane"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5逐光&r"
+			x: -12.25d
+			y: 19.0d
+		}
+		{
+			dependencies: ["41E672DBAB5A3F41"]
+			hide: true
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "tetra:modular_single"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 240
+					id: "e06344d3-e4fb-4832-b8c2-1f88dba9331b"
+					"single/handle": "single/long_handle"
+					"single/head": "single/lager_bone"
+					"single/lager_bone_material": "lager_bone"
+					"single/long_handle_material": "long_handle/obsidianite_rod"
+				}
+			}
+			id: "37AC45F778BA1BCA"
+			rewards: [{
+				id: "1B7F60052036903C"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			subtitle: "混沌之力"
+			tasks: [{
+				id: "5C2F03715F6341E0"
+				item: {
+					Count: 1b
+					id: "luna_flesh_reforged:lager_bone_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "魂骨画戟"
+			x: -12.25d
+			y: 20.0d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"诡厄巫法的六种布料先可作为织物材料使用，提供微量魔法类属性增益。"
+				""
+				"&8黑暗布料&r：增强魔法伤害"
+				"&e魔法布料&r：增加最大法力值"
+				"&5神秘布料&r：加快法力恢复"
+				"&3精神布料&r：魔法冷却加快"
+				"&2烈风布料&r：吟唱缩减"
+				"&1寒冷布料&r：增加魔法伤害抗性"
+				"&d飘渺布料&r：增加闪避"
+			]
+			id: "7449E97F6577ECEF"
+			rewards: [{
+				id: "6DBE9815066A5730"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "这都是上好的料子"
+			tasks: [{
+				id: "37AF6A4CF61DFCE6"
+				item: "goety:dark_fabric"
+				type: "item"
+			}]
+			title: "黑魔法的布料"
+			x: -7.75d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"63DF293C87F0F4A7"
+				"50E74D6934C5B5D8"
+			]
+			description: [
+				"&6恭喜你走到这一步&r"
+				""
+				"许多游戏在通关之后都会帮你解锁金手指，作为你努力至此的最终奖励。"
+				"在此，&l&d风暴之星&r所扮演的正是这样一个角色。"
+				""
+				"将风暴之星镶嵌到你的工具或者武器上，能为你提供海量的属性加成，也就是所谓的&e全属性提升【特大】&r。"
+				""
+				"事实上，在NFWS0.3版本之前，与凋零风暴的战斗是极其漫长且乏味的，你需要花费&o七个小时&r左右才能得到一颗风暴之星，而现在在操作熟练的情况下，这一整个流程可以被缩短到三分钟。"
+				""
+				"尽管其价值可以说已经大打折扣，但我仍不会吝啬于数值。毕业材料就应当给与毕业材料应有的地位。唯有如此，才能表达对一个主线通关玩家的至高敬意。"
+				""
+				"你已经驱除了回忆中的大灾厄，世界完成了对自己的&b修正&r，&6因此随后：&r"
+				"&e长冬逝去，日月轮转，一位天选之人降临了……&r"
+			]
+			hide: true
+			id: "1AE7378F1EEBC197"
+			rewards: [
+				{
+					id: "39A6ADBEE918A27F"
+					item: {
+						Count: 1b
+						id: "tetra:modular_single"
+						tag: {
+							Damage: 0
+							HideFlags: 1
+							Unbreakable: 1.0d
+							"single/ainz_handle_material": "ainz_handle"
+							"single/ainz_material": "ainz"
+							"single/handle": "single/ainz_handle"
+							"single/head": "single/ainz"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6358F0C8AC3E95F8"
+					item: "gud_toolkit:father_of_all_glitches_disc"
+					type: "item"
+				}
+			]
+			subtitle: "向昨日致以最崇高的敬意"
+			tasks: [{
+				id: "2C318BF2887E1FB8"
+				item: "witherstormmod:withered_nether_star"
+				type: "item"
+			}]
+			title: "开辟属于我们的明天"
+			x: -7.75d
+			y: 29.0d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"无论你是在什么情况下看到的这个，按照规矩，我都得给你颁发这个——&e弄臣勋章&r"
+				""
+				"没有别的意思，我也喜欢开创，不如说我是那种游戏里没有控制台就活不下去的人。"
+				""
+				"总之试试看吧，把创世纪镶嵌到你的工具上。"
+			]
+			id: "4489056954108CE7"
+			invisible: true
+			rewards: [{
+				id: "0DE2FFC2AE74EF24"
+				type: "xp_levels"
+				xp_levels: 1000
+			}]
+			subtitle: "说真的，这个在定位上更像死亡证明"
+			tasks: [{
+				id: "1B47F4F03EBC6FA6"
+				item: {
+					Count: 1b
+					id: "kubejs:genesis"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "看来你也喜欢控制台"
+			x: -7.75d
+			y: 30.0d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"持有熔铸钢即可解锁弩的独特部件合成项目。"
+				""
+				"灵感来源于&oShotgun King: The Final Checkmate&r，算不上有多成功的还原。"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_crossbow"
+				tag: {
+					Charged: 0b
+					ChargedProjectiles: [ ]
+					Damage: 0
+					HideFlags: 1
+					"crossbow/attachment_0": "crossbow/stirrup"
+					"crossbow/gun_rib_material": "gun_ribforged_steel_ingot"
+					"crossbow/gun_stock_material": "gun_stockforged_steel_ingot"
+					"crossbow/gun_trigger_material": "gun_triggerforged_steel_ingot"
+					"crossbow/stave": "crossbow/gun_rib"
+					"crossbow/stave/settle_progress": 461
+					"crossbow/stirrup_material": "stirrup/iron"
+					"crossbow/stock": "crossbow/gun_stock"
+					"crossbow/stock/settle_progress": 898
+					"crossbow/string": "crossbow/gun_trigger"
+					honing_progress: 71
+					id: "303e8c99-a4d3-4167-a4ea-7f7a8cd0b648"
+				}
+			}
+			id: "5D6D63D4012EE7B0"
+			rewards: [{
+				id: "7A589A1F200CAF76"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "并非枪械"
+			tasks: [{
+				id: "6CE2141A1D867B57"
+				item: "art_of_forging:forged_steel_ingot"
+				type: "item"
+			}]
+			title: "枪弩"
+			x: -6.75d
+			y: 25.5d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"尽管本工具包的各路高手可以说层出不穷，但要说最&m贵&r强，大概无人能出其右——&l&4无尽憎恶&r"
+				""
+				"凭借高昂的造价，其面板在一众单部件中名列前茅，或许这就是本工具包的最终武器了？"
+				""
+				"&8这把武器似乎跟某&o骑士的心脏&r&8有着不小的关系……&r"
+				""
+				"&c会赢吗？会赢的。&r"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 305
+					id: "f3ef511e-bf24-4275-bb8a-fc04e6db58be"
+					"sword/basic_hilt_material": "basic_hilt/purgatory_forge"
+					"sword/blade": "sword/inf_hate"
+					"sword/forefinger_ring_material": "forefinger_ring/purgatory_forge"
+					"sword/grip_loop_material": "grip_loop/purgatory_forge"
+					"sword/guard": "sword/forefinger_ring"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/inf_hate_material": "inf_hate"
+					"sword/pommel": "sword/grip_loop"
+				}
+			}
+			id: "07ADB43E8622B096"
+			rewards: [{
+				id: "58A403BCD841237C"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			subtitle: "大概是毕业武器？"
+			tasks: [{
+				id: "54136A96B2245C39"
+				item: "gud_toolkit:hateful_soul"
+				type: "item"
+			}]
+			title: "无尽憎恶"
+			x: -8.75d
+			y: 27.5d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"对&4裂天剪&r使用&b生命纤维&r&e绑定&r和&e握环&r吧。"
+				""
+				"&8私心最大的一集&r"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 370
+					id: "232ae2fc-890d-4aff-a20a-5eee1356720f"
+					"sword/basic_hilt_material": "basic_hilt/cata_monstrous_horn"
+					"sword/binding_material": "sword_binding/life_fiber"
+					"sword/blade": "sword/rending_scissor_complete"
+					"sword/grip_loop_material": "grip_loop/life_fiber"
+					"sword/guard": "sword/binding"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/pommel": "sword/grip_loop"
+					"sword/rending_scissor_complete_material": "rending_scissor_complete/rending_scissor_complete"
+				}
+			}
+			id: "0CA0B31EB9736528"
+			rewards: [{
+				id: "71ADCA56F30A20B1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Before my body is dry"
+			tasks: [{
+				id: "6C333DCF1694B02C"
+				item: "art_of_forging:rending_scissor_complete"
+				type: "item"
+			}]
+			title: "断斩之剪"
+			x: -6.75d
+			y: 26.5d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"持有难以捉摸的造物时可解锁一项独特弓体部件和腰带次要部件。"
+				""
+				"前者能大幅提高弓箭性能，后者可以让你&o飞起来&r。"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_bow"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"bow/compound_string_material": "compound_string/life_fiber"
+					"bow/dreadnought_stave_material": "dreadnought_stave/foxxi_planks"
+					"bow/enigma_bow_material": "enigma_bow"
+					"bow/riser": "bow/enigma_bow"
+					"bow/stave": "bow/dreadnought_stave"
+					"bow/stave/settle_progress": 498
+					"bow/stave:stave/wrap/life_fiber": 0
+					"bow/string": "bow/compound_string"
+					"bow/string/settle_progress": 610
+					"bow/string:bowstring/release_latch": 0
+					honing_progress: 235
+					id: "eb5afa29-7123-4d7a-a91c-782713eba577"
+				}
+			}
+			id: "3652983FC397A35D"
+			rewards: [{
+				id: "7C9FB4467D148C8B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "或许过于强大"
+			tasks: [{
+				id: "5A2C8A8C85B3AB76"
+				item: "art_of_forging:enigmatic_construct"
+				type: "item"
+			}]
+			title: "玄奇构件"
+			x: -7.75d
+			y: 26.0d
+		}
+		{
+			dependencies: ["41E672DBAB5A3F41"]
+			hide: true
+			hide_dependency_lines: false
+			id: "1C37BF7EC3E61036"
+			rewards: [{
+				count: 5
+				id: "7B5E47FCBC28977F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "超级魔法核心"
+			tasks: [{
+				id: "285A5527F44648B9"
+				item: "luna_flesh_reforged:irradiant_stardust_fragment"
+				type: "item"
+			}]
+			title: "&d辐照星尘碎片&r"
+			x: -10.5d
+			y: 18.25d
+		}
+		{
+			dependencies: ["41E672DBAB5A3F41"]
+			hide: true
+			hide_dependency_lines: false
+			id: "0542289C9A113263"
+			rewards: [{
+				id: "1735D9176D5523B7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "让采石锤更进一步"
+			tasks: [{
+				id: "27AB9809C1D9626B"
+				item: {
+					Count: 1b
+					id: "luna_flesh_reforged:eldritch_hammer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 20.75d
+		}
+		{
+			dependencies: ["11E868BEABE9175A"]
+			description: [
+				"羖的工具包添加的独特种类卷轴——&d魔咒之书&r。"
+				""
+				"使用此类卷轴进行部件合成时会自动打上对应附魔，你可以用它快速批量生成大量的同种附魔物品，配合脆骨症中的某些物品或有奇效……但相对的，这些卷轴全都造价不菲，并非可以简单制作的物品。"
+				""
+				"此外，所有的魔咒之书都属于&6深奥的记录&r，是不能放在地上使用的。"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:scroll_rolled"
+				tag: {
+					BlockEntityTag: {
+						data: [{
+							details: "enchanter"
+							effects: ["tetra:enchant_unbreaking_1"]
+							glyphs: [
+								9
+								9
+								9
+								9
+							]
+							intricate: 1b
+							key: "enchanter_unbreaking_1"
+							material: 0
+							ribbon: "FF00FF"
+						}]
+					}
+				}
+			}
+			id: "2A89990EC2C84C74"
+			rewards: [{
+				id: "4923CF604EDE933C"
+				item: "tetra:pristine_lapis"
+				type: "item"
+			}]
+			subtitle: "你想批量生产附魔物品吗？"
+			tasks: [{
+				id: "66B3FF3A9714B83F"
+				item: {
+					Count: 1b
+					id: "tetra:scroll_rolled"
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								glyphs: [
+									12
+									12
+									12
+									12
+								]
+								intricate: 1b
+								key: "hone/gild_5"
+								material: 2
+								ribbon: "f2b313"
+								schematics: [
+									"tetra:hone/gild_1"
+									"tetra:hone/gild_2"
+									"tetra:hone/gild_3"
+									"tetra:hone/gild_4"
+									"tetra:hone/gild_5"
+								]
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "魔咒之书"
+			x: -10.25d
+			y: 23.0d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"按照类似于下界合金锭的合成方法，你可以得到一种相当高级的金属：&d奥术合金锭&r"
+				""
+				"奥术合金锭除了可以用作tetra材料，还能用于合成一个独特的法杖——&b宣叙手杖&r"
+			]
+			icon: "gud_toolkit:recitative"
+			id: "455582191F2FE62E"
+			rewards: [{
+				id: "6701FCEA39195B9D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "下界合金锭，但是魔法版本"
+			tasks: [{
+				id: "206C829587B6748D"
+				item: "gud_toolkit:great_arcane_ingot"
+				type: "item"
+			}]
+			title: "奥术合金锭"
+			x: -10.25d
+			y: 24.25d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"AdditionalAttributes模组为游戏添加了一系列与铁魔法相关的属性，其中就包括&9复写&r（Keep Scroll）"
+				""
+				"&9复写&r能够使你在使用卷轴施法时有几率不会将其消耗，而使用卷轴直接施法不会消耗魔法值，也没有CD"
+				""
+				"&b术式刻录板&r则提供了100%的复写，但相对的，它会削弱你的魔法能力"
+			]
+			id: "273B5523714B4A39"
+			rewards: [{
+				id: "67AA980141D62976"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:firecracker"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "基本上就是电子版的复写纸"
+			tasks: [{
+				id: "04637F903CF79860"
+				item: {
+					Count: 1b
+					id: "gud_toolkit:cast_burner"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:counterspell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.25d
+			y: 25.5d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"羖的工具包中有几样物品的配方需要用到&2酸液&r，如果你不知道，&2酸液&r是&d血肉重铸&r提供的一种独特的副产物，一种如果你严格的按照规章制度进行操作，完全杜绝一切感染的可能性，那么将你大概率无法得到的液体。考虑到血肉重铸2的百科页面尚不完善，特在此说明如何“相对安全的”获取&2酸液&r。"
+				""
+				"你已经知道，完成一次对血肉温床的饲喂会有两种可能的结果——&c生成肉块&r或&4爆发感染&r，而这取决你你用于饲喂的物品是否含有一种特殊的数值，为方便，这里称之为“&d活力值&r”。确保用含有“&d活力值&r”的物品进行饲喂可以保证较高的肉块诞生率，甚至还能控制所诞生的肉块的种类。"
+				""
+				"但要获得&2酸液&r，就必须&e诱使&r温床&4爆发感染&r，即使用那些完全不含有“活力值”的物品完成饲喂，比如腐肉和治疗药水。"
+				""
+				"在血肉温床的指导下，感染并不会盲目的蔓延，相反，恶性肉块会以温床为中心形成一些固定的结构，能够生产&2酸液&r的方块——&c原初孔洞&r就在其中。血肉温床会试图向下，向外感染和吞噬“&e可感染方块&r”（通常是那些常见的质地较软的自然方块）并制造一个半径大约为10，深大约为5的方形坑作为其“&a胃袋&r”，在胃袋内壁的上端就会产生这些&c原初孔洞&r。如果温床还有多余的营养，还会继续试图向外，向上蔓延和生长，你可以自行尝试，但在此不做过多说明。"
+				""
+				"&c原初孔洞&r内的&2酸液&r会逐渐充盈，当孔洞成熟，如果下方没有方块，其内的&2酸液&r会在一段时间后滴落为液体状态，你也可以在&2酸液&r滴落前直接用桶从孔洞中将其盛出。你可以使用将&c原初孔洞&r挖走以便后续采集。"
+			]
+			hide_dependency_lines: false
+			icon: "biomancy:acid_bucket"
+			id: "4564C2078F2CBC63"
+			invisible: true
+			rewards: [{
+				count: 10
+				id: "55EB1FA1A9AE04A7"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			subtitle: "关于血肉重铸二三事"
+			tasks: [{
+				id: "729C3C8754D94625"
+				item: "biomancy:flesh_bits"
+				type: "item"
+			}]
+			title: "番外：如何获取酸液"
+			x: -7.75d
+			y: 18.5d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"你会想在自己的工具上装一个&e火箭推进器&r什么的吗？"
+				""
+				"我是说，谁会拒绝往自己的锤子或者别的什么东西上装一个推进器呢？没有比这更酷的了。"
+				""
+				"&8顺带一提，这个扫帚尾飞的挺快的&r"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/basic_handle_material": "basic_handle/forged_beam"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/shockwave_hammer_left"
+					"double/head_right": "double/thruster_brush_right"
+					"double/shockwave_hammer_left_material": "shockwave_hammer/shockwave_hammer"
+					"double/thruster_brush_right_material": "thruster_brush"
+					honing_progress: 290
+					id: "f696b35c-eeb3-4256-b9f2-88e9a806b55d"
+				}
+			}
+			id: "099C7D64F9D05C9D"
+			rewards: [{
+				id: "0D6FF97A81B811A5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "I'm queen of the castle~"
+			tasks: [{
+				id: "57C704614D80136A"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_thruster_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 27.0d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"虽说这个已经和tetra没有太大关系了……"
+				""
+				"总之拿着吧，这是你应得的。"
+				""
+				"装备时获得永久即时法力10，同时免疫魔力空虚。"
+			]
+			id: "05D684185D0C425A"
+			rewards: [{
+				id: "1916ACB97209D3A9"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "kubejs:earth_without_earth"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			secret: true
+			subtitle: "它当然是创造专享的"
+			tasks: [{
+				id: "0A0B204C6ECED8D0"
+				item: {
+					Count: 1b
+					id: "gud_toolkit:creative_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 15
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.25d
+			y: 26.75d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"你或许早已厌倦了寻常的打磨项目，他们总归是缺少了一些&o“特色”&r"
+				""
+				"而有了这张卷轴，你就能为许多寻常部件提供一些全新的升级"
+				""
+				"能帮你站稳脚跟的盾，"
+				"能射穿数名敌人的弓，"
+				"能在敌人间反弹的飞刀，"
+				"以及更多稀奇古怪的升级！"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:scroll_rolled"
+				tag: {
+					BlockEntityTag: {
+						data: [{
+							details: "artistry"
+							glyphs: [
+								8
+								7
+								9
+								2
+							]
+							intricate: 0b
+							key: "artistry"
+							material: 0
+							ribbon: "ff0042"
+							schematics: ["tetra:artistry"]
+						}]
+					}
+				}
+			}
+			id: "2CAF73814E03425B"
+			rewards: [{
+				id: "52FBE9DB06F74F7C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "对千篇一律的打磨感到厌倦？"
+			tasks: [{
+				id: "546ABEFC25B13EDA"
+				item: "art_of_forging:esoteric_codex"
+				type: "item"
+			}]
+			title: "非凡技艺"
+			x: -11.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"本工具包为强化深板岩添加了合成配方"
+				""
+				"你可以用它做些东西，也能用它打造tetra中的部件"
+				""
+				"无论用在何处，它都有着超乎寻常的硬度，甚至连大多数金属都只能望其项背"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 305
+					id: "174a0025-e859-4d59-a9ab-cf6c2719b74b"
+					"sword/basic_blade_material": "basic_blade/reinforced_deepslate"
+					"sword/basic_hilt_material": "basic_hilt/stick"
+					"sword/blade": "sword/basic_blade"
+					"sword/decorative_pommel_material": "decorative_pommel/stone"
+					"sword/guard": "sword/makeshift_guard"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/makeshift_guard_material": "makeshift_guard/stone"
+					"sword/pommel": "sword/decorative_pommel"
+				}
+			}
+			id: "7B770730CBB0648B"
+			rewards: [{
+				id: "56AE2B568BC051BC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "那坚不可摧的"
+			tasks: [{
+				id: "7135E6291BBDA5ED"
+				item: "minecraft:reinforced_deepslate"
+				type: "item"
+			}]
+			title: "强化深板岩"
+			x: -7.75d
+			y: 24.0d
+		}
+		{
+			dependencies: ["63DF293C87F0F4A7"]
+			description: [
+				"如果你觉得眼熟……那么你并没有看错"
+				""
+				"这正是&o那一把&r链锯剑"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_count: 14
+					honing_progress: 999
+					id: "8ff6b09d-93d2-4058-b946-935d408cf59c"
+					"sword/basic_hilt_material": "basic_hilt/forged_beam"
+					"sword/blade": "sword/chainsaw_blade"
+					"sword/blade:blade_hone/speed": 2
+					"sword/blade:chainsaw_adeptus": 3
+					"sword/blade:chainsaw_emperor": 0
+					"sword/blade:chainsaw_purity_seals": 0
+					"sword/blade:gud_quality": 0
+					"sword/blade:quality": 2
+					"sword/blade:settled": 2
+					"sword/chainsaw_blade_material": "chainsaw_blade"
+					"sword/chainsaw_purity_seals_material": "chainsaw_purity_seals"
+					"sword/counterweight_material": "counterweight/reinforced_deepslate"
+					"sword/guard": "sword/chainsaw_purity_seals"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/hilt:hilt_hone/speed": 5
+					"sword/hilt:quality": 2
+					"sword/hilt:settled": 2
+					"sword/pommel": "sword/counterweight"
+				}
+			}
+			id: "4FC7E602EE3A22EF"
+			rewards: [{
+				id: "17AB9443E0D8F4D0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "忠不可言"
+			tasks: [{
+				id: "48AA2E87B06EC373"
+				item: "gud_toolkit:chainsaw_blade"
+				type: "item"
+			}]
+			title: "链锯剑"
+			x: -8.75d
+			y: 26.5d
+		}
+	]
+	title: "Tetra：模块化与工具"
+}

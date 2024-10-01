@@ -1,0 +1,17 @@
+{
+  "armorSetName": "holy_guide",
+  "performanceMode": true,
+  "additionalSetPieces": [{
+    "itemKey": "irons_spellbooks:villager_spell_book"
+  }],
+  "hideGeneratedTooltip": true,
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "irons_spellbooks:guided",
+      "value": 4.0,
+      "interactionType": "attack",
+      "interactionDuration": 200
+    }
+  ]
+}

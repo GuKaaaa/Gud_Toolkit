@@ -1,0 +1,36 @@
+{
+  "armorSetName": "recita_aria",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "gud_toolkit:aria"
+  },
+  "offHand": {
+    "itemKey": "gud_toolkit:recitative"
+  },
+  "hideGeneratedTooltip": false,
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "modifierUUID": "5F77C592-205D-4365-A7A1-C5A21E306C9D",
+      "description": "+20% \u9b54\u6cd5\u4f24\u5bb3",
+      "value": 0.2
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_knockback",
+      "modifierUUID": "2671E907-8A92-45FE-BF5B-E289F5CAD755",
+      "description": "+2 \u51fb\u9000",
+      "value": 2.0
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

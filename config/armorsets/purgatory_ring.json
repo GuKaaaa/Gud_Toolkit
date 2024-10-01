@@ -1,0 +1,101 @@
+{
+  "armorSetName": "purgatory_ring",
+  "performanceMode": true,
+  "additionalSetPieces": [{
+    "itemKey": "gud_toolkit:purgatory_ring"
+  }],
+  "hideGeneratedTooltip": true,
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300
+    },
+    {
+      "type": "effect",
+      "name": "goety:flame_hands",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 300
+    },
+    {
+      "type": "effect",
+      "name": "goety:burn_hex",
+      "value": 0.0,
+      "interactionType": "attack",
+      "interactionDuration": 300,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "alexsmobs:lava_vision",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:flammable",
+      "value": 2.0,
+      "interactionType": "attack",
+      "interactionDuration": 300,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:blazing_brand",
+      "value": 2.0,
+      "interactionType": "attack",
+      "interactionDuration": 600,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "inDimension",
+          "extra": "minecraft:the_nether"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "goety:flammable",
+      "value": 4.0,
+      "interactionType": "attack",
+      "interactionDuration": 600,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "inDimension",
+          "extra": "minecraft:the_nether"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "goety:flame_hands",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "conditions": [
+        {
+          "type": "inDimension",
+          "extra": "minecraft:the_nether"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "goety:burn_hex",
+      "value": 0.0,
+      "interactionType": "immunity"
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:blazing_brand",
+      "value": 0.0,
+      "interactionType": "immunity"
+    }
+  ]
+}
