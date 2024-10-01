@@ -1,0 +1,27 @@
+[
+    {
+        "variant": "gear_guard",
+        "key": "sword_length",
+        "steps": 4,
+        "properties": {
+            "attributes": {
+                "forge:reach_distance": -0.5,
+                "forge:attack_range": -0.5
+            },
+            "effects": {
+                "sweeping": 1
+            }
+        }
+    },
+    {
+        "variant": "gear_guard",
+        "key": "sword_strength",
+        "steps": 5,
+        "properties": {
+            "attributes": {
+                "generic.attack_speed": -0.1,
+                "generic.attack_damage": 0.5
+            }
+        }
+    }
+]

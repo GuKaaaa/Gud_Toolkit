@@ -1,0 +1,12 @@
+[
+    {
+        "moduleVariants":["short_blade/dark_ingot", "basic_hilt/dark_ingot","sword_socket/mystic_core"],
+		"name": "dark_stave",
+        "attributes": {
+            "obscure_api:magic_damage": 12,
+            "**obscure_api:magic_damage": 1.5,
+            "**tetra:ability_damage": 0.3,
+            "forge:nametag_distance":-64
+          }
+    }
+]

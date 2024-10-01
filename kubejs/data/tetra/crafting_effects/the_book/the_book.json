@@ -1,0 +1,25 @@
+{
+    "replace": true,
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetra:the_book"
+            },
+            {
+                "type":"tetra:craft_type",
+                "craft":"module"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "type": "tetra:apply_improvements",
+            "improvements": {
+                "quality": 2,
+                "settled": 2
+            }
+        }
+    ]
+}

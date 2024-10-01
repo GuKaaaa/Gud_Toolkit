@@ -1,0 +1,14 @@
+[
+    {
+        "moduleVariants": ["sturdy_guard/iaf_hydra_fang"],
+        "attributes": {
+            "**generic.attack_speed": -0.1,
+             "generic.armor": 5.5,
+             "generic.armor_toughness": 4
+        },
+            "effects": {
+        	"stun":[25,2],
+                "blockingReflect": [ 65, 1.5 ]
+	}
+    }
+]

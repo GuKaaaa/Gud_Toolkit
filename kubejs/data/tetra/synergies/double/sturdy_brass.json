@@ -1,0 +1,31 @@
+[
+    {
+        "moduleVariants":["basic_axe/create_brass"],
+        "improvements": [ "sturdy_sheeten" ],
+        "tools":{
+	    	"axe_dig":[3,5]
+	    }
+    },
+    {
+        "moduleVariants":["adze/create_brass"],
+        "improvements": [ "sturdy_sheeten" ],
+        "tools":{
+	    	"axe_dig":[1,6],
+            "shovel_dig":[1,6]
+	    }
+    },
+    {
+        "moduleVariants":["sickle/create_brass"],
+        "improvements": [ "sturdy_sheeten" ],
+        "tools":{
+	    	"hoe_dig":[0,8]
+	    }
+    },
+    {
+        "moduleVariants":["basic_pickaxe/create_brass"],
+        "improvements": [ "sturdy_sheeten" ],
+        "tools":{
+	    	"pickaxe_dig":[3,5]
+	    }
+    }
+]

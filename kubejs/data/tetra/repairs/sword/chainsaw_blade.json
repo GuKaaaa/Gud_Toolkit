@@ -1,0 +1,11 @@
+{
+    "material": {
+        "items": [ "create:brass_ingot" ],
+        "count": 3
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "moduleKey": "sword/chainsaw_blade",
+    "moduleVariant": "chainsaw_blade"
+}

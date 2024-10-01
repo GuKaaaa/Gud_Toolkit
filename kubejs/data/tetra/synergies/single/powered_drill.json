@@ -1,0 +1,54 @@
+[
+    {
+        "moduleVariants": ["single_socket/reinforced_red_stone","drill/netherite_drill"],
+        "improvements":["purgatory_drill"],
+	    "name":"gurren_lagann_r",
+        "attributes": {
+            "**generic.attack_speed": 0.5,
+            "generic.attack_damage": 3
+            },
+            "effects": {
+                "shieldbreaker": 2,
+                "criticalStrike":[60,0],
+                "bleeding": [ 6, 6 ],
+                "armorPenetration": 60
+            }    
+    },
+   {
+        "modules": ["single/drill"],
+        "moduleVariants": ["single_socket/red_stone"],
+	    "name":"powered_drill",
+        "durabilityMultiplier": 0.8,
+        "attributes": {
+	    "**generic.attack_speed": 0.5
+        },
+        "tools": {
+	    "pickaxe_dig": [0.8,1],
+	    "shovel_dig": [0.8,1]
+        }
+    },
+   {
+        "modules": ["single/drill"],
+        "moduleVariants": ["single_socket/reinforced_red_stone"],
+        "durabilityMultiplier": 0.6,
+        "attributes": {
+	    "**generic.attack_speed": 0.8
+        },
+        "tools": {
+	    "pickaxe_dig": [1,2],
+	    "shovel_dig": [1,2]
+        }
+    },
+   {
+        "moduleVariants": ["single_socket/reinforced_red_stone","drill/drill"],
+	    "name":"gurren_lagann_w"
+    },
+   {
+        "moduleVariants": ["single_socket/reinforced_red_stone","drill/diamond_drill"],
+	    "name":"gurren_lagann_b"
+    },
+   {
+        "moduleVariants": ["single_socket/reinforced_red_stone","drill/netherite_drill"],
+    	"name":"gurren_lagann_d"
+    }
+]

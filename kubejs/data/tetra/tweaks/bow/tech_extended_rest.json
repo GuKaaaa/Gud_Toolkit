@@ -1,0 +1,22 @@
+[
+    {
+        "variant": "tech_extended_rest",
+        "key": "bow/multishot_count",
+        "steps": 4,
+        "properties": {
+            "effects": {
+                "multishot": 1
+            }
+        }
+    },
+    {
+        "variant": "tech_extended_rest",
+        "key": "bow/multishot_spread",
+        "steps": 8,
+        "properties": {
+            "effects": {
+                "multishot": [ 0, 1.5 ]
+            }
+        }
+    }
+]

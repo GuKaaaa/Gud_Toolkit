@@ -1,0 +1,12 @@
+{
+  "ingredients": [
+    {
+      "item": "unusualprehistory:opal_chunk"
+    }
+  ],
+  "result": {
+    "item": "gud_toolkit:erratic_stone",
+    "count": 1
+  },
+  "time": 20
+}

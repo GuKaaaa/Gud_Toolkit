@@ -1,0 +1,78 @@
+[
+    {
+	"name": "ainz_fire",
+        "moduleVariants": ["single_socket/irons_fire_upgrade_orb", "ainz"],
+        "attributes": {
+        "**irons_spellbooks:fire_spell_power":0.4,
+        "additional_attributes:spell_school_fire":1
+        }
+    },
+    {
+	"name": "ainz_ice",
+        "moduleVariants": ["single_socket/irons_ice_upgrade_orb", "ainz"],
+        "attributes": {
+        "**irons_spellbooks:ice_spell_power":0.4,
+        "additional_attributes:spell_school_ice":1
+        }
+    },
+    {
+	"name": "ainz_lightning",
+        "moduleVariants": ["single_socket/irons_lightning_upgrade_orb", "ainz"],
+        "attributes": {
+        "**irons_spellbooks:lightning_spell_power":0.4,
+        "additional_attributes:spell_school_lightning":1
+        }
+    },
+    {
+	"name": "ainz_holy",
+        "moduleVariants": ["single_socket/irons_holy_upgrade_orb", "ainz"],
+        "attributes": {
+        "**irons_spellbooks:holy_spell_power":0.4,
+        "additional_attributes:spell_school_holy":1
+        }
+    },
+    {
+	"name": "ainz_ender",
+        "moduleVariants": ["single_socket/irons_ender_upgrade_orb", "ainz"],
+        "attributes": {
+        "**irons_spellbooks:ender_spell_power":0.4,
+        "additional_attributes:spell_school_ender":1
+        }
+    },
+    {
+	"name": "ainz_blood",
+        "moduleVariants": ["single_socket/irons_blood_upgrade_orb", "ainz"],
+        "attributes": {
+        "**irons_spellbooks:blood_spell_power":0.4,
+        "additional_attributes:spell_school_blood":1
+        }
+    },
+    {
+	"name": "ainz_evocation",
+        "moduleVariants": ["single_socket/irons_evocation_upgrade_orb", "ainz"],
+        "attributes": {
+        "**irons_spellbooks:evocation_spell_power":0.4,
+        "additional_attributes:spell_school_evocation":1
+        }
+    },
+    {
+	"name": "ainz_nature",
+        "moduleVariants": ["single_socket/irons_nature_upgrade_orb", "ainz"],
+        "attributes": {
+        "**irons_spellbooks:nature_spell_power":0.4,
+        "additional_attributes:spell_school_nature":1
+        }
+    },
+    {
+        "name": "ainz_stave",
+        "moduleVariants": ["ainz", "ainz_handle"],
+        "integrity": 18,
+        "attributes": {
+                "irons_spellbooks:max_mana":600,
+                "irons_spellbooks:mana_regen":0.8,
+                "irons_spellbooks:spell_power":0.8,
+                "irons_spellbooks:cast_time_reduction":0.8,
+                "irons_spellbooks:cooldown_reduction": 1       
+            }
+        }
+]

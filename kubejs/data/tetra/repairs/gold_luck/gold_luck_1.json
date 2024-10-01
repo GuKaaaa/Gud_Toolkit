@@ -1,0 +1,11 @@
+{
+    "material": {
+        "items": [ "meetyourfight:velvet_fortune" ],
+        "count": 2
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "moduleKey": "double/double_gold_luck",
+    "moduleVariant": "double_gold_luck"
+}

@@ -1,0 +1,11 @@
+{
+    "material": {
+        "items": [ "minecraft:iron_ingot" ],
+        "count": 2
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "moduleKey": "sword/gear_guard",
+    "moduleVariant": "gear_guard"
+}

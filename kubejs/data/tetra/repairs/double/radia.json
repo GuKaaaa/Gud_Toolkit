@@ -1,0 +1,11 @@
+{
+    "material": {
+        "items": ["create:refined_radiance"],
+        "count": 1
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "moduleKey": "double/radia_reaper_left",
+    "moduleVariant": "radia_reaper_left"
+}

@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "requirement": {
+    "type": "tetra:improvement",
+    "improvement": "mace/soul_eater"
+},
+  "outcomes": [
+      {
+          "type": "tetra:apply_enchantments",
+          "enchantments": {
+              "goety:soul_eater": 5
+          }
+      }
+  ]
+}

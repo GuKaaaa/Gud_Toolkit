@@ -1,0 +1,7 @@
+[
+    {
+        "moduleVariants":["inf_hate"],
+        "improvements": [ "inf_grace" ],
+        "name": "inf_grace"
+    }
+]

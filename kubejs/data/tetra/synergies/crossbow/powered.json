@@ -1,0 +1,58 @@
+[
+    {
+        "moduleVariants": ["crossbow_socket/red_stone","stirrup/iron"],
+        "name": "powered_crossbow",
+        "attributes": {
+	"**tetra:draw_strength":0.1,
+	"**tetra:draw_speed":-0.1
+        }
+    },
+    {
+        "moduleVariants": ["crossbow_socket/red_stone","stirrup/copper"],
+        "name": "powered_crossbow",
+        "attributes": {
+	"**tetra:draw_strength":0.2,
+	"**tetra:draw_speed":-0.15
+        }
+    },
+    {
+        "moduleVariants": ["crossbow_socket/red_stone","stirrup/silver"],
+        "name": "powered_crossbow",
+        "attributes": {
+	"**tetra:draw_strength":0.3,
+	"**tetra:draw_speed":-0.3
+        }
+    },
+    {
+        "moduleVariants": ["crossbow_socket/red_stone","stirrup/gold"],
+        "name": "powered_crossbow",
+        "attributes": {
+	"**tetra:draw_strength":0.5,
+	"**tetra:draw_speed":-0.4
+        }
+    },
+    {
+        "moduleVariants": ["crossbow_socket/reinforced_red_stone","stirrup/electrum"],
+        "name": "overpowered_crossbow",
+        "attributes": {
+	"**tetra:draw_strength":0.7,
+	"**tetra:draw_speed":-0.5
+        }
+    },
+    {
+        "moduleVariants": ["crossbow_socket/reinforced_red_stone","stirrup/iceandfire_lightning_dragonsteel"],
+        "name": "overpowered_crossbow",
+        "attributes": {
+	"**tetra:draw_strength":1,
+	"**tetra:draw_speed":-0.7
+        }
+    },
+    {
+        "moduleVariants": ["crossbow_socket/reinforced_red_stone","stirrup/overcharged_alloy"],
+        "name": "overpowered_crossbow",
+        "attributes": {
+	"**tetra:draw_strength":1.5,
+	"**tetra:draw_speed":-0.9
+        }
+    }
+]

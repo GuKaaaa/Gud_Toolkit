@@ -1,0 +1,12 @@
+[
+    {
+	"name": "magnhild",
+    "moduleVariants": ["shockwave_hammer/shockwave_hammer", "thruster_brush"],
+    "attributes": {
+        "generic.attack_damage": 8
+    },
+    "effects": {
+        "art_of_forging:stormcaller": [ 2, 40 ]
+	}
+    }
+]

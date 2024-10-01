@@ -1,0 +1,16 @@
+[
+    {
+        "moduleVariants":["basic_hilt/alex_void_worm_mandible", "void_worm_cleaver/void_worm_cleaver","sword_socket/socket_void_worm_eye"],
+		"name": "sword/void_eater",
+        "effects": {
+	    "lunge": 202,
+	    "severing":[30,5],
+        "criticalStrike": [ 0, 1.5 ],
+	    "art_of_forging:devouring":-2
+	},
+        "attributes": {
+        "**generic.attack_damage": 0.1,
+	    "generic.attack_speed": 0.1
+	}
+    }
+]

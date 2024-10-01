@@ -1,0 +1,11 @@
+{
+    "material": {
+        "items": [ "minecraft:echo_shard" ],
+        "count": 1
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "moduleKey": "double/double_socket",
+    "moduleVariant": "double_socket/warden_core"
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "moduleVariants":["long_handle/alex_void_worm_mandible", "void_worm_fang/void_worm_fang","single_socket/socket_void_worm_eye"],
+		"name": "single/void_fang",
+        "effects": {
+        "criticalStrike": [ 18, 1],
+        "throwable": [1, 2.5],
+        "ricochet": 3,
+        "severing":[50,4],
+        "art_of_forging:feasting": [80,2],
+        "armorPenetration": 10,
+        "forge:attack_range": 1,
+	    "art_of_forging:devouring":-2
+	},
+        "attributes": {
+        "**generic.attack_damage": 0.1,
+	    "generic.attack_speed": 0.3
+	}
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "moduleVariants": ["spike/iaf_hydra_fang","buckler/iaf_hydra_fang"],
+        "name": "hydra_block",
+        "attributes": {
+             "generic.armor": 8,
+             "generic.armor_toughness": 6.5
+        },
+            "effects": {
+                "blocking": 3,
+                "blockingReflect": [ 80, 3 ]
+	}
+    }
+]

@@ -1,0 +1,22 @@
+{
+    "replace": true,
+    "requirement": {
+        "type": "tetra:or",
+        "requirements": [
+            {
+                "type": "tetra:improvement",
+                "improvement": "inf_inferno"
+            },
+            {
+                "type": "tetra:improvement",
+                "improvement": "inf_grace"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "type": "tetra:remove_improvements",
+            "improvements": [ "inf_sloth","inf_envy","inf_gluttony","inf_greed","inf_lust","inf_pride","inf_gluttony","inf_wrath" ]
+        }
+    ]
+}

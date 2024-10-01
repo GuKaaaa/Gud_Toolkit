@@ -1,0 +1,24 @@
+{
+    "replace": true,
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetra:enchant_efficiency_2"
+            },
+            {
+                "type":"tetra:craft_type",
+                "craft":"module"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "type": "tetra:apply_enchantments",
+            "enchantments": {
+                "minecraft:efficiency": 3
+              }
+        }    
+    ]
+}

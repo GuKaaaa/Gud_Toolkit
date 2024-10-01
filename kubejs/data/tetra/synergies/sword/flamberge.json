@@ -1,0 +1,21 @@
+[
+    {
+        "moduleVariants": ["reinforced_fuller/cinder_essence","flamberge_blade/netherite"],
+        "name": "sword/flamling",
+        "visibilityKey": "reinforced_fuller/cinder_essence",
+        "attributes": {
+             "generic.attack_damage": 8,
+             "generic.armor": 5,
+             "generic.armor_toughness": 3,
+	         "**generic.attack_speed": -0.2,
+    	     "**irons_spellbooks:fire_spell_resist": 0.2,
+    	     "**irons_spellbooks:fire_spell_power": 0.2
+        },
+            "effects": {
+        	"reaching":2,
+        	"punch": 2,
+                "sweeping": 5,
+      		"art_of_forging:infernal_rebuke":[35, 20]
+	}
+    }
+]

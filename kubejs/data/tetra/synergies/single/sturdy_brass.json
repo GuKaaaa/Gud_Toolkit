@@ -1,0 +1,9 @@
+[
+    {
+        "moduleVariants":["basic_shovel/create_brass"],
+        "improvements": [ "sturdy_sheeten_head" ],
+        "tools":{
+	    	"shovel_dig":[3,5]
+	    }
+    }
+]

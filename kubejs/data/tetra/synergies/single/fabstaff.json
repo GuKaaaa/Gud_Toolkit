@@ -1,0 +1,38 @@
+[
+       {
+	"name": "fabstaff",
+        "moduleVariants": ["cane_head/great_arcane_ingot", "basic_handle/great_arcane_ingot", "single_socket/irons_mana_upgrade_orb"],
+        "attributes": {
+	"additional_attributes:keep_scroll":0.8,
+        "irons_spellbooks:spell_power":0.5,
+        "kubejs:candy_spell_power":1,
+	"irons_spellbooks:max_mana":300,
+        "irons_spellbooks:mana_regen":0.6,
+	"**irons_spellbooks:cooldown_reduction": 0.8
+	}
+    },
+       {
+	"name": "fabstaff",
+        "moduleVariants": ["cane_head/great_arcane_ingot", "light_handle/great_arcane_ingot", "single_socket/irons_mana_upgrade_orb"],
+        "attributes": {
+	"additional_attributes:keep_scroll":0.8,
+        "irons_spellbooks:spell_power":0.5,
+        "kubejs:candy_spell_power":1,
+	"irons_spellbooks:max_mana":300,
+        "irons_spellbooks:mana_regen":0.6,
+	"**irons_spellbooks:cooldown_reduction": 0.8
+	}
+    },
+       {
+	"name": "fabstaff",
+        "moduleVariants": ["cane_head/great_arcane_ingot", "long_handle/great_arcane_ingot", "single_socket/irons_mana_upgrade_orb"],
+        "attributes": {
+	"additional_attributes:keep_scroll":0.8,
+        "irons_spellbooks:spell_power":0.5,
+        "kubejs:candy_spell_power":1,
+	"irons_spellbooks:max_mana":300,
+        "irons_spellbooks:mana_regen":0.6,
+	"**irons_spellbooks:cooldown_reduction": 0.8
+	}
+    }
+]

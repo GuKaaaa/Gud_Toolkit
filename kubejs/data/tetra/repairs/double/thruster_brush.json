@@ -1,0 +1,11 @@
+{
+    "material": {
+        "items": ["createaddition:biomass"],
+        "count": 5
+    },
+    "requiredTools": {
+        "pry": 1
+    },
+    "moduleKey": "double/thruster_brush",
+    "moduleVariant": "thruster_brush"
+}

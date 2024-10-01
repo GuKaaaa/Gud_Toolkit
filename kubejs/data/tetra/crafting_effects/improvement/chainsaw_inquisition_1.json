@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "requirement": {
+    "type": "tetra:improvement",
+    "improvement": "chainsaw_inquisition"
+},
+  "outcomes": [
+      {
+          "type": "tetra:apply_enchantments",
+          "enchantments": {
+            "minecraft:smite":3,
+            "minecraft:bane_of_arthropods": 3
+          }
+      }
+  ]
+}

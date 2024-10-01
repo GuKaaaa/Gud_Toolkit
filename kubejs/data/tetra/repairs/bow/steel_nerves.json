@@ -1,0 +1,11 @@
+{
+    "material": {
+        "items": [ "minecraft:gold_ingot" ],
+        "count": 5
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+        "moduleKey": "bow/steel_nerves",
+        "moduleVariant": "steel_nerves"
+}

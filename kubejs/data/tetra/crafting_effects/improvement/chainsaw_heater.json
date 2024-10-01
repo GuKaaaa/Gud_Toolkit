@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "requirement": {
+    "type": "tetra:improvement",
+    "improvement": "chainsaw_heater",
+    "level":3
+},
+  "outcomes": [
+      {
+          "type": "tetra:apply_enchantments",
+          "enchantments": {
+            "minecraft:fire_aspect": 2
+          }
+      }
+  ]
+}

@@ -1,0 +1,90 @@
+[
+    {
+        "modules": [ "double/basic_hammer"],
+        "moduleVariants": ["thruster_brush"],
+        "improvements": [ "sturdy_sheeten" ],
+        "name": "rocket_hammer"
+    },
+    {
+        "modules": [ "double/adze"],
+        "moduleVariants": ["thruster_brush"],
+        "improvements": [ "sturdy_sheeten" ],
+        "name": "rocket_adze"
+    },
+    {
+        "modules": [ "double/claw"],
+        "moduleVariants": ["thruster_brush"],
+        "improvements": [ "sturdy_sheeten" ],
+        "name": "rocket_claw"
+    },
+    {
+        "modules": [ "double/hoe"],
+        "moduleVariants": ["thruster_brush"],
+        "improvements": [ "sturdy_sheeten" ],
+        "name": "rocket_hoe"
+    },
+    {
+        "modules": [ "double/sickle"],
+        "moduleVariants": ["thruster_brush"],
+        "improvements": [ "sturdy_sheeten" ],
+        "name": "rocket_sickle"
+    },
+    {
+        "modules": [ "double/basic_axe"],
+        "moduleVariants": ["thruster_brush"],
+        "improvements": [ "sturdy_sheeten" ],
+        "name": "rocket_axe"
+    },
+    {
+        "modules": ["double/basic_pickaxe" ],
+        "moduleVariants": ["thruster_brush"],
+        "improvements": [ "sturdy_sheeten" ],
+        "name": "rocket_pickaxe"
+    },
+    {
+        "modules": [ "double/reaping_scythe" ],
+        "moduleVariants": ["thruster_brush"],
+        "improvements": [ "sturdy_sheeten" ],
+        "name": "rocket_scythe"
+    },
+    {
+        "modules": [ "double/basic_hammer"],
+        "moduleVariants": ["thruster_brush"],
+        "name": "thruster_hammer"
+    },
+    {
+        "modules": [ "double/adze"],
+        "moduleVariants": ["thruster_brush"],
+        "name": "thruster_adze"
+    },
+    {
+        "modules": [ "double/claw"],
+        "moduleVariants": ["thruster_brush"],
+        "name": "thruster_claw"
+    },
+    {
+        "modules": [ "double/hoe"],
+        "moduleVariants": ["thruster_brush"],
+        "name": "thruster_hoe"
+    },
+    {
+        "modules": [ "double/sickle"],
+        "moduleVariants": ["thruster_brush"],
+        "name": "thruster_sickle"
+    },
+    {
+        "modules": [ "double/basic_axe"],
+        "moduleVariants": ["thruster_brush"],
+        "name": "thruster_axe"
+    },
+    {
+        "modules": ["double/basic_pickaxe" ],
+        "moduleVariants": ["thruster_brush"],
+        "name": "thruster_pickaxe"
+    },
+    {
+        "modules": [ "double/reaping_scythe" ],
+        "moduleVariants": ["thruster_brush"],
+        "name": "thruster_scythe"
+    }
+]

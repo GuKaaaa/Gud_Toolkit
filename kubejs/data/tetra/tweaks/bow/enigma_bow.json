@@ -1,0 +1,25 @@
+[
+    {
+        "variant": "enigma_bow",
+        "key": "bow/enigma_multishot",
+        "steps": 2,
+        "properties": {
+            "effects": {
+                "multishot": 1
+            },
+            "attributes": {
+                "**tetra:draw_speed": 0.2
+            }
+        }
+    },
+    {
+        "variant": "enigma_bow",
+        "key": "bow/enigma_zoomer",
+        "steps": 3,
+        "properties": {
+            "effects": {
+		"zoom":5
+            }
+        }
+    }
+]
