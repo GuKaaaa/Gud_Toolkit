@@ -1,0 +1,31 @@
+{
+    "replace": true,
+    "slots": [ "sword/guard" ],
+    "type": "tetra:basic_module",
+    "variants": [
+        {
+        "key": "lock",
+	    "effects":{
+		"art_of_forging:devouring":-10,
+      	"sculkTaint": [ -10, -10 ],
+		"fierySelf":[-10,-10],
+        "enderReverb": [ -10, -10 ],
+        "janking": [0,-10]
+	    },
+            "durability": -20,
+            "integrity": 1,
+            "magicCapacity": -40,
+            "glyph": {
+                "tint": "FFD700",
+                "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+                "textureX": 16,
+                "textureY":249
+        },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/lock"
+                }
+            ]
+        }
+    ]
+}

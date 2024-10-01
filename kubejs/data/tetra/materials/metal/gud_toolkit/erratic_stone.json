@@ -1,0 +1,35 @@
+{
+    "key": "erratic_stone",
+    "category": "gem",
+    "primary": 6,
+    "secondary": 1.7,
+    "tertiary": 0.5,
+    "durability": 544,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 227,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 6,
+    "attributes":{
+        "forge:reach_distance":0.2,
+        "forge:attack_range":0.2
+    },    
+    "effects": {
+        "reaching": [3, 0.1],
+        "janking": [0.5, 0.01]
+    },
+    "tints": {
+        "glyph": "FFBBFF",
+        "texture": "FFBBFF"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [ "gud_toolkit:erratic_stone" ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    }
+}

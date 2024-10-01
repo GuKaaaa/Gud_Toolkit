@@ -1,0 +1,30 @@
+{
+    "key": "gale_fabric",
+    "category": "fabric",
+    "primary": 1,
+    "secondary": 1,
+    "tertiary": 5.6,
+    "durability": 270,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 211,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "305D44",
+        "texture": "305D44"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "attributes":{
+	    "irons_spellbooks:cast_time_reduction":0.15
+    },
+    "material": {
+        "items": [ "goety:gale_fabric" ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:wood"
+    }
+}

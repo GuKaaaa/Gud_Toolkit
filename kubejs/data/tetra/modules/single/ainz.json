@@ -1,0 +1,27 @@
+{
+    "replace": true,
+    "slots": [ "single/head" ],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:shared/",
+        "tetra:ainz/"
+    ],
+    "variants": [
+        {
+            "key": "ainz",
+            "integrity": 3,
+            "durability": 1200,
+            "effects": {
+                "irons_spellbooks:mana_siphon": 150,
+                "manaRepair": [ 0, 1 ],
+                "mending": 10
+            },
+            "magicCapacity": 2400,
+                "glyph": {
+                    "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+                    "textureX": 192
+                    },
+            "models": [{ "location": "tetra:items/module/single/head/ainz/ainz" }]
+          }
+    ]
+}

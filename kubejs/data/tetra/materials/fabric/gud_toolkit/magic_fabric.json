@@ -1,0 +1,30 @@
+{
+    "key": "magic_fabric",
+    "category": "fabric",
+    "primary": 1,
+    "secondary": 1,
+    "tertiary": 5.6,
+    "durability": 270,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 211,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "CAAD46",
+        "texture": "CAAD46"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "attributes":{
+        "irons_spellbooks:max_mana":50
+    },
+    "material": {
+        "items": [ "goety:magic_fabric" ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:wood"
+    }
+}

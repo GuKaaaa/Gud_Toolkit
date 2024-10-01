@@ -1,0 +1,28 @@
+{
+    "replace": false,
+    "slots": ["bow/riser"],
+    "type": "tetra:basic_module",
+    "tweakKey": "tetra:bow/tech_extended_rest",
+    "variants": [
+        {
+            "key": "tech_extended_rest",
+            "effects": {
+                "multishot": [5, 8]
+            },
+            "durability": 20,
+            "integrity": -2,
+            "glyph": {
+                "tint": "FFFF00",
+                "textureX": 128,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/bow/riser/tech_extended_rest",
+                    "type": "static",
+                    "tint": "FFFF00"
+                }
+            ]
+        }
+    ]
+}

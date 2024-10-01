@@ -1,0 +1,27 @@
+{
+    "key": "sturdy_sheet",
+    "category": "misc",
+    "primary": 7.2,
+    "secondary": 5,
+    "tertiary": 4.8,
+    "durability": 750,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 77,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "515060",
+        "texture": "515060"
+    },
+    "textures": [
+        "sturdy_sheet",
+        "crude"
+    ],
+    "material": {
+        "items": [ "create:sturdy_sheet" ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    }
+}

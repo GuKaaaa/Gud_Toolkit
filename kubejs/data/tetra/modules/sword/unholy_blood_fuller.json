@@ -1,0 +1,35 @@
+{
+    "replace": true,
+    "slots": [ "sword/fuller" ],
+    "type": "tetra:basic_module",
+    "variants": [
+        {
+            "key": "unholy_blood_fuller/unholy_blood",
+            "attributes": {
+                "**generic.attack_damage": 0.1,
+	    	    "generic.attack_speed": 0.2,
+	    	    "**irons_spellbooks:blood_spell_power": 0.2,
+	    	    "**irons_spellbooks:fire_spell_power": 0.2
+            },
+            "effects": {
+	            "art_of_forging:infernal_rebuke":[30,5],
+                "art_of_forging:decaying":[1,10],
+                "art_of_forging:devouring": [ 2, 5 ],
+                "fierySelf":[1,0.05]        
+            },
+            "durability": 40,
+            "integrity": 1,
+            "magicCapacity": 300,
+            "glyph": {
+                "tint": "8B0000",
+                "textureX": 72,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/fuller/unholy_blood_fuller/unholy_blood_fuller"
+                }
+            ]
+        }
+    ]
+}

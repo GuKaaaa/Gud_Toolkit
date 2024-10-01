@@ -1,0 +1,52 @@
+{
+    "replace": true,
+    "type": "tetra:multi_major_module",
+    "slots": [
+        "double/head_left"
+    ],
+    "slotSuffixes": [
+        "_left"
+    ],
+    "improvements": [
+        "tetra:double/blaze_cake_hammer/",
+        "tetra:double/shared_head/",
+        "tetra:double/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "key": "blaze_cake_hammer",
+            "integrity": -1,
+            "attributes": {
+                "generic.attack_damage": 8,
+                "generic.attack_speed": -1
+            },
+            "aspects": {
+                "breakable": 2,
+                "bluntWeapon": 2
+            },
+            "effects": {
+                "shieldbreaker": 1,
+                "art_of_forging:knockback": [ 1, 0 ],
+                "art_of_forging:soul_charged": [ 2, 5 ],
+                "crushing": 2
+            },
+            "tools": {
+                "hammer_dig": [ 4, 2 ]
+            },
+            "durability": 100,
+            "magicCapacity": 700,
+            "glyph": {
+                "tint": "EC8B35",
+                "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+                "textureX": 128,
+                "textureY": 16
+                    },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/blaze_cake/blaze_cake_hammer"
+                }
+            ]
+        }
+    ]
+}

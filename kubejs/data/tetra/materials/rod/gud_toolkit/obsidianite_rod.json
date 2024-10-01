@@ -1,0 +1,29 @@
+{
+  "key": "obsidianite_rod",
+  "category": "misc",
+  "primary": "6.3",
+  "secondary": "2.1",
+  "tertiary": "1.2",
+  "durability": "1775",
+  "integrityCost": "3",
+  "integrityGain": "7",
+  "magicCapacity": "77",
+  "toolLevel": "0",
+  "toolEfficiency": "0",
+  "tints": {
+        "glyph": "obsidian_glyph",
+        "texture": "obsidian"
+  },
+  "textures": [
+        "obsidian",
+        "grainy",
+        "crude",
+        "default"
+  ],
+  "material": {
+    "items": [ "rainbowcompound:obsidianite_stick" ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

@@ -1,0 +1,34 @@
+{
+	"replace": true,
+	"slots": [ "sword/guard" ],
+	"type": "tetra:basic_major_module",
+    	"improvements": [
+        	"tetra:sword/speed_gear",
+        	"tetra:shared/"
+    	],
+    "tweakKey": "tetra:sword/gear_guard",
+	"renderLayer": "higher",
+	"variants": [
+		{
+            "material": {
+                "items": [ "kubejs:revolution_gear" ]
+            },
+			"key": "gear_guard",
+			"integrity": -1,
+            "durability": 120,
+			"attributes": {
+             	"generic.armor": 3,
+             	"generic.armor_toughness": 2
+			},
+			"effects": {
+				"quickStrike": 1,
+				"sweeping":5
+			},
+			"glyph": {
+				"textureLocation": "tetra:textures/gui/gut_glyphs.png",
+				"textureY": 248
+					},
+			"models": [{ "location": "tetra:items/module/sword/guard/gear_guard" }]
+		}
+	]
+}

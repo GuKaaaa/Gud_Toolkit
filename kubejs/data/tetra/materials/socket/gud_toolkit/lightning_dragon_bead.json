@@ -1,0 +1,30 @@
+{
+    "key": "lightning_dragon_bead",
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 500,
+    "integrityCost": 2,
+    "integrityGain": 0,
+    "magicCapacity": 700,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "attributes":{
+        "irons_spellbooks:lightning_spell_power":0.5,
+        "**irons_spellbooks:lightning_magic_resist":0.5,
+        "generic.movement_speed": 0.05
+    },
+    "tints": {
+      "glyph": "9400D3",
+      "texture": "9400D3"
+    },
+    "textures": [
+      "shiny"
+    ],
+    "effects" : {
+      "art_of_forging:stormcaller": [1,100]
+    },
+    "experienceCost": 25,
+    "material":{"items":["kubejs:lightning_dragon_bead"]}
+  }

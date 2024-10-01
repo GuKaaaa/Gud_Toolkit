@@ -1,0 +1,47 @@
+{
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": [ "single/head" ],
+    "improvements": [
+        "tetra:single/shared_head/",
+        "tetra:single/head/shared/",
+        "tetra:single/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "key": "lager_bone",
+            "integrity": -2,
+            "durability": 1200,
+            "attributes": {
+    		"irons_spellbooks:holy_spell_power": 0.2,
+    		"irons_spellbooks:ender_spell_power": 0.2,
+        	"forge:attack_range":3,
+                "generic.attack_damage": 18,
+                "generic.attack_speed": -2
+            },
+            "aspects": {
+                "edgedWeapon": 2,
+                "breakable": 2
+            },
+            "effects": {
+                "art_of_forging:knockback": [ 1, 0 ],
+                "art_of_forging:hubris": 30,
+                "shieldbreaker": 2,
+       		    "reaching": [7, 0.3],
+                "sweeping": 1,
+                "armorPenetration": 20
+            },
+            "magicCapacity": 800,
+            "glyph": {
+                "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+                "textureX": 144
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/single/head/lager_bone/lager_bone"
+                }
+            ]
+        }
+    ]
+}

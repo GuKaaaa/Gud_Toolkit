@@ -1,0 +1,41 @@
+{
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": [ "shield/plate" ],
+    "improvements": [
+        "tetra:shield/plate/cthulhu/",
+        "tetra:shield/plate/buckler/",
+        "tetra:shield/plate/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "key": "cthulhu",
+            "attributes": {
+                "tetra:ability_damage": 7,
+                "tetra:ability_cooldown": -2,
+                "obscure_api:parry":0.2
+            },
+            "integrity": -2,
+            "magicCapacity": 120,
+            "durability": 400,
+            "aspects": {
+                "bluntWeapon": 1,
+                "breakable": 2
+            },
+            "effects": {
+                "lunge": 300
+            },
+                "glyph": {
+                    "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+                    "textureX": 208
+                            },
+            "models": [
+                {
+                    "type": "tetra:plate/cthulhu",
+                    "location": "tetra:items/module/shield/plate/cthulhu/cthulhu"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:sword/katana_blade/",
+        "tetra:sword/shared_blade/",
+        "tetra:sword/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "key": "mortal_blade",
+            "integrity": -3,
+            "attributes": {
+                "generic.attack_damage":16,
+                "generic.attack_speed": 1.2
+            },
+            "tools": {
+                "cut": [ 5, 8 ]
+            },
+            "aspects": {
+                "edgedWeapon": 2,
+                "breakable": 2
+            },
+            "durability": 1142,
+            "effects": {
+                "shieldbreaker": 2,
+                "art_of_forging:carnage":2,
+                "criticalStrike":[20,2],
+                "intuit": 2,
+                "sweeping": 12,
+                "severing": [ 30, 7 ],
+                "bleeding": [ 4, 4 ],
+                "abilityMomentum": [ 1, 1 ],
+                "skewering": 12
+                },
+            "magicCapacity": 844,
+            "glyph": {
+                "textureLocation": "tetra:textures/gui/aof_glyph.png",
+                "textureX": 208,
+                "tint":"A72727"
+                      },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/blade/mortal_blade/mortal_blade"
+                }
+            ]
+        }
+    ]
+}

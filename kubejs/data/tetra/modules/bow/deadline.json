@@ -1,0 +1,77 @@
+{
+    "replace": true,
+    "slots": [ "bow/stave" ],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:deadline/",
+        "tetra:bow/shared_stave/",
+        "tetra:bow/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "key": "deadline",
+            "integrity": -3,
+            "attributes": {
+                "tetra:draw_speed": 3,
+                "tetra:draw_strength": 24,
+		        "additional_attributes:spell_school_eldritch":3
+            },
+            "durability": 444,
+            "aspects": {
+                "bow": 2,
+                "breakable": 1
+            },
+            "effects": {
+                "spread": [ 0, 100 ],
+                "multishot": -5,
+		        "art_of_forging:nano_fused":100,
+		        "art_of_forging:judgement":[100,14.3],
+                "suspend": 1,
+                "zoom": 20,
+                "velocity": 30
+            },
+            "magicCapacity": 444,
+            "glyph": {
+                "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+                "textureX": 96
+        },
+            "models": [
+                {
+                    "location": "tetra:items/module/bow/deadline/deadline"
+                },
+                {
+                    "type": "draw_0",
+                    "location": "tetra:items/module/bow/deadline/0_deadline"
+                },
+                {
+                    "type": "draw_1",
+                    "location": "tetra:items/module/bow/deadline/1_deadline"
+                },
+                {
+                    "type": "draw_2",
+                    "location": "tetra:items/module/bow/deadline/2_deadline"
+                },
+                {
+                    "location": "tetra:items/module/bow/deadline/deadline_glow",
+                    "emission": 8
+                },
+                {
+                    "type": "draw_0",
+                    "location": "tetra:items/module/bow/deadline/0_deadline_glow",
+                    "emission": 8
+                },
+                {
+                    "type": "draw_1",
+                    "location": "tetra:items/module/bow/deadline/1_deadline_glow",
+                    "emission": 10
+                },
+                {
+                    "type": "draw_2",
+                    "location": "tetra:items/module/bow/deadline/2_deadline_glow",
+                    "emission": 15
+                }
+            ]
+        }
+    ]
+}

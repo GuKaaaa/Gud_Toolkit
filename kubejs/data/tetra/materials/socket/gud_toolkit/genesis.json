@@ -1,0 +1,39 @@
+{
+    "key": "genesis",
+    "category": "socket",
+    "hidden":true,
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 2147400000,
+    "integrityCost": 0,
+    "integrityGain": 0,
+    "magicCapacity": 2147400000,
+    "toolLevel": 8,
+    "toolEfficiency": 32,
+    "attributes":{
+	"generic.knockback_resistance":10,
+	"generic.max_health":2147400000,
+        "forge:reach_distance":32,
+        "forge:attack_range":32,
+	"generic.luck":2147400000,
+        "generic.armor": 32768,
+        "generic.armor_toughness": 32768,
+	"**generic.attack_speed": 10
+    },
+    "effects": {
+	"art_of_forging:judgement":[101,100],
+        "intuit": 128,
+	"stabilizing": 100,
+	"quickStrike":16,
+	"unbreaking": 100000,
+	"truesweep": 1
+    },
+    "tints": {
+        "glyph": "87CEFF",
+        "texture": "87CEFF"
+    },
+    "textures": [ "default" ],
+    "experienceCost": 1000,
+    "material":{"items":["kubejs:genesis"]}
+}

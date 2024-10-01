@@ -1,0 +1,51 @@
+{
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": [
+        "double/head_left"
+    ],
+    "improvements": [
+        "tetra:double/shared_head/",
+        "tetra:double/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "key": "radia_reaper_left",
+            "integrity": -1,
+            "attributes": {
+                "generic.attack_damage": 13,
+                "generic.attack_speed": -1.1
+            },
+            "tools": {
+                "cut": [ 4, 4 ]
+            },
+            "aspects": {
+                "edgedWeapon": 2,
+                "blockBreaker": 2,
+                "breakable": 2
+            },
+            "effects": {
+                "art_of_forging:disorienting": [ 2, 2 ],
+                "art_of_forging:beheading": 40,
+                "armorPenetration": 6,
+                "sweepingStrike": 1,
+                "sweeping": 2,
+                "truesweep": 1
+            },
+            "durability": 270,
+            "magicCapacity": 120,
+            "glyph": {
+                "textureLocation": "tetra:textures/gui/aof_glyph.png",
+                "textureX": 240,
+                "textureY": 16,
+		"tint":"FFF8DC"
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/radia_reaper/radia_reaper_left"
+                }
+            ]
+        }
+    ]
+}

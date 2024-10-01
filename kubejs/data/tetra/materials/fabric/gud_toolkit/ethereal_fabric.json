@@ -1,0 +1,30 @@
+{
+    "key": "ethereal_fabric",
+    "category": "fabric",
+    "primary": 1,
+    "secondary": 1,
+    "tertiary": 5.6,
+    "durability": 270,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 211,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "E066FF",
+        "texture": "E066FF"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "attributes":{
+        "obscure_api:dodge":0.15
+    },
+    "material": {
+        "items": [ "gud_toolkit:ethereal_fabric" ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:wood"
+    }
+}

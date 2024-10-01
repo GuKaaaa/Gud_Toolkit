@@ -1,0 +1,43 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "type": "tetra:basic_major_module",
+    "tweakKey": "tetra:sword/smoker",
+    "improvements": [
+        "tetra:sword/chainsaw_blade/",
+        "tetra:sword/shared_blade/",
+        "tetra:sword/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "key": "chainsaw_blade",
+            "integrity": -4,
+            "attributes": {
+                "generic.attack_speed": -2,
+                "generic.attack_damage": 6
+            },
+            "aspects": {
+                "edgedWeapon": 2,
+                "breakable": 2
+            },
+            "tools":{
+                "cut":[3,5],
+                "axe_dig":[4,2]
+            },
+            "durability": 855,
+            "effects": {
+                "bleeding": 6,
+                "skewering":[6,2],
+                "art_of_forging:beheading":20
+            },
+            "magicCapacity": 74,
+            "glyph": {
+                "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+                "textureX": 208,
+                "textureY": 16
+            },
+                "models": [{ "location": "tetra:items/module/sword/blade/chainsaw_blade/chainsaw_blade" }]
+          }
+  ]
+}

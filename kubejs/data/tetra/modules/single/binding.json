@@ -1,0 +1,26 @@
+{
+    "replace": false,
+    "type": "tetra:basic_module",
+    "slots": [ "single/binding" ],
+    "renderLayer": "higher",
+    "variants": [
+        {
+            "key": "single_binding/cursed_ingot",
+            "durability": 200,
+            "integrity": 3,
+            "attributes": {
+                "generic.attack_speed": -0.1
+            },
+            "glyph": {
+                "tint": "2E4D62",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/single/binding/binding/cursed_ingot"
+                }
+            ]
+        }
+    ]
+}

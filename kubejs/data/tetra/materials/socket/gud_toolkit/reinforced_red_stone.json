@@ -1,0 +1,34 @@
+{
+    "key": "reinforced_red_stone",
+    "hidden":true,
+    "category": "socket",
+    "primary": 5.2,
+    "secondary": 4.2,
+    "tertiary": 0,
+    "durability": 788,
+    "integrityCost": 4,
+    "integrityGain": 5,
+    "magicCapacity": 84,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "8B1C62",
+        "texture": "8B1C62"
+    },
+    "textures": [
+        "shiny",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "goety:reinforced_redstone_block"
+        ]
+    },
+    "attributes":{
+            "generic.attack_speed": 1.25
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    }
+}

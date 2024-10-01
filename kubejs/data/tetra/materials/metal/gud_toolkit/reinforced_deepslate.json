@@ -1,0 +1,34 @@
+{
+    "key": "reinforced_deepslate",
+    "category": "stone",
+    "primary": 8.5,
+    "secondary": 7,
+    "tertiary": 0,
+    "durability": 720,
+    "integrityCost": 3,
+    "integrityGain": 6,
+    "magicCapacity": 30,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 8,
+    "tints": {
+        "glyph": "6A6A6A",
+        "texture": "6A6A6A"
+    },
+    "effects":{
+        "unbreaking":10000
+    },
+    "textureOverrides": [
+        "items/module/sword/blade/basic/",
+        "items/module/sword/blade/unbound_stonecutter/"
+      ],    
+    "textures": [
+        "reinforced_deepslate",
+        "default"
+    ],
+    "material": {
+        "items": [ "minecraft:reinforced_deepslate" ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    }
+}

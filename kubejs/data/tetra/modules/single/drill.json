@@ -1,0 +1,55 @@
+{
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": ["single/head"],
+    "improvements": [
+        "tetra:single/head/drill/",
+        "tetra:single/shared_head/",
+        "tetra:single/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "materials": ["tetra:drill/"],
+            "key": "drill/",
+            "attributes": {
+                "generic.attack_damage": 2,
+                "generic.attack_speed": -1
+            },
+            "aspects": {
+                "blockBreaker": 2,
+                "breakable": 2
+            },
+            "tools": {
+                "shovel_dig": [0, -1],
+                "pickaxe_dig": [0, -1]
+            },
+            "durability": 120,
+            "extract": {
+                "primaryAttributes": {
+                    "generic.attack_damage": 1
+                },
+                "secondaryAttributes": {
+                    "generic.attack_speed": -0.15
+                },
+                "tools": {
+                    "shovel_dig": [0.8, 0.8],
+                    "pickaxe_dig": [0.8, 0.8]
+                },
+                "durability": 0.6,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+                    "textureX": 48
+                    },
+                "availableTextures": ["iron","diamond","netherite"],
+                "models": [
+                    {
+                        "location": "tetra:items/module/single/head/drill/"
+                    }
+                ]
+            }
+        }
+    ]
+}

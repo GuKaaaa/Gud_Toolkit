@@ -1,0 +1,44 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "type": "tetra:basic_major_module",
+    "tweakKey": "tetra:sword/smoker",
+    "improvements": [
+        "tetra:sword/smoker/",
+        "tetra:sword/shared_blade/",
+        "tetra:sword/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "material": {
+                "items": [ "kubejs:revolution_steam_engine" ]
+            },
+            "key": "smoker",
+            "integrity": -4,
+            "attributes": {
+                "generic.attack_speed": -1.5,
+                "generic.attack_damage": 11,
+                "generic.movement_speed": 0.02
+            },
+            "aspects": {
+                "edgedWeapon": 2,
+                "breakable": 2
+            },
+            "durability": 774,
+            "effects": {
+                "howling": [1,7],
+		"lunge":200,
+		"art_of_forging:disorienting":[6,8],
+		"art_of_forging:decaying":[2,3],
+                "abilityDefensive": 10
+            },
+            "magicCapacity": 127,
+    	    "glyph": {
+                "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+                "textureX": 64
+   	 },
+            "models": [{ "location": "tetra:items/module/sword/blade/smoker/smoker" }]
+          }
+  ]
+}

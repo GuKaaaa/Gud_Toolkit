@@ -1,0 +1,28 @@
+{
+    "key": "mystic_core",
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 22,
+    "integrityCost": 3,
+    "integrityGain": 1,
+    "magicCapacity": 570,
+    "toolLevel": 0,
+    "toolEfficiency": 4,
+    "tints": {
+      "glyph": "7A2897",
+      "texture": "7A2897"
+    },
+    "textures": [
+      "default"
+    ],
+    "improvements":{
+      	"manaRepair": 3
+     },
+  "attributes": {
+    "**obscure_api:magic_damage": 1
+  },
+    "experienceCost": 20,
+    "material":{"items":["goety:mystic_core"]}
+  }

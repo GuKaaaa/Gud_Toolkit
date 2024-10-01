@@ -1,0 +1,30 @@
+{
+    "replace": true,
+    "type": "tetra:basic_module",
+    "slots": [ "shield/boss" ],
+    "variants": [
+        {
+            "key": "flesh_spike",
+            "attributes": {
+                "tetra:ability_damage": 3,
+                "tetra:ability_cooldown": 0.1
+            },
+            "integrity": -1,
+            "durability": 87,
+            "effects": {
+                "blockingReflect": [ 80, 1.6 ]
+            },
+            "glyph": {
+                "tint":"AA4545",
+                "textureX": 104,
+                "textureY": 16
+            },
+        "models": [
+                {
+                    "type": "tetra:boss/flat",
+                    "location": "tetra:items/module/shield/boss/flesh_spike"
+            }
+            ]
+        }
+    ]
+}

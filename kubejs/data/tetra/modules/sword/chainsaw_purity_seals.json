@@ -1,0 +1,31 @@
+{
+    "replace": true,
+    "slots": [ "sword/guard" ],
+    "type": "tetra:basic_module",
+    "variants": [
+        {
+        "key": "chainsaw_purity_seals",
+        "attributes":{
+            "generic.attack_damage":13,
+            "**generic.attack_damage":0.2556,
+            "obscure_api:healing_power":3
+        },
+	    "effects":{
+		"art_of_forging:judgement": [30,50]
+	    },
+            "durability": 40,
+            "integrity": -3,
+            "magicCapacity": 120,
+            "glyph": {
+                "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+                "textureX": 24,
+                "textureY":249
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/chainsaw_purity_seals"
+                }
+            ]
+        }
+    ]
+}

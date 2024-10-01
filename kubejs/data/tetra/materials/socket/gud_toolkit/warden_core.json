@@ -1,0 +1,40 @@
+{
+    "key": "warden_core",
+    "category": "socket",
+    "hidden":true,
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 79,
+    "integrityCost": 3,
+    "integrityGain": 0,
+    "magicCapacity": 210,
+    "toolLevel": 0,
+    "toolEfficiency": 8,
+    "tints": {
+      "glyph": "03404F",
+      "texture": "03404F"
+    },
+    "textures": [
+      "warden_core"
+    ],
+    "textureOverrides": [
+      "items/module/single/binding/socket/",
+      "items/module/double/binding/socket/",
+      "items/module/sword/guard/socket/"
+    ],  
+    "effects" : {
+        "truesweep": 1,
+        "sweepingStrike": 1,
+        "janking": [1, 0],
+        "strikingPickaxe": 1,
+        "strikingAxe": 1,
+        "strikingShovel": 1,
+        "strikingHoe": 1,
+        "strikingHammer": 1,
+        "strikingCut": 1,
+        "sculkTaint": [ 1, 0.01 ]
+    },
+    "experienceCost": 25,
+    "material":{"items":["kubejs:warden_core"]}
+  }

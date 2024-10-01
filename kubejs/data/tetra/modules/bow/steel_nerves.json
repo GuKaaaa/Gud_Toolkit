@@ -1,0 +1,65 @@
+{
+    "replace": true,
+    "slots": [ "bow/stave" ],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:deadline/",
+        "tetra:bow/shared_stave/",
+        "tetra:bow/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "key": "steel_nerves",
+            "integrity": -3,
+            "attributes": {
+                "tetra:draw_speed": 0.75,
+                "tetra:draw_strength": 10
+            },
+            "durability": 600,
+            "aspects": {
+                "bow": 2,
+                "breakable": 1
+            },
+            "effects": {
+                "releaseLatch": -1,
+                "reaching": [30, 0.3],
+                "spread": [ 0, 99 ],
+                "overbowed": 2.5,
+                "suspend": 1
+            },
+            "magicCapacity": 200,
+            "glyph": {
+                "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+                "textureX": 80
+        },
+            "models": [
+                {
+                    "location": "tetra:items/module/bow/steel_nerves/steel_nerves"
+                },
+                {
+                    "type": "draw_0",
+                    "location": "tetra:items/module/bow/steel_nerves/steel_nerves"
+                },
+                {
+                    "type": "draw_1",
+                    "location": "tetra:items/module/bow/steel_nerves/1_steel_nerves"
+                },
+                {
+                    "type": "draw_2",
+                    "location": "tetra:items/module/bow/steel_nerves/1_steel_nerves"
+                },
+                {
+                    "type": "draw_1",
+                    "location": "tetra:items/module/bow/steel_nerves/1_steel_nerves_glow",
+                    "emission": 12
+                },
+                {
+                    "type": "draw_2",
+                    "location": "tetra:items/module/bow/steel_nerves/2_steel_nerves_glow",
+                    "emission": 15
+                }
+            ]
+        }
+    ]
+}

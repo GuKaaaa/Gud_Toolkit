@@ -1,0 +1,30 @@
+{
+    "key": "spirit_fabric",
+    "category": "fabric",
+    "primary": 1,
+    "secondary": 1,
+    "tertiary": 5.6,
+    "durability": 270,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 211,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "30455D",
+        "texture": "30455D"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "attributes":{
+        "irons_spellbooks:cooldown_reduction": 0.15
+    },
+    "material": {
+        "items": [ "goety:spirit_fabric" ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:wood"
+    }
+}

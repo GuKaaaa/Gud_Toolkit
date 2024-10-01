@@ -1,0 +1,38 @@
+{
+  "key": "purgatory_forge",
+  "category": "metal",
+  "primary": 12,
+  "secondary": 5.2,
+  "tertiary": 4.3,
+  "durability": 2770,
+  "integrityCost": 3,
+  "integrityGain": 9,
+  "magicCapacity": 775,
+  "toolLevel": 7,
+  "toolEfficiency": 12,
+  "tints": {
+    "glyph": "A72727",
+    "texture": "A72727"
+  },
+  "attributes": {
+    "*generic.attack_damage": 0.2
+  },
+  "effects": {
+    "intuit": 1.2,
+    "criticalStrike":[10],
+    "art_of_forging:infernal_rebuke":[20,1]
+  },
+  "textures": [
+    "metal",
+    "shiny",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "gud_toolkit:purgatory_forge"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  }
+}

@@ -1,0 +1,44 @@
+{
+    "key": "storm_star",
+    "category": "socket",
+    "hidden":true,
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 32767,
+    "integrityCost": 6,
+    "integrityGain": 0,
+    "magicCapacity": 32767,
+    "toolLevel": 8,
+    "toolEfficiency": 32,
+    "attributes":{
+	"additional_attributes:spell_general":2,
+	"generic.max_health":20,
+        "obscure_api:healing_power":6,
+        "forge:reach_distance":2,
+        "forge:attack_range":2,
+	"irons_spellbooks:max_mana":600,
+        "irons_spellbooks:mana_regen":1,
+        "irons_spellbooks:spell_power":0.4,
+	"irons_spellbooks:spell_resist": 0.4,
+        "generic.armor": 20,
+        "generic.armor_toughness": 20,
+	"**generic.attack_damage": 0.4,
+	"**generic.attack_speed": 0.5
+    },
+    "effects": {
+        "intuit": 8,
+	"stabilizing": 100,
+	"quickStrike":16,
+	"armorPenetration": 100,
+	"unbreaking": 10,
+	"truesweep": 1
+    },
+    "tints": {
+        "glyph": "ff00ff",
+        "texture": "ff00ff"
+    },
+    "textures": [ "shiny" ],
+    "experienceCost": 100,
+    "material":{"items":["witherstormmod:withered_nether_star"]}
+}

@@ -1,0 +1,40 @@
+{
+	"replace": true,
+    "slots": [ "single/head" ],
+	"type": "tetra:basic_major_module",
+	"improvements": [
+		"tetra:single/void_worm_fang/",
+        "tetra:single/trident/",
+        "tetra:single/spearhead/",
+        "tetra:single/shared_head/",
+        "tetra:single/shared/",
+        "tetra:shared/"
+	],
+	"variants": [
+		{
+			"key": "void_worm_fang/void_worm_fang",
+			"integrity": -3,
+			"attributes": {
+				"generic.attack_speed": -2,
+				"generic.attack_damage": 9,
+				"forge:attack_range": 0.5
+			},
+			"aspects": {
+                "pointyWeapon": 1,
+                "throwable": 1,
+                "breakable": 2
+			},
+			"durability": 90,
+			"effects": {
+				"crushing": 9,
+				"armorPenetration": 30,
+				"bleeding": [2, 3]
+			},
+			"magicCapacity": 500,
+			"glyph": {
+				"textureLocation": "tetra:textures/gui/gut_glyphs.png"
+			},
+			"models": [{ "location": "tetra:items/module/single/head/void_worm_fang/void_worm_fang" }]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:sword/inf_hate/",
+        "tetra:sword/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "key": "inf_hate",
+            "integrity": 2,
+            "attributes": {
+                "generic.attack_damage": 17
+            },
+            "tools": {
+                "cut": [ 6, 4 ],
+                "pry": [1,6]
+            },
+            "aspects": {
+                "edgedWeapon": 2,
+                "breakable": 2
+            },
+            "durability": 1750,
+            "effects": {
+                "sweeping": 3,
+                "criticalStrike": [ 50, 1.5 ]
+            },
+            "magicCapacity": 800,
+            "glyph": {
+                "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+                "textureX": 224
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/blade/inf_hate/inf_hate"
+                }
+            ]
+        }
+    ]
+}

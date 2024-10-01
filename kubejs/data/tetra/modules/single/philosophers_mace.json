@@ -1,0 +1,49 @@
+{
+    "replace": true,
+    "slots": [ "single/head" ],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:shared/",
+        "tetra:single/shared_head/",
+        "tetra:single/head/shared/",
+        "tetra:philosophers_mace/"
+    ],
+    "variants": [
+        {
+            "key": "philosophers_mace",
+            "integrity": -3,
+            "aspects": {
+                "bluntWeapon": 2,
+                "blockBreaker": 2,
+                "breakable": 2
+            },
+            "tools": {
+	    	    "pickaxe_dig": [9,12],
+	   	        "axe_dig": [3,4],
+	    	    "shovel_dig": [9,12],
+	   	        "hoe_dig": [3,6],
+	    	    "hammer_dig":[3,10],
+	    	    "cut": [1,3],
+	    	    "pry": [3,12]
+            },
+            "durability": 900,
+            "attributes": {
+                "forge:reach_distance":3
+            },    
+            "effects": {
+                "sweepingStrike": 1,
+                "stun": [20,5],
+                "janking": [2, 0],
+                "manaRepair": 5,
+                "mending": 3
+            },
+            "magicCapacity": 1850,
+                "glyph": {
+                "tint":"FFBBFF",
+			    "textureLocation": "tetra:textures/gui/aof_glyph.png",
+			    "textureX": 96
+                },
+            "models": [{ "location": "tetra:items/module/single/head/philosophers_mace/philosophers_mace" }]
+          }
+  ]
+}

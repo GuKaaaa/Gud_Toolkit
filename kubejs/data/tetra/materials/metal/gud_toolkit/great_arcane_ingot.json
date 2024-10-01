@@ -1,0 +1,32 @@
+{
+    "key": "great_arcane_ingot",
+    "category": "metal",
+    "primary": 7.3,
+    "secondary": 4,
+    "tertiary": 4,
+    "durability": 1997,
+    "integrityCost": 2,
+    "integrityGain": 8,
+    "magicCapacity": 678,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 10,
+    "tints": {
+        "glyph": "FFE1FF",
+        "texture": "FFE1FF"
+    },
+    "attributes": {
+        "irons_spellbooks:max_mana": 300,
+        "**irons_spellbooks:mana_regen":0.05,
+        "**irons_spellbooks:spell_power":0.1
+      },    
+    "textures": [
+        "heavy",
+        "metal"
+    ],
+    "material": {
+        "items": [ "gud_toolkit:great_arcane_ingot" ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    }
+}

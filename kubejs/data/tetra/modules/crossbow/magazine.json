@@ -1,0 +1,35 @@
+{
+    "replace": false,
+    "slots": [ "crossbow/attachment_0", "crossbow/attachment_1" ],
+    "type": "tetra:basic_module",
+    "improvements": [
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "material": {
+                "items": [ "alexsmobs:bison_fur" ]
+            },
+            "key": "magazine/",
+            "integrity": -3,
+            "durability": 12,
+        "attributes": {
+                "**tetra:draw_speed": -0.6
+        },
+            "extract": {
+                "durability": 0.05,
+                "glyph": {
+                    "tint": "BEBEBE",
+                    "textureX": 136,
+                    "textureY": 16
+                }
+		},
+                "models": [
+                    {
+                        "location": "tetra:items/module/crossbow/attachment/magazine",
+                        "type": "static"
+                    }
+                ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "key": "dark_fabric",
+    "category": "fabric",
+    "primary": 1,
+    "secondary": 1,
+    "tertiary": 5.6,
+    "durability": 270,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 211,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "1A1A1A",
+        "texture": "1A1A1A"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "attributes":{
+        "obscure_api:magic_damage": 3
+    },
+    "material": {
+        "items": [ "goety:dark_fabric" ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:wood"
+    }
+}

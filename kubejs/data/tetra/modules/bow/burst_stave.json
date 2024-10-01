@@ -1,0 +1,46 @@
+{
+    "replace": false,
+    "slots": [ "bow/stave" ],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:bow/burst_stave/",
+        "tetra:bow/shared_stave/",
+        "tetra:bow/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "key": "burst_stave",
+            "integrity": -2,
+            "attributes": {
+                "tetra:draw_speed": 1.9,
+                "tetra:draw_strength": 15
+            },
+            "aspects": {
+                "bow": 2,
+                "crossbow": 2,
+                "breakable": 2
+            },
+            "durability": 20,
+            "effects": {
+                "piercing": 6,
+                "multishot": [ 3, 1 ],
+                "spread": [ 0, 90 ],
+                "velocity": 15,
+                "art_of_forging:knockback": [ 1.5, 1 ]
+            },
+            "magicCapacity": 100,
+            "glyph": {
+                "textureX": 128,
+                "textureY": 32,
+                "tint": "858699"
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/bow/burst_stave/burst_stave",
+                    "type": "static"
+                }
+            ]
+        }
+    ]
+}

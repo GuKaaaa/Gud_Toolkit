@@ -1,0 +1,29 @@
+{
+    "key": "ice_dragon_bead",
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 500,
+    "integrityCost": 2,
+    "integrityGain": 0,
+    "magicCapacity": 700,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "attributes":{
+        "irons_spellbooks:ice_spell_power":0.5,
+        "**irons_spellbooks:ice_magic_resist":0.65
+    },
+    "tints": {
+      "glyph": "00BFFF",
+      "texture": "00BFFF"
+    },
+    "textures": [
+      "shiny"
+    ],
+    "effects" : {
+      "irons_spellbooks:freeze": 10
+    },
+    "experienceCost": 25,
+    "material":{"items":["kubejs:ice_dragon_bead"]}
+  }

@@ -1,0 +1,45 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:sword/shared_blade/",
+        "tetra:sword/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "key": "hanguang",
+            "integrity": 0,
+            "attributes": {
+                "**generic.attack_damage": -1,
+                "**tetra:ability_damage": -1,
+                "generic.attack_speed": 3
+            },
+            "aspects": {
+                "edgedWeapon": 2,
+                "breakable": 2
+            },
+            "durability": 100,
+            "effects": {
+                "truesweep": 1,
+	    	    "severing":[10,10],
+                "armorPenetration": 100
+            },
+            "magicCapacity": 800,
+            "glyph": {
+                "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+                "textureX": 32
+                    },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/blade/hanguang/hanguang"
+                },
+                {
+                    "location": "tetra:items/module/sword/blade/hanguang/hanguang_glow",
+                    "emission": 10
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "key": "occult_fabric",
+    "category": "fabric",
+    "primary": 1,
+    "secondary": 1,
+    "tertiary": 5.6,
+    "durability": 270,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 211,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "4F3058",
+        "texture": "4F3058"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "attributes":{
+        "irons_spellbooks:mana_regen":0.15
+    },
+    "material": {
+        "items": [ "goety:occult_fabric" ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:wood"
+    }
+}

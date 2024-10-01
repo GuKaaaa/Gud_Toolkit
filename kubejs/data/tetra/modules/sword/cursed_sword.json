@@ -1,0 +1,46 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:sword/cursed_sword/",
+        "tetra:sword/shared_blade/",
+        "tetra:sword/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "key": "cursed_sword",
+            "integrity": -3,
+            "attributes": {
+                "**generic.attack_damage": 1,
+                "**tetra:ability_damage": 1,
+                "generic.attack_speed": 0.5,
+                "generic.attack_damage": 20,
+                "**generic.max_health":-1
+            },
+            "tools": {
+                "cut": [ 5, 10 ]
+            },
+            "aspects": {
+                "edgedWeapon": 2,
+                "breakable": 2
+            },
+            "durability": 1000,
+            "effects": {
+                "sweeping": 4,
+                "quickStrike": -100
+            },
+            "magicCapacity": 800,
+            "glyph": {
+                "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+                "textureX": 160
+                    },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/blade/cursed_sword/cursed_sword"
+                }
+            ]
+        }
+    ]
+}

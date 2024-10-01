@@ -1,0 +1,39 @@
+{
+	"replace": true,
+    "slots": [ "single/head" ],
+	"type": "tetra:basic_major_module",
+	"improvements": [
+		"tetra:single/flawless/",
+        "tetra:single/spearhead/",
+        "tetra:single/shared_head/",
+        "tetra:single/shared/",
+        "tetra:shared/"
+	],
+	"variants": [
+		{
+			"key": "flawless/flawless",
+			"integrity": -3,
+			"attributes": {
+				"generic.attack_speed": -2.3,
+				"generic.attack_damage": 7,
+				"forge:attack_range": 1.5
+			},
+			"aspects": {
+                "pointyWeapon": 2,
+                "breakable": 2
+			},
+			"durability": 470,
+			"effects": {
+				"sweeping": 8,
+				"art_of_forging:hubris":100
+			},
+			"magicCapacity": 320,
+			"glyph": {
+				"textureLocation": "tetra:textures/gui/gut_glyphs.png",
+				"textureX": 128,
+				"textureY": 32
+					},
+			"models": [{ "location": "tetra:items/module/single/head/flawless/flawless" }]
+		}
+	]
+}
