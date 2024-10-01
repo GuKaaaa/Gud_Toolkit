@@ -1,0 +1,24 @@
+{
+  "type": "goety:brazier",
+  "soulCost": 220000,
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:necronomicon_spell_book"
+    },
+    {
+      "item": "irons_spellbooks:netherite_spell_book"
+    },
+    {
+      "item": "kubejs:command_spell_book"
+    },
+    {
+      "item": "irons_spellbooks:eldritch_manuscript"
+    },
+    {
+      "item": "gud_toolkit:mana_developer"
+    }
+  ],
+  "result": {
+    "item": "gud_toolkit:outer_chat"
+  }
+}

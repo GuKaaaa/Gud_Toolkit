@@ -1,0 +1,59 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:brass_block"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": "gud_toolkit:chainsaw_blade"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gud_toolkit:processing_chainsaw_blade"
+        }
+      ],
+      "results": [
+        {
+          "item": "gud_toolkit:processing_chainsaw_blade"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "gud_toolkit:processing_chainsaw_blade"
+        }
+      ],
+      "results": [
+        {
+          "item": "gud_toolkit:processing_chainsaw_blade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gud_toolkit:processing_chainsaw_blade"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "gud_toolkit:processing_chainsaw_blade"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gud_toolkit:processing_chainsaw_blade"
+  }
+}

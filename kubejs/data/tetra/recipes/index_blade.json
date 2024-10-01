@@ -1,0 +1,56 @@
+{
+	"type": "create:sequenced_assembly",
+	"ingredient": {
+	  "item": "lightmanscurrency:coinblock_iron"
+	},
+	"loops": 5,
+	"results": [
+	  {
+		"item": "gud_toolkit:index_blade"
+	  }
+	],
+	"sequence": [
+		{
+			"type": "create:pressing",
+			"ingredients": [
+			  {
+				"item": "gud_toolkit:processing_index_blade"
+			  }
+			],
+			"results": [
+			  {
+				"item": "gud_toolkit:processing_index_blade"
+			  }
+			]
+		},	
+	  {
+		"type": "create:pressing",
+		"ingredients": [
+		  {
+			"item": "gud_toolkit:processing_index_blade"
+		  }
+		],
+		"results": [
+		  {
+			"item": "gud_toolkit:processing_index_blade"
+		  }
+		]
+	  },
+	  {
+		"type": "create:pressing",
+		"ingredients": [
+		  {
+			"item": "gud_toolkit:processing_index_blade"
+		  }
+		],
+		"results": [
+		  {
+			"item": "gud_toolkit:processing_index_blade"
+		  }
+		]
+	  }
+	],
+	"transitionalItem": {
+	  "item": "gud_toolkit:processing_index_blade"
+	}
+  }

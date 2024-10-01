@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+	    "dbf",
+        "aca",
+        "aaa"
+	],
+	"key": {
+		"a": {
+			"item": "bosses_of_mass_destruction:soul_star"
+		},
+		"b": {
+			"item": "minecraft:bow"
+		},
+		"c": {
+			"item": "minecraft:writable_book"
+		},
+		"d": {
+            "item": "minecraft:diamond_sword"
+		},
+		"f": {
+            "item": "minecraft:shield"
+		}
+	},
+	"result": {
+		"item": "tetra:scroll_rolled",
+		"count": 1,
+		"nbt": {
+			"BlockEntityTag": {
+				"data": [{
+					"key": "dead_cells",
+					"schematics": ["tetra:dead_cells"],
+					"intricate": false,
+					"details": "otherworldly",
+					"material": 2,
+					"ribbon": "FF4500",
+					"glyphs": [6, 15, 4, 8]
+				}]
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+[
+    {
+        "key": "inf_pride",
+        "integrity": -1,
+        "attributes": {
+            "forge:reach_distance":0.5,
+            "forge:attack_range":0.5,
+            "**irons_spellbooks:summon_damage":2
+           },
+        "effects": {
+            "art_of_forging:cavalry":10,
+            "art_of_forging:dismounting":[20,100],
+            "art_of_forging:hubris":25,
+            "art_of_forging:conquering":[1,2]
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/sword/blade/inf_hate/improvements/inf_pride",
+                "renderLayer": "highest",
+                "emission": 15
+            }
+        ]    
+    }
+]

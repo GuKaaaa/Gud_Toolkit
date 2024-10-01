@@ -1,0 +1,45 @@
+[
+    {
+        "key": "ainz/holy",
+        "level": 1,
+        "integrity": -1,
+        "attributes": {
+            "irons_spellbooks:holy_spell_power": 0.1
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/single/head/ainz/iron_holy",
+                "emission": 15
+            }
+        ]
+    },
+    {
+        "key": "ainz/holy",
+        "level": 2,
+        "integrity": -2,
+        "attributes": {
+            "**irons_spellbooks:holy_spell_power": 0.05,
+            "irons_spellbooks:holy_spell_power": 0.2
+        },        "models": [
+            {
+                "location": "tetra:items/module/single/head/ainz/iron_holy",
+                "emission": 15
+            }
+        ]
+    },
+    {
+        "key": "ainz/holy",
+        "level": 3,
+        "integrity": -3,
+        "attributes": {
+            "**irons_spellbooks:holy_spell_power": 0.1,
+            "irons_spellbooks:holy_spell_power": 0.4,
+            "additional_attributes:spell_school_holy":1
+        },        "models": [
+            {
+                "location": "tetra:items/module/single/head/ainz/iron_holy",
+                "emission": 15
+            }
+        ]
+    }
+]

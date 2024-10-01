@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "art_of_forging:ancient_blade"
+		},
+		{
+			"item":"kubejs:god_consciousness"
+		}
+	],
+	"result": {
+		"item": "gud_toolkit:cursed_blade",
+		"count": 1
+	}
+}

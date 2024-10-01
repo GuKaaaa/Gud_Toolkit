@@ -1,0 +1,55 @@
+{
+	"type": "goety:ritual",
+	"ritual_type": "goety:craft",
+	"activation_item": {
+		"type": "tetra:scroll",
+		"key": "hone/gild_5",
+		"schematics": [ "" ],
+		"intricate": true,
+		"material": 2,
+		"ribbon": "c9ae69"
+},
+	"craftType": "magic",
+	"soulCost": 100,
+	"duration": 20,
+	"ingredients": [
+	{
+		"item":"tetra:pristine_lapis"
+	},
+	{
+		"item":"minecraft:experience_bottle"
+	},
+	{
+		"item":"cataclysm:void_core"
+	},
+	{
+		"item":"cataclysm:void_scatter_arrow"
+	},
+	{
+		"item":"cataclysm:void_scatter_arrow"
+	},
+	{
+		"item":"cataclysm:void_scatter_arrow"
+	},
+	{
+		"item":"gud_toolkit:mana_developer"
+	}
+	],
+	"result": {
+		"item": "tetra:scroll_rolled",
+		"count": 1,
+		"nbt": {
+			"BlockEntityTag": {
+				"data": [{
+					"key": "enchanter_infinity",
+					"effects": ["tetra:enchant_infinity"],
+					"intricate": true,
+					"details": "enchanter",
+					"material": 0,
+					"ribbon": "FF00FF",
+					"glyphs": [9, 9, 9, 9]
+				}]
+			}
+		}
+	}
+}

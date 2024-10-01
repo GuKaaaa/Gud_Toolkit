@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragon_type": "ice",
+  "cook_time": 1500,
+  "input": {
+    "item": "cataclysm:ignitium_ingot"
+  },
+  "blood": {
+    "item": "gud_toolkit:unclean_blood"
+  },
+  "result": {
+    "item": "gud_toolkit:purgatory_forge"
+  }
+}

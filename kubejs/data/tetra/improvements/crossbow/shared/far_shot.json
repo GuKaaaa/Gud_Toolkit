@@ -1,0 +1,32 @@
+[
+      {
+        "key": "crossbow/far_shot",
+        "level":1,
+        "integrity": -1,
+        "effects": {
+            "reaching": [40, 0.2]
+        }
+},
+    {
+        "key": "crossbow/far_shot",
+        "level":2,
+        "aspects": {
+            "honed": 1
+        },
+        "integrity": -1,
+        "effects": {
+            "reaching": [35, 0.3]
+        }
+    },
+    {
+        "key": "crossbow/far_shot",
+        "level":3,
+        "aspects": {
+            "honed": 2
+        },
+        "integrity": -2,
+        "effects": {
+            "reaching": [20, 0.55]
+        }
+    }
+]

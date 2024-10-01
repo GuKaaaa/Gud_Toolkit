@@ -1,0 +1,13 @@
+[
+    {
+        "key": "mace/wind",
+        "level": 0,
+        "integrity": -1,
+        "attributes": {
+		"caelus:fall_flying":1,
+		"generic.movement_speed":0.05,
+    	"forge:step_height_addition": 1,
+		"**generic.attack_speed":0.2
+        }
+    }
+]

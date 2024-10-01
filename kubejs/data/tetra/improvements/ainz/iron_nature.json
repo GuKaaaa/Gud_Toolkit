@@ -1,0 +1,45 @@
+[
+    {
+        "key": "ainz/nature",
+        "level": 1,
+        "integrity": -1,
+        "attributes": {
+            "irons_spellbooks:nature_spell_power": 0.1
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/single/head/ainz/iron_nature",
+                "emission": 15
+            }
+        ]
+    },
+    {
+        "key": "ainz/nature",
+        "level": 2,
+        "integrity": -2,
+        "attributes": {
+            "**irons_spellbooks:nature_spell_power": 0.05,
+            "irons_spellbooks:nature_spell_power": 0.2
+        },        "models": [
+            {
+                "location": "tetra:items/module/single/head/ainz/iron_nature",
+                "emission": 15
+            }
+        ]
+    },
+    {
+        "key": "ainz/nature",
+        "level": 3,
+        "integrity": -3,
+        "attributes": {
+            "**irons_spellbooks:nature_spell_power": 0.1,
+            "irons_spellbooks:nature_spell_power": 0.4,
+            "additional_attributes:spell_school_nature":1
+        },        "models": [
+            {
+                "location": "tetra:items/module/single/head/ainz/iron_nature",
+                "emission": 15
+            }
+        ]
+    }
+]

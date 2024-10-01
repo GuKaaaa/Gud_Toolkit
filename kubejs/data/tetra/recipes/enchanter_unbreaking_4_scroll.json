@@ -1,0 +1,61 @@
+{
+	"type": "goety:ritual",
+	"ritual_type": "goety:craft",
+	"activation_item": {
+		"type": "tetra:scroll",
+		"key": "enchanter_unbreaking_3",
+		"effects": [" "],
+		"intricate": true,
+		"material": 0,
+		"ribbon": "FF00FF"
+},
+	"craftType": "magic",
+	"soulCost": 200,
+	"duration": 12,
+	"ingredients": [
+	  {
+		"item": "tetra:pristine_lapis"
+	  },
+	  {
+		"item":"minecraft:experience_bottle"
+	  },
+	  {
+		"item":"minecraft:nether_star"
+	  },
+	  {
+		"item":"kubejs:unbreakable_core"
+	  },
+	  {
+		"item":"minecraft:reinforced_deepslate"
+	  },
+	  {
+		"item":"minecraft:reinforced_deepslate"
+	  },
+	  {
+		"item":"iceandfire:dreadwood_planks_lock"
+	  },
+	  {
+		"item":"gud_toolkit:mana_developer"
+	  },
+	  {
+		"item":"irons_spellbooks:legendary_ink"
+	  }
+	],
+	"result": {
+		"item": "tetra:scroll_rolled",
+		"count": 1,
+		"nbt": {
+			"BlockEntityTag": {
+				"data": [{
+					"key": "enchanter_unbreaking_4",
+					"effects": ["tetra:enchant_unbreaking_4"],
+					"intricate": true,
+					"details": "enchanter",
+					"material": 2,
+					"ribbon": "FF00FF",
+					"glyphs": [9, 9, 9, 9]
+				}]
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "key": "inf_wrath",
+        "integrity": -1,
+        "attributes": {
+            "**generic.attack_damage": 0.1,
+            "*generic.attack_damage": 0.8
+        },
+        "effects": {
+            "criticalStrike": [ -10, 1 ],
+            "art_of_forging:knockback": [ 1, 0 ],
+            "art_of_forging:vengeance":[10,5],
+            "art_of_forging:carnage":[1,10]
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/sword/blade/inf_hate/improvements/inf_wrath",
+                "emission": 15
+            }
+        ]    
+    }
+]

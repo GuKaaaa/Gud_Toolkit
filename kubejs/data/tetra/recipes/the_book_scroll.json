@@ -1,0 +1,61 @@
+{
+	"type": "goety:ritual",
+	"ritual_type": "goety:craft",
+	"activation_item": {
+		"type": "tetra:scroll",
+		"key": "hone/gild_5",
+		"schematics": [ "" ],
+		"intricate": true,
+		"material": 2,
+		"ribbon": "c9ae69"
+},
+	"craftType": "magic",
+	"soulCost": 100,
+	"duration": 300,
+	"ingredients": [
+	  {
+		"item": "art_of_forging:mark_of_the_architect"
+	  },
+	  {
+		"item":"witherstormmod:command_block_book"
+	  },
+	  {
+		"item": "minecraft:clock"
+	  },
+	  {
+		"item":"gud_toolkit:mana_developer"
+	  },
+	  {
+		"item":"gud_toolkit:mana_developer"
+	  },
+	  {
+		"item":"gud_toolkit:mana_developer"
+	  },
+	  {
+		"item": "tetra:pristine_diamond"
+	  },
+	  {
+		"item": "tetra:pristine_diamond"
+	  },
+	  {
+		"item": "tetra:pristine_diamond"
+	  }
+	],
+	"result": {
+		"item": "tetra:scroll_rolled",
+		"count": 1,
+		"nbt": {
+			"BlockEntityTag": {
+				"data": [{
+					"key": "the_book",
+					"effects": ["tetra:the_book"],
+					"intricate": true,
+					"details": "the_book",
+					"material": 2,
+					"ribbon": "1E90FF",
+					"glyphs": [9, 9, 9, 9]
+				}]
+			}
+		}
+	}
+}

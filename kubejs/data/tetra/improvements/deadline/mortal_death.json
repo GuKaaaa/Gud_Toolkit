@@ -1,0 +1,12 @@
+[
+      {
+        "key": "mortal_death",
+        "integrity": -1,
+        "aspects": {
+            "honed": 1
+        },
+        "effects": {
+		"art_of_forging:judgement":[0,25]
+        }
+    }
+]

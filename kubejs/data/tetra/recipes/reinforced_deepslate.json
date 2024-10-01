@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+	    "aaa",
+        "bab",
+        "aaa"
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:deepslate"
+		},
+		"b": {
+			"item": "kubejs:warden_rib"
+		}
+	},
+	"result": {
+		"item": "minecraft:reinforced_deepslate",
+		"count":7
+	}
+}

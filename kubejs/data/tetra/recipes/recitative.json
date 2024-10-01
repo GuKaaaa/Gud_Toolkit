@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+	    " da",
+        " bc",
+        "a  "
+	],
+	"key": {
+		"a": {
+			"item": "gud_toolkit:great_arcane_ingot"
+		},
+		"b": {
+			"item": "irons_spellbooks:arcane_ingot"
+		},
+		"c": {
+			"item": "minecraft:gold_ingot"
+		},
+		"d": {
+            "item": "irons_spellbooks:mana_upgrade_orb"
+		}
+	},
+	"result": {
+		"item": "gud_toolkit:recitative",
+		"count": 1
+	}
+}

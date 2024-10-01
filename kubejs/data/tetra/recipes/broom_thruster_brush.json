@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "art_of_forging:forged_steel_ingot"
+    },
+    "C": {
+      "item": "createaddition:biomass_pellet_block"
+    },
+    "D": {
+      "item": "create:blaze_burner"
+    },
+    "E": {
+      "item": "create:chute"
+    }
+  },
+  "pattern": [
+    "BBA  ",
+    "EDCAA",
+    "BBA  "
+  ],
+  "result": {
+    "item": "hexerei:broom_thruster_brush"
+  }
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "key": "lich_trigger",
+        "integrity": -3,
+        "attributes": {
+            "**tetra:draw_speed": -0.95
+        },
+        "effects": {
+            "spread": [ 0, 8 ]
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/bow/string/improvements/lich_trigger"
+            },
+            {
+                "type": "draw_0",
+                "location": "tetra:items/module/bow/string/improvements/lich_trigger_0"
+            },
+            {
+                "type": "draw_1",
+                "location": "tetra:items/module/bow/string/improvements/lich_trigger_1"
+            },
+            {
+                "type": "draw_2",
+                "location": "tetra:items/module/bow/string/improvements/lich_trigger_2"
+            }
+        ]
+    }
+]

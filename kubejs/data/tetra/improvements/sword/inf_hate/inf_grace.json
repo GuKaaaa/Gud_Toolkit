@@ -1,0 +1,46 @@
+[
+    {
+        "key": "inf_grace",
+        "integrity": -3,
+        "attributes": {
+            "generic.attack_damage": 10,
+            "generic.knockback_resistance":1,
+            "**generic.attack_damage": 0.1,
+            "forge:reach_distance":1,
+            "forge:attack_range":1,
+            "**generic.max_health":1,
+            "obscure_api:healing_power":1,
+            "generic.armor": 10,
+            "generic.armor_toughness": 10,
+            "irons_spellbooks:max_mana":800,
+            "irons_spellbooks:mana_regen":0.2,
+            "irons_spellbooks:cast_time_reduction":0.3,
+            "irons_spellbooks:cooldown_reduction": 0.3,
+            "**irons_spellbooks:spell_power":0.5
+        },
+        "effects": {
+            "criticalStrike": [ -50, -1.5 ],
+            "blocking_reflect": [100,100]  ,     
+            "irons_spellbooks:mana_siphon": 150,   
+            "art_of_forging:esoteric_edge": 200,
+            "art_of_forging:devouring":-10,
+            "sculkTaint": [ -10, -10 ],
+            "fierySelf":[-10,-10],
+            "enderReverb": [ -10, -10 ]  
+        },
+        "aspects": {
+            "edgedWeapon": 2
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/sword/blade/inf_hate/improvements/inf_grace",
+                "renderLayer": "higher",
+                "emission": 15
+            },
+            {
+                "location": "tetra:items/module/sword/blade/inf_hate/improvements/inf_grace_wing",
+                "renderLayer": "highest"
+            }
+        ]    
+    }
+]

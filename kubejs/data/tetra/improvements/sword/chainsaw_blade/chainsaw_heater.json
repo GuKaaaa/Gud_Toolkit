@@ -1,0 +1,65 @@
+[
+    {
+        "key": "chainsaw_heater",
+        "integrity": -1,
+        "level":1,
+        "aspects": {
+            "honed": 1
+        },
+        "attributes":{
+            "generic.attack_damage": 1
+        },
+        "effects":{
+            "bleeding": -1,
+            "skewering":[0,2]
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/sword/blade/chainsaw_blade/improvements/heater",
+                "emission": 12
+            }
+        ]    
+    },
+    {
+        "key": "chainsaw_heater",
+        "integrity": -1,
+        "level":2,
+        "aspects": {
+            "honed": 2
+        },
+        "attributes":{
+            "generic.attack_damage": 3
+        },
+        "effects":{
+            "bleeding": -2,
+            "skewering":[0,6]
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/sword/blade/chainsaw_blade/improvements/heater",
+                "emission": 12
+            }
+        ]    
+    },
+    {
+        "key": "chainsaw_heater",
+        "integrity": -2,
+        "level":3,
+        "aspects": {
+            "honed": 3
+        },
+        "attributes":{
+            "generic.attack_damage": 5
+        },
+        "effects":{
+            "bleeding": -4,
+            "skewering":[0,10]
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/sword/blade/chainsaw_blade/improvements/heater",
+                "emission": 12
+            }
+        ]    
+    }
+]

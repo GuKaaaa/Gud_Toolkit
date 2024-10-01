@@ -1,0 +1,76 @@
+[
+    {
+        "key": "chainsaw_adeptus",
+        "integrity": -1,
+        "level":1,
+        "aspects": {
+            "honed": 1
+        },
+        "attributes":{
+            "generic.attack_speed": 0.5
+        },
+        "effects":{
+            "armorPenetration":10
+        },
+        "tools":{
+            "cut":[0,1],
+            "axe_dig":[0,2]
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/sword/blade/chainsaw_blade/improvements/adeptus",
+                "emission": 15
+            }
+        ]    
+    },
+    {
+        "key": "chainsaw_adeptus",
+        "integrity": -1,
+        "level":2,
+        "aspects": {
+            "honed": 2
+        },
+        "attributes":{
+            "generic.attack_speed": 1
+        },
+        "effects":{
+            "armorPenetration":20,
+            "bleeding": 2
+        },
+        "tools":{
+            "cut":[0,5],
+            "axe_dig":[0,5]
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/sword/blade/chainsaw_blade/improvements/adeptus",
+                "emission": 15
+            }
+        ]    
+    },
+    {
+        "key": "chainsaw_adeptus",
+        "integrity": -2,
+        "level":3,
+        "aspects": {
+            "honed": 3
+        },
+        "attributes":{
+            "generic.attack_speed": 2
+        },
+        "effects":{
+            "armorPenetration":35,
+            "bleeding": 5
+        },
+        "tools":{
+            "cut":[1,8],
+            "axe_dig":[1,10]
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/sword/blade/chainsaw_blade/improvements/adeptus",
+                "emission": 15
+            }
+        ]    
+    }
+]

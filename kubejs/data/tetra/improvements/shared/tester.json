@@ -1,0 +1,13 @@
+[
+    {
+        "key": "tester",
+        "effects": {
+            "piercing": 10,
+            "piercingHarvest":10,
+            "unboundExtraction": 80
+        },
+        "tools":{
+            "pickaxe_dig":[5,5]
+        }
+    }
+]

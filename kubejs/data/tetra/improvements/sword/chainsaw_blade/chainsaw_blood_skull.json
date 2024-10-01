@@ -1,0 +1,137 @@
+[
+    {
+        "key": "chainsaw_blood_skull",
+        "integrity": -1,
+        "level":1,
+        "aspects": {
+            "honed": 1
+        },
+        "attributes":{
+            "generic.attack_damage": 1
+        },
+        "effects":{
+            "art_of_forging:beheading":20
+        }
+    },
+    {
+        "key": "chainsaw_blood_skull",
+        "integrity": -2,
+        "level":2,
+        "aspects": {
+            "honed": 2
+        },
+        "attributes":{
+            "generic.attack_damage": 2
+        },
+        "effects":{
+            "art_of_forging:beheading":50
+        }
+    },
+    {
+        "key": "chainsaw_blood_skull",
+        "integrity": -3,
+        "level":3,
+        "aspects": {
+            "honed": 3
+        },
+        "attributes":{
+            "generic.attack_damage": 3.1
+        },
+        "effects":{
+            "art_of_forging:life_steal":[2,8],
+            "bleeding": 4,
+            "art_of_forging:beheading":80
+        }
+    },
+    {
+        "key": "chainsaw_blood_skull",
+        "integrity": -4,
+        "level":4,
+        "aspects": {
+            "honed": 4
+        },
+        "attributes":{
+            "generic.attack_damage": 4.2
+        },
+        "effects":{
+            "art_of_forging:life_steal":[4,16],
+            "bleeding": 5,
+            "art_of_forging:beheading":80
+        }
+    },
+    {
+        "key": "chainsaw_blood_skull",
+        "integrity": -5,
+        "level":5,
+        "aspects": {
+            "honed": 5
+        },
+        "attributes":{
+            "obscure_api:magic_resistance":0.2,
+            "**generic.attack_damage": 0.08,
+            "generic.attack_damage": 5.2
+        },
+        "effects":{
+            "art_of_forging:life_steal":[4,24],
+            "bleeding": 6,
+            "art_of_forging:beheading":80
+        }
+    },
+    {
+        "key": "chainsaw_blood_skull",
+        "integrity": -6,
+        "level":6,
+        "aspects": {
+            "honed": 6
+        },
+        "attributes":{
+            "obscure_api:magic_resistance":0.2,
+            "**generic.attack_damage": 0.08,
+            "generic.attack_damage": 6.3
+        },
+        "effects":{
+            "art_of_forging:life_steal":[6,40],
+            "art_of_forging:carnage":4,
+            "bleeding": 8,
+            "art_of_forging:beheading":80
+        }
+    },
+    {
+        "key": "chainsaw_blood_skull",
+        "integrity": -7,
+        "level":7,
+        "aspects": {
+            "honed": 7
+        },
+        "attributes":{
+            "obscure_api:magic_resistance":0.4,
+            "**generic.attack_damage": 0.16,
+            "generic.attack_damage": 7.5
+        },
+        "effects":{
+            "art_of_forging:life_steal":[6,72],
+            "art_of_forging:carnage":6,
+            "bleeding": 12,
+            "art_of_forging:beheading":80
+        }
+    },
+    {
+        "key": "chainsaw_blood_skull",
+        "integrity": -8,
+        "level":8,
+        "aspects": {
+            "honed": 8
+        },
+        "attributes":{
+            "obscure_api:magic_resistance":0.75,
+            "**generic.attack_damage": 0.16,
+            "generic.attack_damage": 8.8
+        },
+        "effects":{
+            "art_of_forging:life_steal":[8,88],
+            "art_of_forging:carnage":8,
+            "bleeding": 16,
+            "art_of_forging:beheading":80
+        }
+    }
+]

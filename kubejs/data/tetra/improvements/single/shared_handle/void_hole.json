@@ -1,0 +1,24 @@
+[
+    {
+        "key": "void_hole",
+        "durabilityMultiplier": 0.5,
+        "integrity": 6,
+        "magicCapacity": -400,
+        "attributes": {
+	    	"generic.attack_speed": 0.3,
+        	"generic.movement_speed": 0.03,
+        	"forge:reach_distance":2,
+        	"forge:attack_range":2
+        },
+        "effects": {
+            "art_of_forging:devouring": [ 2, 3 ]
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/single/handle/void_hole/void_hole",
+                "renderLayer": "highest",
+                "emission":10
+            }
+        ]
+    }
+]

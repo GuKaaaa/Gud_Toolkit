@@ -1,0 +1,28 @@
+[
+    {
+        "key": "hammer_upgrade",
+        "level": 1,
+	"tools":{
+	    	"hammer_dig":[6,20]
+	},
+	"effects":{
+                "stun": [40,2],
+                "shieldbreaker": 1
+	},
+        "attributes": {
+                "generic.attack_damage": 5
+        }
+    },
+    {
+        "key": "hammer_upgrade",
+        "level": 2,
+        "integrity": -1,
+	"tools":{
+	    	"hammer_dig":[6,40]
+	},
+        "effects":{
+                "stun": [70,3],
+                "shieldbreaker": 2
+	}
+    }
+]

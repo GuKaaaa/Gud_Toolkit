@@ -1,0 +1,8 @@
+[
+    {
+        "key": "chainsaw_purity_seals",
+        "attributes":{
+            "**generic.attack_damage": -0.1
+        }
+    }
+]

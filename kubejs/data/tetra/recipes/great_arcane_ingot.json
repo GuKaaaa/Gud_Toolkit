@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "irons_spellbooks:arcane_salvage"
+		},
+		{
+			"item": "irons_spellbooks:arcane_salvage"
+		},
+		{
+			"item": "irons_spellbooks:arcane_salvage"
+		},
+		{
+			"item": "irons_spellbooks:arcane_salvage"
+		},
+		{
+			"item":"irons_spellbooks:arcane_ingot"
+		},
+		{
+			"item":"irons_spellbooks:arcane_ingot"
+		},
+		{
+			"item":"irons_spellbooks:arcane_ingot"
+		},
+		{
+			"item":"irons_spellbooks:arcane_ingot"
+		}
+	],
+	"result": {
+		"item": "gud_toolkit:great_arcane_ingot",
+		"count": 2
+	}
+}

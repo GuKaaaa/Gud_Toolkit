@@ -1,0 +1,17 @@
+{
+    "type":"biomancy:decomposing",
+    "ingredient":{"item":"gud_toolkit:unclean_blood"},
+    "nutrientsCost":3,
+    "processingTime":640,
+    "results":[
+        {"countRange":{
+            "type":"uniform","max":21,"min":14},
+            "item":"biomancy:exotic_dust"},
+        {"countRange":{
+            "type":"uniform","max":3,"min":2},
+            "item":"biomancy:bio_lumens"},
+        {"countRange":
+            {"type":"uniform","max":1,"min":0},
+            "item":"gud_toolkit:unclean_blood"}
+            ]
+        }

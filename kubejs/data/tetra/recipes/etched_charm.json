@@ -1,0 +1,13 @@
+{"type":"biomancy:bio_forging",
+"bio_forge_tab":"biomancy:weapons",
+"ingredients":[
+    {"count":2,"item":"biomancy:unstable_compound"},
+    {"count":3,"item":"gud_toolkit:etched_iron"},
+    {"count":16,"item":"biomancy:bone_fragments"},
+    {"count":18,"item":"biomancy:tough_fibers"}
+    ],
+    "nutrientsCost":180,
+    "result":{
+        "item":"gud_toolkit:etched_charm"
+        }
+    }

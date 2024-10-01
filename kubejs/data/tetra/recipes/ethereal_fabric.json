@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:string"
+    },
+    {
+      "tag": "forge:string"
+    },
+    {
+      "tag": "forge:gems/lapis"
+    },
+    {
+      "item": "gud_toolkit:erratic_stone"
+    }
+  ],
+  "result": {
+    "item": "gud_toolkit:ethereal_fabric"
+  }
+}

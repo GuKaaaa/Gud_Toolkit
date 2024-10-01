@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "irons_spellbooks:tarnished_helmet"
+  },
+  "addition": {
+    "item": "gud_toolkit:great_arcane_ingot"
+  },
+  "result": {
+    "item": "gud_toolkit:vanity_crown"
+  }
+}

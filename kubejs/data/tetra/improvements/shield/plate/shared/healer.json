@@ -1,0 +1,9 @@
+[
+    {
+        "key": "shield/healer",
+        "attributes": {
+            "obscure_api:healing_power":1,
+            "modulargolems:golem_regen":2
+        }
+    }
+]

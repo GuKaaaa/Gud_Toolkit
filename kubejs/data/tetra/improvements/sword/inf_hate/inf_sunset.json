@@ -1,0 +1,33 @@
+[
+    {
+        "key": "inf_sunset",
+        "integrity": -1,
+        "attributes": {
+            "generic.attack_damage": 4,
+            "**generic.attack_damage": 0.1,
+            "generic.movement_speed":0.01,
+            "forge:reach_distance":1,
+            "forge:attack_range":1
+        },
+        "effects": {
+            "sweeping": -1,
+            "stun": [60,0.5],
+            "bleeding": 10,
+            "criticalStrike": [ -50, -1.5 ],
+            "art_of_forging:esoteric_edge": 25
+        },
+        "aspects": {
+            "edgedWeapon": 2,
+            "pointyWeapon": 2
+        },
+       "models": [
+        {
+            "location": "tetra:items/module/sword/blade/inf_hate/improvements/inf_sunset"
+        },
+        {
+            "location": "tetra:items/module/sword/blade/inf_hate/improvements/inf_sunset_glow",
+            "emission": 15
+        }
+    ]
+    }
+]

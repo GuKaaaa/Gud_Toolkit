@@ -1,0 +1,35 @@
+[
+      {
+        "key": "bow/burst",
+        "level":1,
+        "integrity": -1,
+        "effects": {
+            "piercing": 1,
+            "velocity": 7
+        }
+},
+    {
+        "key": "bow/burst",
+        "level":2,
+        "aspects": {
+            "honed": 1
+        },
+        "integrity": -1,
+        "effects": {
+            "piercing": 2,
+            "velocity": 15
+        }
+    },
+    {
+        "key": "bow/burst",
+        "level":3,
+        "aspects": {
+            "honed": 2
+        },
+        "integrity": -2,
+        "effects": {
+            "piercing": 4,
+            "velocity": 20
+        }
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "key": "mace/ominous",
+        "level": 0,
+        "integrity": -1,
+	    "effects":{
+		    "art_of_forging:evoking_maw":[5,2]
+	    },
+        "attributes": {
+            "obscure_api:magic_damage":4,
+		    "forge:nametag_distance":64,
+    		"additional_attributes:harvest": 4,
+            "generic.armor":3,
+		    "minecraft:generic.luck":10
+        }
+    }
+]

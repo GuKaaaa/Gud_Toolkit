@@ -1,0 +1,24 @@
+[
+    {
+        "key": "inf_greed",
+        "integrity": -1,
+        "attributes":{
+            "additional_attributes:harvest":2
+        },
+        "effects": {
+            "art_of_forging:nano_fused":100,
+            "art_of_forging:beheading":100
+       },
+       "models": [
+        {
+            "location": "tetra:items/module/sword/blade/inf_hate/improvements/inf_greed",
+            "renderLayer": "highest"
+        },
+        {
+            "location": "tetra:items/module/sword/blade/inf_hate/improvements/inf_greed_glow",
+            "renderLayer": "highest",
+            "emission": 15
+        }
+    ]
+    }
+]

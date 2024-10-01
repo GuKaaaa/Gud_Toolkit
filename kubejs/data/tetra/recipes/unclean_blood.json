@@ -1,0 +1,42 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "ingredients": [
+    {
+      "item": "goety:unholy_blood"
+    },
+    {
+      "item": "hexerei:blood_bottle"
+    },
+    {
+      "item": "hexerei:blood_bottle"
+    },
+    {
+      "item": "hexerei:blood_bottle"
+    },
+    {
+      "item": "hexerei:blood_bottle"
+    },
+    {
+      "item": "hexerei:blood_bottle"
+    },
+    {
+      "item": "hexerei:blood_bottle"
+    },
+    {
+      "item": "hexerei:blood_bottle"
+    }
+  ],
+  "output": {
+    "item": "gud_toolkit:unclean_blood",
+    "count": 8
+  },
+
+  "liquidOutput": {
+    "fluid": "minecraft:water"
+  },
+  "fluidLevelsConsumed": 500,
+  "heatRequirement": "heated"
+}

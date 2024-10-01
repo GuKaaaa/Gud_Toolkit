@@ -1,0 +1,38 @@
+[
+      {
+        "key": "heavy",
+        "level":1,
+        "integrity": -1,
+        "attributes": {
+            "**generic.attack_damage":0.05,
+            "generic.attack_speed": -0.01
+        }
+    },
+    {
+        "key": "heavy",
+        "level":2,
+        "aspects": {
+            "honed": 1
+        },
+        "integrity": -1,
+        "attributes": {
+            "**generic.attack_damage":0.1,
+            "generic.attack_speed": -0.06
+        }
+    },
+    {
+        "key": "heavy",
+        "level":3,
+        "aspects": {
+            "honed": 2
+        },
+        "integrity": -2,
+        "attributes": {
+            "**generic.attack_damage":0.15,
+            "generic.attack_speed": -0.1
+        },
+        "effects":{
+            "shieldbreaker": 2
+        }
+    }
+]

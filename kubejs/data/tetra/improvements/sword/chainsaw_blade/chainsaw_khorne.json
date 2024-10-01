@@ -1,0 +1,10 @@
+[
+    {
+        "key": "chainsaw_khorne",
+        "models": [
+            {
+                "location": "tetra:items/module/sword/blade/chainsaw_blade/improvements/khorne"
+            }
+        ]    
+    }
+]

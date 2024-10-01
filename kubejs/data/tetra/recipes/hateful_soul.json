@@ -1,0 +1,18 @@
+{
+  "type": "goety:brazier",
+  "soulCost": 4000,
+  "ingredients": [
+    {
+      "item": "kubejs:cursed_soul"
+    },
+    {
+      "item": "minecraft:spawner"
+    },
+    {
+      "item": "goety:soul_ruby"
+    }
+  ],
+  "result": {
+    "item": "gud_toolkit:hateful_soul"
+  }
+}

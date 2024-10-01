@@ -1,0 +1,57 @@
+[
+    {
+        "key": "scythe_upgrade",
+        "level": 1,
+	"tools":{
+	   	"hoe_dig": [4,12],
+	    	"cut": [1,3]
+	},
+	"effects":{
+                "strikingHoe": 1,
+                "sweeping": 1,
+		"art_of_forging:beheading":10
+	},
+        "attributes": {
+		"additional_attributes:harvest":2,
+                "generic.attack_damage": 3,
+        	"forge:attack_range":1
+        }
+    },
+    {
+        "key": "scythe_upgrade",
+        "level": 2,
+	"tools":{
+	   	"hoe_dig": [5,18],
+	    	"cut": [2,6]
+	},
+	"effects":{
+                "strikingHoe": 1,
+                "sweeping": 2,
+		"art_of_forging:beheading":35
+	},
+        "attributes": {
+		"additional_attributes:harvest":3,
+                "generic.attack_damage": 4,
+        	"forge:attack_range":1
+        }
+    },
+    {
+        "key": "scythe_upgrade",
+        "level": 3,
+        "integrity": -1,
+	"tools":{
+	   	"hoe_dig": [6,24],
+	    	"cut": [4,9]
+	},
+	"effects":{
+                "strikingHoe": 1,
+                "sweeping": 4,
+		"art_of_forging:beheading":80
+	},
+        "attributes": {
+		"additional_attributes:harvest":5,
+                "generic.attack_damage": 6,
+        	"forge:attack_range":1.5
+        }
+    }
+]

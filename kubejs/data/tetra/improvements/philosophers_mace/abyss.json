@@ -1,0 +1,12 @@
+[
+    {
+        "key": "mace/abyss",
+        "level": 0,
+        "integrity": -1,
+        "attributes": {
+            "obscure_api:magic_damage":14,
+            "**obscure_api:magic_damage":2,
+            "**obscure_api:magic_resistance":0.6
+        }
+    }
+]

@@ -1,0 +1,36 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "gud_toolkit:ethereal_cape"
+  },
+  "craftType": "magic",
+  "soulCost": 60,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:sword_focus"
+    },
+    {
+      "item": "goety:end_walk_focus"
+    },
+    {
+      "item": "goety:dark_fabric"
+    },
+    {
+      "item": "goety:dark_fabric"
+    },
+    {
+      "item": "goety:dark_ingot"
+    },
+    {
+      "item": "gud_toolkit:ethereal_fabric"
+    },
+    {
+      "item": "goety:soul_ruby"
+    }
+  ],
+  "result": {
+    "item": "gud_toolkit:sharp_shadow"
+  }
+}

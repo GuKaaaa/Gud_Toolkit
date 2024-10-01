@@ -1,0 +1,17 @@
+[
+    {
+        "key": "inf_gluttony",
+        "integrity": -1,
+       "effects":{
+            "art_of_forging:feasting": [3,60],
+            "art_of_forging:life_steal": [ 5,60 ],
+            "irons_spellbooks:mana_siphon": 50,
+            "art_of_forging:evoking_maw":[3,1]
+       },
+       "models": [
+        {
+            "location": "tetra:items/module/sword/blade/inf_hate/improvements/inf_gluttony"
+        }
+    ]
+    }
+]

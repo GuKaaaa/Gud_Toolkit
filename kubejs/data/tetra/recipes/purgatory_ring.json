@@ -1,0 +1,36 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "irons_spellbooks:fireward_ring"
+  },
+  "craftType": "forge",
+  "soulCost": 40,
+  "duration": 20,
+  "ingredients": [
+    {
+      "item": "kubejs:fire_gem"
+    },
+    {
+      "item": "irons_spellbooks:fire_rune"
+    },
+    {
+      "item": "irons_spellbooks:fire_rune"
+    },
+    {
+      "item": "gud_toolkit:purgatory_forge"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "goety:unholy_blood"
+    }
+  ],
+  "result": {
+    "item": "gud_toolkit:purgatory_ring"
+  }
+}

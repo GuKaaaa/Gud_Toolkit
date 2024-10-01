@@ -1,0 +1,13 @@
+{
+	"type":"createaddition:charging",
+	"input": {
+      	"item": "irons_spellbooks:legendary_ink",
+		"count": 1
+	},
+	"result":  {
+		"item": "gud_toolkit:mana_developer",
+		"count": 1
+	},
+	"energy": 100000,
+	"maxChargeRate": 1000
+}

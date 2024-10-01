@@ -1,0 +1,23 @@
+[
+    {
+        "key": "inf_envy",
+        "integrity": -1,
+        "attributes": {
+            "generic.attack_speed": 1.2,
+            "generic.movement_speed":0.02
+       },
+       "effects": {
+            "quickStrike":3,
+            "criticalStrike": [ 0, 0.4 ],
+            "bleeding": 4,
+            "art_of_forging:decaying":[2,2],
+            "art_of_forging:goliath_slayer":20
+    },
+    "models": [
+        {
+            "location": "tetra:items/module/sword/blade/inf_hate/improvements/inf_envy",
+            "renderLayer": "highest"
+        }
+    ]    
+    }
+]

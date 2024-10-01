@@ -1,0 +1,52 @@
+{
+	"type": "goety:ritual",
+	"ritual_type": "goety:craft",
+	"activation_item": {
+		"type": "tetra:scroll",
+		"key": "enchanter_efficiency_2",
+		"effects": [" "],
+		"intricate": true,
+		"material": 0,
+		"ribbon": "FF00FF"
+},
+	"craftType": "magic",
+	"soulCost": 100,
+	"duration": 10,
+	"ingredients": [
+	  {
+		"item": "tetra:pristine_lapis"
+	  },
+	  {
+		"item":"minecraft:experience_bottle"
+	  },
+	  {
+		"item":"minecraft:diamond"
+	  },
+	  {
+		"item":"minecraft:diamond"
+	  },
+	  {
+		"item":"minecraft:diamond"
+	  },
+	  {
+		"item":"gud_toolkit:mana_developer"
+	  }
+	],
+	"result": {
+		"item": "tetra:scroll_rolled",
+		"count": 1,
+		"nbt": {
+			"BlockEntityTag": {
+				"data": [{
+					"key": "enchanter_efficiency_3",
+					"effects": ["tetra:enchant_efficiency_3"],
+					"intricate": true,
+					"details": "enchanter",
+					"material": 0,
+					"ribbon": "FF00FF",
+					"glyphs": [9, 9, 9, 9]
+				}]
+			}
+		}
+	}
+}

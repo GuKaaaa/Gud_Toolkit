@@ -1,0 +1,10 @@
+[
+    {
+        "key": "mace/soul_eater",
+        "level": 0,
+        "integrity": -1,
+        "attributes": {
+		"obscure_api:healing_power":2
+        }
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "key": "ainz/lightning",
+        "level": 1,
+        "integrity": -1,
+        "attributes": {
+            "irons_spellbooks:lightning_spell_power": 0.1
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/single/head/ainz/iron_lightning",
+                "emission": 15
+            }
+        ]
+    },
+    {
+        "key": "ainz/lightning",
+        "level": 2,
+        "integrity": -2,
+        "attributes": {
+            "**irons_spellbooks:lightning_spell_power": 0.05,
+            "irons_spellbooks:lightning_spell_power": 0.2
+        },        "models": [
+            {
+                "location": "tetra:items/module/single/head/ainz/iron_lightning",
+                "emission": 15
+            }
+        ]
+    },
+    {
+        "key": "ainz/lightning",
+        "level": 3,
+        "integrity": -3,
+        "attributes": {
+            "**irons_spellbooks:lightning_spell_power": 0.1,
+            "irons_spellbooks:lightning_spell_power": 0.4,
+            "additional_attributes:spell_school_lightning":1
+        },        "models": [
+            {
+                "location": "tetra:items/module/single/head/ainz/iron_lightning",
+                "emission": 15
+            }
+        ]
+    }
+]

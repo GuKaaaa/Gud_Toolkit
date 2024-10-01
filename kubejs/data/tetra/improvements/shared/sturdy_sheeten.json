@@ -1,0 +1,44 @@
+[
+    {
+        "key": "sturdy_sheeten_blade",
+        "durabilityMultiplier": 2,
+        "integrity": -1,
+        "magicCapacity": -50,
+        "attributes": {
+	    	"generic.attack_damage": -0.1
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/shared/sturdy_sheeten/sturdy_sheeten_blade"
+            }
+        ]
+    },
+    {
+        "key": "sturdy_sheeten",
+        "durabilityMultiplier": 1.5,
+        "integrity": -1,
+        "magicCapacity": -50,
+        "attributes": {
+	    	"generic.attack_speed": -0.1
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/shared/sturdy_sheeten/sturdy_sheeten"
+            }
+        ]
+    },
+    {
+        "key": "sturdy_sheeten_head",
+        "durabilityMultiplier": 2,
+        "integrity": -1,
+        "magicCapacity": -50,
+        "attributes": {
+	    	"generic.attack_speed": -0.1
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/shared/sturdy_sheeten/sturdy_sheeten_head"
+            }
+        ]
+    }
+]

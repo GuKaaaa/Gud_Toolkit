@@ -1,0 +1,36 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:illusion_robe"
+  },
+  "craftType": "magic",
+  "soulCost": 50,
+  "duration": 10,
+  "ingredients": [
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "item": "gud_toolkit:ethereal_fabric"
+    },
+    {
+      "item": "gud_toolkit:ethereal_fabric"
+    },
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "item": "gud_toolkit:ethereal_fabric"
+    },
+    {
+      "item": "goety:illusion_focus"
+    },
+    {
+      "item": "goety:blink_focus"
+    }
+  ],
+  "result": {
+    "item": "gud_toolkit:ethereal_cape"
+  }
+}

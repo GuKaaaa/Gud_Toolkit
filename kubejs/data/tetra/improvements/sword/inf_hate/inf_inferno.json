@@ -1,0 +1,47 @@
+[
+    {
+        "key": "inf_inferno",
+        "integrity": -6,
+        "attributes": {
+            "**generic.max_health":-0.5,
+            "**generic.attack_damage": 0.2,
+            "*generic.attack_damage": 0.7,
+            "generic.knockback_resistance":1,
+            "additional_attributes:harvest":3,
+            "**irons_spellbooks:summon_damage":3,
+            "irons_spellbooks:max_mana":500,
+            "irons_spellbooks:mana_regen":0.5,
+            "irons_spellbooks:cast_time_reduction":0.5,
+            "irons_spellbooks:cooldown_reduction": 0.5
+       },
+       "effects": {
+            "quickStrike":6,
+            "criticalStrike": [ 15, 1.5 ],
+            "bleeding": 16,
+            "art_of_forging:decaying":[3,5],
+            "art_of_forging:goliath_slayer":50,
+            "art_of_forging:nano_fused":100,
+            "art_of_forging:beheading":100,
+            "art_of_forging:feasting": [3,100],
+            "art_of_forging:life_steal": [ 5,80 ],
+            "irons_spellbooks:mana_siphon": 100,
+            "art_of_forging:evoking_maw":[2,3],
+            "art_of_forging:cavalry":15,
+            "art_of_forging:disorienting":[8,6],
+            "art_of_forging:dismounting":[30,100],
+            "art_of_forging:hubris":30,
+            "art_of_forging:conquering":[3,5],
+            "art_of_forging:vengeance":[20,5],
+            "art_of_forging:carnage":[2,10]
+        },
+        "aspects": {
+            "edgedWeapon": 2,
+            "pointyWeapon": 2
+        },
+        "models": [
+            {
+                "location": "tetra:items/module/sword/blade/inf_hate/improvements/inf_inferno"
+            }
+        ]    
+    }
+]

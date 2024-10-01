@@ -1,0 +1,49 @@
+{
+	"type": "goety:ritual",
+	"ritual_type": "goety:craft",
+	"activation_item": {
+		"type": "tetra:scroll",
+		"key": "enchanter_efficiency_1",
+		"effects": [" "],
+		"intricate": true,
+		"material": 0,
+		"ribbon": "FF00FF"
+},
+	"craftType": "magic",
+	"soulCost": 50,
+	"duration": 10,
+	"ingredients": [
+	  {
+		"item":"minecraft:lapis_lazuli"
+	  },
+	  {
+		"item":"minecraft:experience_bottle"
+	  },
+	  {
+		"item":"minecraft:gold_ingot"
+	  },
+	  {
+		"item":"minecraft:gold_ingot"
+	  },
+	  {
+		"item":"irons_spellbooks:epic_ink"
+	  }
+	],
+	"result": {
+		"item": "tetra:scroll_rolled",
+		"count": 1,
+		"nbt": {
+			"BlockEntityTag": {
+				"data": [{
+					"key": "enchanter_efficiency_2",
+					"effects": ["tetra:enchant_efficiency_2"],
+					"intricate": true,
+					"details": "enchanter",
+					"material": 0,
+					"ribbon": "FF00FF",
+					"glyphs": [9, 9, 9, 9]
+				}]
+			}
+		}
+	}
+}

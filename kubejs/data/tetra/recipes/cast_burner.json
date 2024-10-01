@@ -1,0 +1,98 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:sturdy_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "gud_toolkit:cast_burner"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "gud_toolkit:processing_cast_burner"
+        },
+        {
+          "amount": 500,
+          "fluid": "biomancy:acid"
+        }
+      ],
+      "results": [
+        {
+          "item": "gud_toolkit:processing_cast_burner"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gud_toolkit:processing_cast_burner"
+        },
+        {
+          "item": "minecraft:nether_star"
+        }
+      ],
+      "results": [
+        {
+          "item": "gud_toolkit:processing_cast_burner"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gud_toolkit:processing_cast_burner"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "gud_toolkit:processing_cast_burner"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gud_toolkit:processing_cast_burner"
+        },
+        {
+          "item": "gud_toolkit:mana_developer"
+        }
+      ],
+      "results": [
+        {
+          "item": "gud_toolkit:processing_cast_burner"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gud_toolkit:processing_cast_burner"
+        },
+        {
+          "item": "gud_toolkit:erratic_stone"
+        }
+      ],
+      "results": [
+        {
+          "item": "gud_toolkit:processing_cast_burner"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gud_toolkit:processing_cast_burner"
+  }
+}

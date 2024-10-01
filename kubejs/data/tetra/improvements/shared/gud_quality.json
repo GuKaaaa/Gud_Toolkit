@@ -1,0 +1,18 @@
+[
+    {
+        "key": "gud_quality",
+        "integrity": 1,
+        "attributes": {
+            "**generic.attack_damage": 0.1,
+            "**tetra:draw_damage": 0.1,
+            "**tetra:ability_damage": 0.1
+        },
+        "tools": {
+            "axe_dig": [ 0, 2 ],
+            "shovel_dig": [ 0, 2 ],
+            "pickaxe_dig": [ 0, 2 ],
+            "hoe_dig": [ 0, 2 ],
+            "cut": [ 0, 2 ]
+        }
+    }
+]

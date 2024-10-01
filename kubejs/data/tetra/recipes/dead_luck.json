@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+	    " c ",
+        "aba",
+        " a "
+	],
+	"key": {
+		"a": {
+			"item": "minecraft:reinforced_deepslate"
+		},
+		"b": {
+			"item": "kubejs:unbreakable_core"
+		},
+		"c": {
+			"item": "nameless_trinkets:unknown_fragment"
+		}
+	},
+	"result": {
+		"item": "gud_toolkit:dead_luck",
+		"count":1
+	}
+}

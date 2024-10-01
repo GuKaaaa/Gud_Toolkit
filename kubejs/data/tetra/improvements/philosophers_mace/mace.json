@@ -1,0 +1,17 @@
+[
+    {
+        "key": "mace/mace",
+        "level": 0,
+        "integrity": -1,
+        "durabilityMultiplier": 3,
+        "attributes": {
+            "generic.attack_damage":5,
+            "generic.knockback_resistance":1.5,
+            "generic.armor":8
+        },
+        "effects":{
+            "art_of_forging:knockback": [ 2, 0 ],
+            "stun": [0,5]
+        }
+    }
+]

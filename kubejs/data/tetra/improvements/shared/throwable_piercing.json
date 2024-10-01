@@ -1,0 +1,26 @@
+[
+    {
+        "key": "throwable_piercing",
+        "level":1,
+        "integrity":-1,
+        "effects": {
+            "piercing": 1
+        }
+    },
+    {
+        "key": "throwable_piercing",
+        "level":2,
+        "integrity":-1,
+        "effects": {
+            "piercing": 2
+        }
+    },
+    {
+        "key": "throwable_piercing",
+        "level":3,
+        "integrity":-2,
+        "effects": {
+            "piercing": 4
+        }
+    }
+]

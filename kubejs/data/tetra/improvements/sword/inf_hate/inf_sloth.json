@@ -1,0 +1,17 @@
+[
+    {
+        "key": "inf_sloth",
+        "integrity": -1,
+        "attributes": {
+            "generic.max_health":5,
+            "generic.knockback_resistance":1,
+            "generic.attack_speed": -1,
+            "generic.movement_speed":-0.03,
+            "generic.armor": 6,
+            "generic.armor_toughness": 6
+       },
+       "effects":{
+            "earthbind":5
+       }
+    }
+]
