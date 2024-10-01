@@ -1,0 +1,41 @@
+{
+    "replace": true,
+    "slots": ["single/head"],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "improvement",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 48
+},
+"requirement": {
+    "type": "tetra:and",
+    "requirements": [
+        {
+            "type": "tetra:not",
+            "requirement": {
+                "type": "tetra:improvement",
+                "improvement": "purgatory_drill"
+            }
+        },
+        {
+        "type": "tetra:module",
+        "variant": "drill/netherite_drill"
+        }
+    ]
+},
+    "outcomes": [
+        {
+            "material": {
+                "items": ["gud_toolkit:purgatory_forge"]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond"
+            },
+            "improvements": {
+                "purgatory_drill": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "replace": true,
+    "slots": [
+        "shield/boss"
+    ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "displayType": "minor",
+    "rarity": "temporary",
+    "glyph": {
+        "tint":"AA4545",
+        "textureX": 104,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "biomancy:flesh_spike" ]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:stone"
+            },
+            "moduleKey": "shield/flesh_spike",
+            "moduleVariant": "flesh_spike"
+        }
+    ]
+}

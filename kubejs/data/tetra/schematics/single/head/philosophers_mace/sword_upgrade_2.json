@@ -1,0 +1,36 @@
+{
+    "replace": true,
+    "slots": ["single/head"],
+    "rarity": "hone",
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "displayType": "improvement",
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "sword_upgrade",
+        		    "level":2
+                }
+            },
+            {
+        	"type": "tetra:module",
+        	"variant": "philosophers_mace"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": ["goety:frozen_blade"],
+                "count": 1
+            },
+            "improvements": {
+                "sword_upgrade": 2
+            }
+        }
+    ]
+}

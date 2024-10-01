@@ -1,0 +1,30 @@
+{
+    "replace": true,
+    "slots": [
+        "single/head"
+    ],
+    "materialSlotCount": 1,
+    "rarity": "hone",
+    "displayType": "improvement",
+    "glyph": {
+        "textureX": 64,
+        "textureY": 223
+    },
+    "requirement": {
+        "type": "tetra:improvement",
+        "improvement": "ainz/fire",
+        "level": 1
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": ["irons_spellbooks:fire_upgrade_orb"],
+                "count": 1
+            },
+   	        "experienceCost": 10,
+            "improvements": {
+                "ainz/fire": 2
+            }
+        }
+    ]
+}

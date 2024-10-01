@@ -1,0 +1,46 @@
+{
+    "replace": true,
+    "slots": [
+        "shield/plate"
+    ],
+    "materialSlotCount": 0,
+    "rarity": "hone",
+    "displayType": "improvement",
+    "glyph": {
+        "textureX": 64,
+        "textureY": 240
+},
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "shield/stance"
+                }
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:module",
+                    "module": "shield/buckler"
+                    }
+            },
+            {
+                "type": "tetra:locked",
+                "key": "tetra:artistry"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "improvements": {
+                "shield/stance": 1
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:iron"
+            }
+        }
+    ]
+}

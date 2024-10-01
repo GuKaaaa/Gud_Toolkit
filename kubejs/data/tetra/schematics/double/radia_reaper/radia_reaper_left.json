@@ -1,0 +1,28 @@
+{
+    "replace": true,
+    "slots": [
+        "double/head_left"
+    ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/aof_glyph.png",
+        "textureX": 240,
+        "textureY": 16,
+	    "tint":"FFF8DC"
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "luna_flesh_reforged:radiance_reaper" ]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond"
+            },
+            "moduleKey": "double/radia_reaper_left",
+            "moduleVariant": "radia_reaper_left"
+        }
+    ]
+}

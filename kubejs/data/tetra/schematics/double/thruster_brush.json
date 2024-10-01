@@ -1,0 +1,30 @@
+{
+    "replace": true,
+    "slots": [
+        "double/head_right"
+    ],
+    "keySuffixes": [
+        "_right"
+    ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 144,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "hexerei:broom_thruster_brush"]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:iron"
+            },
+            "moduleKey": "double/thruster_brush",
+            "moduleVariant": "thruster_brush"
+        }
+    ]
+}

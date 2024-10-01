@@ -1,0 +1,41 @@
+{
+    "replace": true,
+    "slots": ["single/head"],
+    "rarity": "hone",
+    "hone":"true",
+    "materialSlotCount": 1,
+    "displayType": "improvement",
+    "glyph": {
+        "textureX": 64,
+        "textureY": 223,
+	    "tint":"BA55D3"
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "mace/wind"
+                }
+            },
+            {
+        	"type": "tetra:module",
+        	"variant": "philosophers_mace"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": ["goety:wind_core"],
+                "count": 3
+            },
+   	    "experienceCost": 20,
+            "improvements": {
+                "mace/wind": 0
+            }
+        }
+    ]
+}

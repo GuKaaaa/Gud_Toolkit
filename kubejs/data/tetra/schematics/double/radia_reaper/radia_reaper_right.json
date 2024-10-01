@@ -1,0 +1,31 @@
+{
+    "replace": true,
+    "slots": [
+        "double/head_left"
+    ],
+    "materialSlotCount": 1,
+    "rarity": "temporary",
+    "displayType": "major",
+    "requirement": {
+        "type": "tetra:module",
+        "variant": "radia_reaper_left"
+    },
+    "glyph": {
+	    "tint":"4F4F4F",
+        "textureLocation": "tetra:textures/gui/aof_glyph.png",
+        "textureX": 240,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "create:refined_radiance" ]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond"
+            },
+            "moduleKey": "double/radia_reaper_right",
+            "moduleVariant": "radia_reaper_right"
+        }
+    ]
+}

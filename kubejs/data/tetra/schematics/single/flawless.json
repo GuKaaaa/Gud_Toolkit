@@ -1,0 +1,29 @@
+{
+    "replace": true,
+    "slots": [ "single/head" ],
+    "materialSlotCount": 1,
+    "requirement": {
+        "type": "tetra:locked",
+        "key": "tetra:dead_cells"
+    },
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 128,
+        "textureY": 32
+},
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "goety:jade" ],
+                "count":8
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond"
+            },
+            "moduleKey": "single/flawless",
+            "moduleVariant": "flawless"
+        }
+    ]
+}

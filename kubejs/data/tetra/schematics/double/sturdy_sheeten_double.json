@@ -1,0 +1,55 @@
+{
+    "replace": true,
+    "localizationKey": "shared/sturdy_sheeten",
+    "slots": [
+        "double/head_right",
+        "double/head_left"
+    ],
+    "keySuffixes": [
+        "_left",
+        "_right"
+    ],
+    "rarity": "hone",
+    "displayType": "improvement",
+    "glyph": {
+        "tint": "36648B",
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 112,
+        "textureY": 16
+    },
+    "materialSlotCount": 1,
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetra:artistry"
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "sturdy_sheeten"
+                }
+            },
+            {
+                "type": "tetra:improvement",
+                "improvement": "settled"        
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "create:sturdy_sheet" ],
+                "count": 1
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:stone"
+            },
+            "improvements": {
+                "sturdy_sheeten": 0
+            }
+        }
+    ]
+}

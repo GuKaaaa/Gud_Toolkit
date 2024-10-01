@@ -1,0 +1,41 @@
+{
+    "replace": true,
+    "slots": [
+        "single/head"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "improvement",
+    "rarity":"hone",
+    "glyph": {
+        "textureX": 64,
+        "textureY": 223
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "ainz/ender"
+                }
+            },
+            {
+        	"type": "tetra:module",
+        	"variant": "ainz"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": ["irons_spellbooks:ender_upgrade_orb"],
+                "count": 1
+            },
+   	        "experienceCost": 10,
+            "improvements": {
+                "ainz/ender": 1
+            }
+        }
+    ]
+}

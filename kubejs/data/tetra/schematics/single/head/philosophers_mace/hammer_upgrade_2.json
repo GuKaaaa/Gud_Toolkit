@@ -1,0 +1,39 @@
+{
+    "replace": true,
+    "slots": ["single/head"],
+    "rarity": "hone",
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "displayType": "improvement",
+    "glyph": {
+        "textureX": 64
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "hammer_upgrade",
+		            "level":2
+                }
+            },
+            {
+        	"type": "tetra:module",
+        	"variant": "philosophers_mace"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": ["goety:stormlander"],
+                "count": 1
+            },
+            "improvements": {
+                "hammer_upgrade": 2
+            }
+        }
+    ]
+}

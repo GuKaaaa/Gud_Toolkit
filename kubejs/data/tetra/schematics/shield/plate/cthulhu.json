@@ -1,0 +1,25 @@
+{
+    "replace": true,
+    "slots": [
+        "shield/plate"
+    ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 208
+},
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "iceandfire:cyclops_eye" ]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:iron"
+            },
+            "moduleKey": "shield/cthulhu",
+            "moduleVariant": "cthulhu"
+        }
+    ]
+}

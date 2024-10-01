@@ -1,0 +1,24 @@
+{
+    "replace": true,
+    "slots": [ "single/head" ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 144
+},
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "luna_flesh_reforged:lager_bone_soul" ]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond"
+            },
+            "moduleKey": "single/lager_bone",
+            "moduleVariant": "lager_bone"
+        }
+    ]
+}

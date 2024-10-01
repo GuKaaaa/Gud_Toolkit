@@ -1,0 +1,30 @@
+{
+    "replace": true,
+    "slots": [
+        "double/head_left"
+    ],
+    "keySuffixes": [
+        "_left"
+    ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gut_glyphs.png",
+        "textureX": 128,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "create:creative_blaze_cake"]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:iron"
+            },
+            "moduleKey": "double/blaze_cake_hammer_creative",
+            "moduleVariant": "creative_blaze_cake_hammer"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "replace": true,
+    "slots": [ "single/head" ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "requirement": {
+        "type": "tetra:locked",
+        "key": "tetra:single/trident"
+    },
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+		"textureLocation": "tetra:textures/gui/gut_glyphs.png"
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "alexsmobs:void_worm_mandible" ]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond"
+            },
+            "moduleKey": "single/void_worm_fang",
+            "moduleVariant": "void_worm_fang/void_worm_fang"
+        }
+    ]
+}
