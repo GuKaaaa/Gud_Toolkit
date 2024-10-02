@@ -30,6 +30,7 @@
                 "criticalStrike":[20,2],
                 "intuit": 2,
                 "sweeping": 12,
+                "truesweep":1,
                 "severing": [ 30, 7 ],
                 "bleeding": [ 4, 4 ],
                 "abilityMomentum": [ 1, 1 ],
