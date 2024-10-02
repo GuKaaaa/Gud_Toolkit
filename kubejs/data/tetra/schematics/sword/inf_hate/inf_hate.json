@@ -14,6 +14,9 @@
             "material": {
                 "items": [ "gud_toolkit:hateful_soul" ]
             },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond"
+            }
             "experienceCost": 50,
             "moduleKey": "sword/inf_hate",
             "moduleVariant": "inf_hate"
